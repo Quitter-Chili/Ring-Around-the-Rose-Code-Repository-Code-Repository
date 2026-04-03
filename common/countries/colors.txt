@@ -1273,6 +1273,10 @@ HBC = {
 	color = rgb { 156 27 22 }
 	color_ui = rgb { 94 17 14 }
 }
+IDN = {
+	color = rgb { 255 255 0 }
+	color_ui = rgb { 255 255 0 }
+}
 
 
 

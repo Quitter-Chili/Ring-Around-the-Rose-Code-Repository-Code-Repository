@@ -14,9 +14,7 @@ state = {
 		owner = HOL
 		add_core_of = HOL
 
-		victory_points = {
-			9418 1 # Arlons
-		}
+		
 
 		buildings = {
 			infrastructure = 1
@@ -28,7 +26,7 @@ state = {
 	}
 
 	provinces = {
-		6537 9418 9444 11407
+		6537 9444 11407
 	}
 
 	local_supplies = 14.0 

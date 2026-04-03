@@ -1,0 +1,32 @@
+state={
+	id=1058
+	name="STATE_1058"
+	resources={
+		coal = 12 #initial distribution
+	}
+
+	history={
+		owner = IDN
+		add_core_of = AUS
+		add_core_of = IDN
+		victory_points = {
+			9347 20 # Hamburg
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 8
+			industrial_complex = 12
+		}
+
+		
+	}
+
+	provinces={
+		9347 6325
+	}
+	manpower = 1057400
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+
+	local_supplies=0.0 
+}
