@@ -1,0 +1,32 @@
+state={
+	id=1051
+	name="STATE_1051"
+	resources={
+		coal = 12 #initial distribution
+	}
+
+	history={
+		owner = SPM
+		add_core_of = SPM
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 1
+		}
+	
+		victory_points = {
+			9909 5 # Nice
+		}
+		
+
+		
+	}
+
+	provinces={
+		3959 9909
+	}
+	manpower = 1057400
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,33 @@
+state={
+	id=1053
+	name="STATE_1053"
+	resources={
+		coal = 12 #initial distribution
+	}
+
+	history={
+		owner = USA
+		add_core_of = QUE
+		add_core_of = ENL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			9832 1 
+		}
+		
+		victory_points = {
+			6732 20 
+		}
+		
+	}
+
+	provinces={
+		718 715 6732 908 3710 3906 9850 905 11830 9832 6909 9847 
+	}
+	manpower = 1057400
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,29 @@
+state={
+	id=1047
+	name="STATE_1047"
+	resources={
+		coal = 12 #initial distribution
+	}
+
+	history={
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			6469 10 # Essen
+		}
+
+		
+	}
+
+	provinces={
+		3512 6469 6570 9482 529
+	}
+	manpower = 1057400
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies=0.0 
+}

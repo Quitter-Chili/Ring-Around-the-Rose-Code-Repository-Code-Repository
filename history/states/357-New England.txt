@@ -1,0 +1,45 @@
+state={
+	id=357
+	name="STATE_357"
+	resources={
+		steel=12 # was: 20.000
+	}
+
+	state_category = metropolis
+
+
+	history={
+		owner = ENL
+		add_core_of = ENL
+		buildings = {
+			infrastructure = 4 #was: 7
+			arms_factory = 1
+			industrial_complex = 5
+			dockyard = 4
+			air_base = 10
+			6732 = {
+				naval_base = 8
+
+			}
+			9832 = {
+				naval_base = 3
+
+			}
+
+		}
+		
+		victory_points = {
+			12459 1 
+		}
+		
+
+	}
+
+	provinces={
+		1282 1338 1619 3732 4287 6719 7462 10247 10318 12202 12221 12459
+	}
+	manpower=8404713
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

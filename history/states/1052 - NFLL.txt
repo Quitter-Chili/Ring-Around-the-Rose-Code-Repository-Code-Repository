@@ -1,0 +1,30 @@
+state={
+	id=1052
+	name="STATE_1052"
+	resources={
+		coal = 12 #initial distribution
+	}
+
+	history={
+		owner = QUE
+		add_core_of = QUE
+		add_core_of = ENL
+		buildings = {
+			infrastructure = 1
+		}
+	
+		
+		
+
+		
+	}
+
+	provinces={
+		12600 1785 13165 10715 7807
+	}
+	manpower = 1057400
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies=0.0 
+}

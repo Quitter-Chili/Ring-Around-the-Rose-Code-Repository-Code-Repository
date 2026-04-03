@@ -1,0 +1,40 @@
+state = {
+	id = 735
+	name = "STATE_735"
+
+	state_category = town
+
+	manpower = 907500
+
+	history = {
+
+		owner = OCC
+		add_core_of = OCC
+		add_core_of = FRA
+		add_claim_by = SPM
+
+
+	
+
+		buildings = {
+			infrastructure = 2
+
+			9909 = {
+				naval_base = 2
+			}	
+
+			# Tignes Dam
+			#9745 = { dam = 1 }
+
+		}
+
+	}
+
+	provinces = {
+		764 3764 6975 9736
+	}
+	
+	buildings_max_level_factor = 1.000
+
+	local_supplies = 0.0 
+}

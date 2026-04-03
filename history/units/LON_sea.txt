@@ -1,0 +1,36 @@
+units = {
+	fleet = {
+        name = "Dover class_M"
+        naval_base = 241
+		task_force = { 
+			name = "Hochseeflotte" 
+			location = 3501  
+			ship = {
+                name = "Dover class"
+                definition = ship_hull_light_2 
+                start_experience_factor = 0.3 
+                pride_of_the_fleet = yes
+                equipment = { 
+                    ship_hull_light_2 = {
+                        amount = 5
+                        owner = LON
+                        version_name = "Dover class"
+                    } 
+                } 
+            }
+			ship = {
+                name = "Dover class_1"
+                definition = ship_hull_light_2 
+                start_experience_factor = 0.3 
+                pride_of_the_fleet = yes
+                equipment = { 
+                    ship_hull_light_2 = {
+                        amount = 5
+                        owner = LON
+                        version_name = "Dover class"
+                    } 
+                } 
+            }
+		}
+    }
+}

@@ -1,0 +1,33 @@
+state={
+	id=1054
+	name="STATE_1054"
+	resources={
+		coal = 12 #initial distribution
+	}
+
+	history={
+		owner = USA
+		add_core_of = QUE
+		add_core_of = ENL
+		buildings = {
+			infrastructure = 1
+		}
+		9832 = {
+			naval_base = 3
+
+		}
+		
+		
+
+		
+	}
+
+	provinces={
+		13158 7629 10481 4445 733 9675 3715 3712 
+	}
+	manpower = 1057400
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies=0.0 
+}

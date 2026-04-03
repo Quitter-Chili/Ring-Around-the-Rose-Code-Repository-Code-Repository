@@ -1,0 +1,146 @@
+
+set_autonomy = {
+	target = ENL
+	autonomy_state = autonomy_colony
+}
+
+set_oob = "LON_LONDON"
+starting_train_buffer = 4
+set_naval_oob = "LON_sea"
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_trucks = 1
+	motorised_infantry = 2
+	gw_artillery = 1
+	interwar_artillery = 1
+	basic_train = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	light_fighter = 1
+	cat_heavy_fighter = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_light = 1
+	early_ship_hull_heavy = 1
+	basic_ship_hull_cruiser = 1
+	ship_hull_cruiser_1 = 1
+	ship_hull_cruiser_2 = 1
+	ship_hull_cruiser_panzerschiff = 1
+	basic_battery = 1#海军舰炮
+	smoke_generator = 1#烟雾发生器
+	basic_cruiser_armor_scheme = 1
+	basic_depth_charges = 1#基础深水炸弹
+	improved_depth_charges = 1
+	sonar = 1
+	basic_light_battery = 1
+	basic_heavy_battery = 1 
+	basic_heavy_shell = 1 
+	damage_control_1 = 1 
+	fire_control_methods_1 = 1 
+	tp_tech = 1 
+	iw_small_airframe = 1 
+	iw_medium_airframe = 1 
+	basic_medium_airframe = 1 
+	iw_large_airframe = 1 
+	bba_early_transport_plane = 1 
+	early_bombs = 1 
+	aa_lmg = 1 #轻机枪
+	aa_hmg = 1 
+	aa_cannon_1 = 1 
+	engine_1 = 1 
+	engine_2 = 1 
+	engine_3 = 1 
+	basic_machine_tools = 1 
+	concentrated_industry = 1 
+	basic_ship_hull_light
+	basic_ship_hull_heavy
+	early_ship_hull_carrier
+	basic_ship_hull_heavy
+	basic_ship_hull_heavy
+	cat_torpedoes
+}
+
+set_research_slots = 4
+
+# Starting tech
+
+
+create_faction = lon_allie
+add_to_faction = LON
+add_to_faction = WLS
+add_to_faction = KER
+add_to_faction = YEK
+add_to_faction = GLA
+add_to_faction = BRI
+set_party_name = { ideology = Technical_socialism long_name = LON_Technical_socialism_party name = LON_Technical_socialism_party }
+
+add_opinion_modifier = {
+	target = KER
+	modifier = lon_allie
+}
+add_opinion_modifier = {
+	target = WLS
+	modifier = lon_allie
+}
+add_opinion_modifier = {
+	target = YEK
+	modifier = lon_allie
+}
+add_opinion_modifier = {
+	target = GLA
+	modifier = lon_allie
+}
+add_opinion_modifier = {
+	target = BRI
+	modifier = lon_allie
+}
+
+set_convoys = 1000
+
+
+set_politics = {
+	ruling_party = Technical_socialism
+	last_election = "1800.5.1"
+	#election_frequency = 48
+	#elections_allowed = yes
+}
+set_popularities = {
+
+
+	Technical_socialism = 100
+
+}
+create_equipment_variant = {
+	name = "Dover class"
+	type = ship_hull_light_2 
+	parent_version = 0
+	modules = {
+		mid_1_custom_slot = ship_light_battery_2
+		rear_1_custom_slot = ship_depth_charge_2
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1 
+		fixed_ship_fire_control_system_slot = ship_sonar_1
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		fixed_ship_engine_slot = light_ship_engine_2
+	}
+	model = "USA_carrier_0_entity"
+	design_team = MIO
+	obsolete = no
+}
+
+create_country_leader = {
+	name = "bo_jue"
+	desc = "no"
+	#picture = GFX_portrait_Konrad_Adenauer
+	expire = "1965.1.1"
+	ideology = Technical_socialism
+	traits = {
+	}
+}
+

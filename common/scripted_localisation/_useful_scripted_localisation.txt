@@ -1,0 +1,10 @@
+defined_text = {
+    name = GetRulingIdeologySubtype
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = maoism_sub
+		}
+		localization_key = maoism_sub
+    }
+}

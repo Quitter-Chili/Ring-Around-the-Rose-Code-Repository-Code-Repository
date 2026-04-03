@@ -1,0 +1,30 @@
+state={
+	id=1049
+	name="STATE_1049"
+	resources={
+		coal = 12 #initial distribution
+	}
+
+	history={
+		owner = SHE
+		add_core_of = SCO
+		add_core_of = SHE
+		buildings = {
+			infrastructure = 1
+		}
+	
+		
+		victory_points = { 11064 1 }
+
+		
+	}
+
+	provinces={
+		13270 131 3159 11064 9090 6104
+	}
+	manpower = 1057400
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies=0.0 
+}
