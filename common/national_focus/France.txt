@@ -1,0 +1,238 @@
+﻿focus_tree = {
+	id = RAR_France_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1600 }
+
+	focus = {
+		id = FRA_focus_roses
+		icon = GFX_unkown
+		x = 10
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_focus_door
+		icon = GFX_unkown
+		x = 7
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {
+			focus = FRA_focus_roses
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_focus_social_democratic
+		icon = GFX_unkown
+		x = 5
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {
+			focus = FRA_focus_door
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_focus_social_liberal
+		icon = GFX_unkown
+		x = 7
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {
+			focus = FRA_focus_door
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_focus_liberal_conservatism
+		icon = GFX_unkown
+		x = 9
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {
+			focus = FRA_focus_door
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Unity
+		icon = GFX_unkown
+		x = 7
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {
+			focus = FRA_focus_social_democratic
+		}
+		prerequisite = {
+			focus = FRA_focus_liberal_conservatism
+		}
+		prerequisite = {
+			focus = FRA_focus_social_liberal
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_focus_Tent
+		icon = GFX_unkown
+		x = 13
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {
+			focus = FRA_focus_roses
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_focus_Resrach
+		icon = GFX_unkown
+		x = 11
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {
+			focus = FRA_focus_Tent
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_focus_Community
+		icon = GFX_unkown
+		x = 15
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {
+			focus = FRA_focus_Tent
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_focus_Medical_care
+		icon = GFX_unkown
+		x = 13
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {
+			focus = FRA_focus_Resrach
+		}
+		prerequisite = {
+			focus = FRA_focus_Community
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_focus_keep_going
+		icon = GFX_unkown
+		x = 10
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {
+			focus = FRA_Unity
+		}
+		prerequisite = {
+			focus = FRA_focus_Medical_care
+		}
+
+		completion_reward = {
+		}
+	}
+}
