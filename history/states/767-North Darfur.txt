@@ -9,7 +9,7 @@ state = {
 	
 	history = {
 
-		owner = EGY
+		owner = LBA
 		add_core_of = EGY
 		
 		buildings = {
@@ -18,7 +18,7 @@ state = {
 	}
 
 	provinces = {
-		7987 8103 10900
+		7987 4138
 	}
 
 	local_supplies = 0.0 

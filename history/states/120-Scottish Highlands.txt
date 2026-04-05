@@ -34,7 +34,6 @@ state = {
 				naval_supply_hub = 1	
 			}
 		}
-		add_core_of = ENG
 	}
 
 	provinces = { 

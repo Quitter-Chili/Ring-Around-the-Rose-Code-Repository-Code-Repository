@@ -4,7 +4,7 @@ state={
 	name="STATE_350"
 
 	history={
-		owner = EGY
+		owner = KUR
 		add_core_of = EGY
 		victory_points = {
 			4512 5 
@@ -14,6 +14,9 @@ state={
 		}
 		victory_points = {
 			12387 1 
+		}
+		victory_points = {
+			7620 10
 		}
 		buildings = {
 			infrastructure = 2
@@ -33,7 +36,7 @@ state={
 	}
 
 	provinces={
-		4512 9823 11759 11871 12387 12416 
+		4512 9823 11759 11871 12387 12416 7620 9912
 	}
 	manpower=571935
 	state_category=town
