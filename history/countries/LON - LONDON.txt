@@ -3,7 +3,14 @@ set_autonomy = {
 	target = ENL
 	autonomy_state = autonomy_colony
 }
-
+add_ideas = {
+	LONDON_IDEAS
+	epoch_gear
+	Master_of_the_Strait
+	Four_Cities_Council_less
+	Oxford_Treaty_Organisation_less
+	Self_sufficiency_issue
+}
 set_oob = "LON_LONDON"
 starting_train_buffer = 4
 set_naval_oob = "LON_sea"
@@ -135,12 +142,14 @@ create_equipment_variant = {
 }
 
 create_country_leader = {
-	name = "bo_jue"
-	desc = "no"
-	#picture = GFX_portrait_Konrad_Adenauer
+	name = "lon_bo_jue"
+	desc = "lon_bo_jue_desc"
+	picture = GFX_LON_BO_JUE
 	expire = "1965.1.1"
 	ideology = Technical_socialism
 	traits = {
+		hurry_bo_jue
+		Progress_gradually
 	}
 }
 

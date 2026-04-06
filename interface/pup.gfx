@@ -1,0 +1,43 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_LON_BO_JUE"
+		texturefile = "gfx/leaders/LON/BO_JUE.png"
+	}
+	spriteType = {
+		name = "GFX_FRA_XIA_ER"
+		texturefile = "gfx/leaders/FRA/xia_er.png"
+	}
+	spriteType = {
+		name = "GFX_epoch_gear"
+		texturefile = "gfx/ideas_picture/LON/GFX_epoch_gear.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Four_Cities_Council_less"
+		texturefile = "gfx/ideas_picture/LON/GFX_Four_Cities_Council_less.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_LONDON_IDEAS"
+		texturefile = "gfx/ideas_picture/LON/GFX_LONDON_IDEAS.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Master_of_the_Strait"
+		texturefile = "gfx/ideas_picture/LON/GFX_Master_of_the_Strait.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Oxford_Treaty_Organisation_less"
+		texturefile = "gfx/ideas_picture/LON/GFX_Oxford_Treaty_Organisation_less.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Self_sufficiency_issue"
+		texturefile = "gfx/ideas_picture/LON/GFX_Self_sufficiency_issue.png"
+		legacy_lazy_load = no
+	}
+	
+
+	
+}

@@ -31,6 +31,8 @@ state = {
 			}
 		}
 		add_core_of = LBV
+		add_core_of = AUS
+		add_core_of = ITA
 		1939.1.1 = {
 			buildings = {
 				dockyard = 2
@@ -41,7 +43,7 @@ state = {
 	}
 
 	provinces = {
-		603 628 3604 3657 6656 9582 9613 11584 
+		603 3604 9582 11584 
 	}
 	manpower = 3963151
 	buildings_max_level_factor = 1.000

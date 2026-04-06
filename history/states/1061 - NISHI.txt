@@ -1,0 +1,32 @@
+state={
+	id=1061
+	name="STATE_1061"
+	resources={
+		coal = 12 #initial distribution
+	}
+
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_claim_by = BUL
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		
+		victory_points = {
+			9602 3 
+		}
+		
+	}
+
+	provinces={
+		6634 630 9602 9756 11887 9906
+	}
+	manpower = 1057400
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+
+	local_supplies=0.0 
+}

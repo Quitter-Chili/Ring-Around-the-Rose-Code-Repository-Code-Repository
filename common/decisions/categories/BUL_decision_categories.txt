@@ -1,0 +1,10 @@
+
+BUL_FACTION = {
+	picture = GFX_decision_cat_picture_naval_treaties
+	allowed = {
+		is_ai = no
+		tag = BUL
+	}
+	#scripted_gui = MTG_naval_treaties_gui
+}       
+      

@@ -10,7 +10,8 @@ state={
 	state_category = city
 
 	history={
-		owner = FRA
+		owner = NOM
+		add_core_of = NOM
 		victory_points = {
 			9434 10
 		}

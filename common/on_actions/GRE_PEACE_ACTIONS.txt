@@ -1,0 +1,195 @@
+on_actions = {
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						BUL = { NOT = {has_country_flag = first_war}}
+						OR = {
+							original_tag = BUL
+							original_tag = YUG
+							
+						}
+					}
+					ROOT = {
+						original_tag = GRE
+						#original_tag = ROM
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					BUL = {
+						set_country_flag = first_war
+						transfer_state = 212
+						transfer_state = 106
+						
+						transfer_state = 184
+					}
+					YUG = {
+						transfer_state = 802
+						transfer_state = 39
+						transfer_state = 970
+					}
+					MNT = {
+						transfer_state = 105
+					}
+					ALB = {
+						transfer_state = 934
+						transfer_state = 44
+
+					}
+					GRE = {
+						set_autonomy = {
+							target = ALB
+							autonomy_state = autonomy_supervised_state
+						}
+					}
+					
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						has_war_with = BUL
+						OR = {
+						
+							original_tag = ROM
+							original_tag = GRE
+							#original_tag = YUG
+							
+						}
+					}
+					ROOT = {
+						
+						#has_country_flag = first_war
+						original_tag = BUL
+					}
+				}
+				
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				
+				FROM = {
+					
+					YUG = {
+						transfer_state = 803
+						transfer_state = 106
+						#set_country_flag = second_war
+					}
+					
+					GRE = {
+						transfer_state = 184
+					}
+					ROM = {
+						transfer_state = 971
+						transfer_state = 77
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = BUL
+					}
+					ROOT = {
+
+						#has_country_flag = second_war
+		
+						original_tag = YUG
+					}
+				}
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+						white_peace = ROM
+					}
+				}
+		
+			
+				FROM = {
+					every_country = {
+						white_peace = ROOT
+						white_peace = GRE
+					}
+					BUL = {
+						transfer_state = 970
+						transfer_state = 731
+						transfer_state = 1061
+					}
+					GRE = {
+						set_autonomy = {
+							target = ALB
+							autonomy_state = autonomy_free
+						}
+					}
+					848 = {
+						set_demilitarized_zone = yes
+					}
+					802 = {
+						set_demilitarized_zone = yes
+					}
+					81 = {
+						set_demilitarized_zone = yes
+					}
+					ALB = {
+						transfer_state = 805
+					}
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						AND = {
+							original_tag = BUL
+							#original_tag = YUG
+							
+							
+						}
+					}
+					ROOT = {
+						original_tag = ROM
+					}
+				}
+				
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					81 = {
+						set_demilitarized_zone = yes
+					}
+					
+
+				}
+				
+			}
+		}
+	}
+}

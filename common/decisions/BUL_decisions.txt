@@ -1,0 +1,90 @@
+BUL_FACTION = {
+	make_faction = {
+		icon = generic_prepare_civil_war
+		allowed = {
+			tag = BUL
+		}
+		
+
+		fire_only_once = yes
+		cost = 0
+		
+		days_remove = 5
+		days_re_enable = 5
+
+		
+
+		complete_effect = {
+			create_faction = Balkan_League
+			add_to_faction = BUL
+			add_to_faction = YUG
+			#add_to_faction = BOS
+		}
+
+	}
+	least_chance = {
+		icon = generic_prepare_civil_war
+		allowed = {
+			tag = BUL
+		}
+		
+
+		fire_only_once = yes
+		cost = 0
+		
+		days_remove = 5
+		days_re_enable = 5
+
+		
+
+		complete_effect = {
+			BUL = {
+				declare_war_on = { target = GRE type = take_state_focus }
+			}
+			YUG = {
+				declare_war_on = { target = GRE type = take_state_focus }
+			}
+		}
+		
+
+	}
+	back_ass = {
+		icon = generic_prepare_civil_war
+		allowed = {
+			tag = BUL
+		}
+		visible = {
+			has_country_flag = first_war
+		}
+
+		fire_only_once = yes
+		cost = 0
+		
+		days_remove = yes
+		days_re_enable = 5
+
+		
+
+		complete_effect = {
+			BUL = {
+				remove_from_faction = BUL
+			}
+			YUG = {
+				create_faction = Balkan_League
+				add_to_faction = YUG
+				add_to_faction = ROM
+				declare_war_on = { target = BUL type = take_state_focus }
+			}
+			ROM = {
+				declare_war_on = { target = BUL type = take_state_focus }
+			}
+			GRE = {
+				declare_war_on = { target = BUL type = take_state_focus }
+				load_oob = GRE_SECOND
+			}
+			
+		}
+		
+
+	}
+}

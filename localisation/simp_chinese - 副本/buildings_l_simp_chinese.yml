@@ -109,7 +109,7 @@
  landmark_taj_mahal: "泰姬陵"
  landmark_taj_mahal_desc: "泰姬陵是莫卧儿建筑的杰作。其宏伟的白色大理石圆顶和错综复杂的花园使其成为印度最具标志性的象征之一，是帝国权力和恒久传承的证明。"
  landmark_hagia_sophia: "圣索菲亚"
- landmark_hagia_sophia_desc: "屹立于帝国十字路口的圣索菲亚是拜占庭的主教座堂，是奥斯曼的清真寺，是伊斯坦布尔不断变化的统治者的象征。它巨大的圆顶和宏伟的大厅既反映了它的属灵意义，也反映了自称该城市之主的那些人的野心。"
+ landmark_hagia_sophia_desc: "屹立于帝国十字路口的圣索菲亚是拜占庭的主教座堂，是奥斯曼的清真寺，是君士坦丁堡不断变化的统治者的象征。它巨大的圆顶和宏伟的大厅既反映了它的属灵意义，也反映了自称该城市之主的那些人的野心。"
  BUILDING_BOMBED: "$BUILDING$遭到轰炸！"
  BUILDING_SABOTAGED: "$BUILDING$遭到破坏！"
  BUILDING_REPAIRED: "$BUILDING$完成修复！"

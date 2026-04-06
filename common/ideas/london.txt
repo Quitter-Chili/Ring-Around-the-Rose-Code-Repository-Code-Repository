@@ -1,0 +1,123 @@
+ideas = {
+	country = {
+		
+		LONDON_IDEAS = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = generic_disjointed_gov
+			modifier = {
+				consumer_goods_factor = -0.07
+				research_speed_factor = 0.07
+				political_power_gain = 0.2
+				stability_factor = 0.1
+			}
+		}
+		epoch_gear = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = generic_disjointed_gov
+			modifier = {
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.07
+				production_speed_buildings_factor = 0.1
+				industry_research = 0.1
+			}
+		}
+		Master_of_the_Strait = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = generic_disjointed_gov
+			modifier = {
+				industrial_capacity_dockyard = 0.05
+				navy_anti_air_attack_factor = 0.07
+				navy_capital_ship_attack_factor = 0.07
+				navy_carrier_air_attack_factor = 0.1
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
+			}
+		}
+		Four_Cities_Council_less = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = generic_disjointed_gov
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.1
+				war_support_factor = -0.05
+				conscription = -0.05
+
+			}
+		}
+		Oxford_Treaty_Organisation_less = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = generic_disjointed_gov
+			modifier = {
+				political_power_gain = -0.05
+				can_create_factions = yes
+				MODIFIER_SEND_VOLUNTEER_FACTOR = -2
+				experience_gain_army_factor = -0.5
+			}
+		}
+		Self_sufficiency_issue = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = generic_disjointed_gov
+			modifier = {
+				MODIFIER_SUPPLY_CONSUMPTION = 0.1
+				stability_factor = -0.1
+				war_support_factor = -0.07
+				MODIFIER_TRADE_OPINION_FACTOR = 0.1
+				MODIFIER_RECRUITABLE_POPULATION = 0.2
+			}
+		}
+	}
+}

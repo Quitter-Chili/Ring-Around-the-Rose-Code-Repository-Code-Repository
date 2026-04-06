@@ -12,19 +12,20 @@ state = {
 
 	history = {
 	
-		owner = AUS
+		owner = GRE
 		buildings = {
 			infrastructure = 2 # was 3 before split
 			industrial_complex = 1 #Bolzano's industrial zone started in 1934-35 (Steel meels, Lancia...)
 		}
-		add_core_of = ITA
-		add_core_of = AUS
-		add_core_of = LBV
-		add_claim_by = AUS
+		add_core_of = SER
+		add_core_of = MNT
+		add_core_of = GRE
+		add_core_of = YUG
+		add_claim_by = BOS
 	}
 
 	provinces = {
-		6675 9630 11615
+		937 6913
 	}
 
 	local_supplies = 0.0 

@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = BGD
+		owner =FRA
 		add_core_of = BGD
 		buildings = {
 			infrastructure = 2

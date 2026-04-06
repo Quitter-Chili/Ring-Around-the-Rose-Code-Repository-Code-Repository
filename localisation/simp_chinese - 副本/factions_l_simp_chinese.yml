@@ -584,7 +584,7 @@
  expand_cypriot_bases_goal_desc: "扩建我们在塞浦路斯的基地，将使我们能够更好地支持东地中海的军事行动，并确保往返中东的重要航线安全。"
  fortify_bosporus_goal_name: "巩固博斯普鲁斯海峡"
  fortify_bosporus_goal_desc: "加固博斯普鲁斯海峡将确保我们掌控黑海与地中海之间的所有海军通道。"
- fortify_bosporus_tooltip: "§Y伊斯坦布尔§!所有控制§Y博斯普鲁斯§!海峡的省份获得一级§Y海岸要塞§!、一级§Y陆上要塞§!，并由一个师驻守。"
+ fortify_bosporus_tooltip: "§Y君士坦丁堡§!所有控制§Y博斯普鲁斯§!海峡的省份获得一级§Y海岸要塞§!、一级§Y陆上要塞§!，并由一个师驻守。"
  fortify_dardanelles_goal_name: "加固达达尼尔海峡"
  fortify_dardanelles_goal_desc: "加固达达尼尔海峡将强化我们对来自黑海舰队与商船航线的掌控。"
  fortify_dardanelles_tooltip: "§Y埃迪尔内§!与§Y布尔萨§!的所有控制§Y达达尼尔§!海峡的省份获得一级§Y海岸要塞§!、一级§Y陆上要塞§!，并由一个师驻守。"

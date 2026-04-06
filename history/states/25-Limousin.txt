@@ -10,7 +10,7 @@ state={
 
 	state_category = large_town
 	history={
-		owner = OCC
+		owner = FRA
 		buildings = {
 			infrastructure = 3
 		}

@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = FRA
+		owner = BGD
 	
 		victory_points = {
 			13011 5

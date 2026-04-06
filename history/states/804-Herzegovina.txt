@@ -12,19 +12,17 @@ state={
 	}
 
 	history={
-		owner = BOS
-		victory_points = {
-			9894 3
-		}
+		owner = AUS
+		
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = BOS
-		add_core_of = HRZ
+		add_core_of = AUS
+		add_core_of = ITA
 	}
 
 	provinces={
-		953 6942 9894 11845 
+		3657 9613 628 6656
 	}
 
 	local_supplies=0.0 

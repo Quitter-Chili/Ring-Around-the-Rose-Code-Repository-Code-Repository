@@ -18,12 +18,16 @@ state={
 			industrial_complex =1
 
 		}
+		victory_points = { #Stara Zagora
+			6814 3
+		}
+		
 		add_core_of = BUL
 
 	}
 
 	provinces={
-		3796 3819 3952 6842 9610 9612 
+		3796 3819 3952 6842 9610 9612 6982 6952 6814
 	}
 #	resources={
 #		oil=1

@@ -765,8 +765,8 @@ CRO = {
 	color_ui = rgb { 0 114 255 }
 }
 BOS = {
-	color = rgb { 255 255 79 }
-	color_ui = rgb { 255 255 79 }
+	color = rgb { 88 237 110 }
+	color_ui = rgb { 88 237 110 }
 }
 SHL = {
 	color = rgb { 51 51 255 }
@@ -922,8 +922,8 @@ AOI = {
 	color_ui = rgb { 0 77 26 }
 }
 LBV = {
-	color = rgb { 220 255 165 }
-	color_ui = rgb { 220 255 165 }
+	color = rgb { 87 137 102 }
+	color_ui = rgb { 97 137 102 }
 }
 PAP = {
 	color = rgb { 255 255 204 }
@@ -1277,6 +1277,23 @@ IDN = {
 	color = rgb { 255 255 0 }
 	color_ui = rgb { 255 255 0 }
 }
-
-
-
+PRO = {
+	color = rgb { 20 137 255 }
+	color_ui = rgb { 20 137 255 }
+}
+BUR =  {
+	color = rgb { 178 147 62 }
+	color_ui = rgb { 178 147 62 }
+}
+NOM =  {
+	color = rgb { 2 216 2 }
+	color_ui = rgb { 2 216 2 }
+}
+MEA = {
+	color = rgb { 94 132 163 }
+	color_ui = rgb { 94 132 163 }
+}
+TOS = {
+	color = rgb { 163 255 173 }
+	color_ui = rgb { 163 255 173 }
+}
