@@ -1,11 +1,12 @@
 spriteTypes = {
+	#LON
 	spriteType = {
 		name = "GFX_LON_BO_JUE"
 		texturefile = "gfx/leaders/LON/BO_JUE.png"
 	}
 	spriteType = {
 		name = "GFX_FRA_XIA_ER"
-		texturefile = "gfx/leaders/FRA/xia_er.png"
+		texturefile = "gfx/leaders/ENG/xia_er.png"
 	}
 	spriteType = {
 		name = "GFX_epoch_gear"
@@ -37,7 +38,44 @@ spriteTypes = {
 		texturefile = "gfx/ideas_picture/LON/GFX_Self_sufficiency_issue.png"
 		legacy_lazy_load = no
 	}
-	
 
-	
+
+	#RUS
+	spriteType = {
+		name = "GFX_Current_situation_of_the_Russian_Federation"
+		texturefile = "gfx/ideas_picture/RUS/GFX_Current_situation_of_the_Russian_Federation.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Fading_Lighthouse"
+		texturefile = "gfx/ideas_picture/RUS/GFX_Fading_Lighthouse.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Fragmented_society"
+		texturefile = "gfx/ideas_picture/RUS/GFX_Fragmented_society.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Russia_DuMa"
+		texturefile = "gfx/ideas_picture/RUS/GFX_Russia_DuMa.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Russia_national_Army"
+		texturefile = "gfx/ideas_picture/RUS/GFX_Russia_national_Army.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_what_is_book_russia"
+		texturefile = "gfx/ideas_picture/RUS/GFX_what_is_book_russia.png"
+		legacy_lazy_load = no
+	}
+
+	#FRA
+	spriteType = {
+		name = "GFX_FRA_Charles_VIII"
+		texturefile = "gfx/leaders/FRA/FRA_Charles_VIII.png"
+	}
+
 }

@@ -1,0 +1,5 @@
+has_second_leader = {
+	OR = {
+		has_country_flag = France_Poincare
+	}
+}

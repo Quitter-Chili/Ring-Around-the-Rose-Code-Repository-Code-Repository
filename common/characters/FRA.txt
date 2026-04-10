@@ -1,0 +1,26 @@
+characters = {
+
+
+	FRA_Charles_VIII = {
+
+		name = FRA_Charles_VIII
+
+		portraits = {
+			civilian = {
+				large = GFX_FRA_Charles_VIII
+			}
+		}
+
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+			expire = "1970.1.1.1"
+			id = -1
+		}
+
+	}
+
+
+	
+
+}

@@ -192,4 +192,54 @@ on_actions = {
 			}
 		}
 	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = GRE
+					}
+					ROOT = {
+						original_tag = EGY
+					}
+				}
+				
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+					}
+				}
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = EGY
+					}
+					ROOT = {
+						original_tag = GRE
+					}
+				}
+				
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+					}
+				}
+			}
+		}
+	}
 }

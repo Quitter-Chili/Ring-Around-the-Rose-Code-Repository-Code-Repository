@@ -8,7 +8,6 @@ state={
 	history={
 		owner = IDN
 		add_core_of = IDN
-		add_core_of = HOL
 		victory_points = {
 			9418 1 # Arlons
 		}

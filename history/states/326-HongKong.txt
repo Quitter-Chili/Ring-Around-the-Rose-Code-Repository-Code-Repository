@@ -4,12 +4,11 @@ state=
 	name="STATE_326"
 	manpower = 1143516
 	state_category = large_town
-	history=
-	{
-		owner = SPR
-		add_core_of = SPR
+	history={
+		owner= KTO
+		add_core_of = KTO
 		victory_points = {
-			10062 3 
+			10062 40
 		}
 		buildings = {
 			infrastructure = 3 #was: 5

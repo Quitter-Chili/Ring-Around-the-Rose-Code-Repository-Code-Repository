@@ -11,8 +11,8 @@ state = {
 
 	history = {
 
-		owner = HOL
-		add_core_of = HOL
+		owner = BGD
+		add_core_of = BGD
 
 		
 

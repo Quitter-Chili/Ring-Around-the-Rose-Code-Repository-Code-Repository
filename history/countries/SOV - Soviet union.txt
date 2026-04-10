@@ -847,6 +847,10 @@ if = {
 	}
 }
 
+country_lock_all_division_template = {
+	is_locked = yes
+}
+
 if = {
 	limit = {
 		has_dlc = "La Resistance"
@@ -859,11 +863,12 @@ if = {
 set_country_flag = SOV_TEST_REMOVE_VANILLA_ADVISORS_flag
 
 add_ideas = {	
-	home_of_revolution
-	trotskyite_plot_nsb
-	SOV_politicized_military
-
-	SOV_genrikh_yagoda #NKVD Chief (political advisor)
+	Current_situation_of_the_Russian_Federation
+	Fragmented_society
+	Russia_DuMa
+	Fading_Lighthouse
+	what_is_book_russia
+	Russia_national_Army
 }
 
 1939.1.1 = {
@@ -874,13 +879,6 @@ add_ideas = {
 	set_war_support = 0.55 #Needs at least 0.5 to make sense with War Economy Law
 	
 	#DESIGNERS AND LAWS
-	add_ideas = {
-		stalingrad_tractor_factory
-		SOV_tula_arms_plant
-		#laws
-		war_economy
-		extensive_conscription
-	}
 
 
 	IF = {
@@ -900,11 +898,6 @@ add_ideas = {
 	### Purge stuff ###
 	###################
 
-	#ADVISORS
-	#Yagoda and Yezhov get purged -> Beriya is new Head of NKVD
-	remove_ideas = SOV_genrikh_yagoda
-	add_ideas = SOV_lavrenty_beriya #Chars cannot be added using a single add_ideas effect for all of them
-	add_ideas = vladimir_kasatonov
 
 
 	SOV_remove_paranoia_effect = yes

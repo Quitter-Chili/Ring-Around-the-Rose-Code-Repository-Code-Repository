@@ -1,0 +1,32 @@
+state = {
+
+	id = 1064
+	name = "STATE_1064"
+	manpower = 3761368
+	
+	state_category = rural
+
+	resources = {
+	}
+
+	history = {
+
+		owner = KTO
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+			7175 = {
+				naval_base = 3
+			}
+		}
+
+
+	}
+
+	provinces = {
+		9974
+	}
+
+	local_supplies = 0.0 
+}

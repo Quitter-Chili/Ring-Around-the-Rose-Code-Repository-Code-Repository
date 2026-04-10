@@ -1,0 +1,14 @@
+scripted_gui = {
+
+	political_attached_window = {
+		context_type = selected_country_context
+		window_name = political_attached_window
+		parent_window_token = selected_country_view_diplomacy
+
+		visible = {
+			THIS = {
+				has_second_leader = yes
+			}
+		}
+	}
+}

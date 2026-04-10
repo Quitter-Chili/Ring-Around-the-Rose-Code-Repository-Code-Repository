@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_HOS_button"
+		texturefile = "gfx/interface/HOS_button.png"
+	}
+	spriteType = {
+		name = "GFX_FRA_France_Poincare"
+		texturefile = "gfx/leaders/second_leaders/FRA_France_Poincare.dds"
+	}
+}
