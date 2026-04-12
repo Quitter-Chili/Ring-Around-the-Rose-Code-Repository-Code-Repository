@@ -3,3 +3,12 @@ has_second_leader = {
 		has_country_flag = France_Poincare
 	}
 }
+defined_text = {
+	name = second_leader_gettext
+	text = {
+		trigger = {
+			tag = FRA
+		}
+		localization_key = "France_Poincare_Leader_Type_Photo"
+	}
+}

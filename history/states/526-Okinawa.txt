@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = JAP
+		owner = OKN
 		add_core_of = JAP
 		add_core_of = OKN
 

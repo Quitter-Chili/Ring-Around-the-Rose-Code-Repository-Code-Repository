@@ -10,6 +10,7 @@ state = {
 
 		owner = MEK
 		add_core_of = MEK
+		add_core_of = AUS
 
 		victory_points = {
 			9388 1 # Stralsund

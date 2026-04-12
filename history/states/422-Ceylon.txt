@@ -11,7 +11,7 @@ state=
 	}
 
 	history={
-		owner = SPR
+		owner = AUS
 		add_core_of = SPR
 		victory_points = {
 			10201 3 

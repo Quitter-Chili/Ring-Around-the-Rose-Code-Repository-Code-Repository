@@ -14,13 +14,13 @@ state = {
 
 	history = {
 		
-		owner = POL
+		owner = LIT
 		add_core_of = POL
-		add_claim_by = PRE
-
+		add_core_of = LIT
 		victory_points = {
-			6464 5 # Katovice
+			3254 1
 		}
+		
 
 		buildings = {
 			infrastructure = 3 #was: 6
@@ -30,7 +30,7 @@ state = {
 	}
 
 	provinces = {
-		506 6464
+		3254 400 347 11247
 	}
 
 	local_supplies = 0.0 

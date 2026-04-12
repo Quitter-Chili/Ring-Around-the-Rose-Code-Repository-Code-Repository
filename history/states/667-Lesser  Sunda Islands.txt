@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = EGY
+		owner = AUS
 		add_core_of = EGY
 		buildings = {
 			infrastructure = 2

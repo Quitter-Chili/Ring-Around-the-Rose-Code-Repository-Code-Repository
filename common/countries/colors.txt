@@ -16,8 +16,8 @@ OCC = {
 	color_ui = rgb { 245 187 1 }
 }
 ZZZ = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
+	color = rgb { 70 70 70 }
+	color_ui = rgb { 43 42 42 }
 }
 LOM = {
 	color = rgb { 255 140 0 }
@@ -110,8 +110,8 @@ AUS = {
 	color_ui = rgb { 255 255 255 }
 }
 LIT = {
-	color = rgb { 219 219 119 }
-	color_ui = rgb { 255 255 155 }
+	color = rgb { 155 17 155 }
+	color_ui = rgb { 155 17 155 }
 }
 EST = {
 	color = rgb { 50 135 175 }
@@ -142,8 +142,8 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
+	color = rgb { 245 1 1 }
+	color_ui = rgb { 245 1 1 }
 }
 GRE = {
 	color = rgb { 93 181 227 }
@@ -1300,4 +1300,8 @@ MEA = {
 TOS = {
 	color = rgb { 163 255 173 }
 	color_ui = rgb { 163 255 173 }
+}
+CMR = {
+	color = rgb { 0 94 10 }
+	color_ui = rgb { 0 94 10 }
 }

@@ -1,0 +1,40 @@
+state={
+	id=1066
+	name="STATE_1066"
+	resources={
+		coal = 12 #initial distribution
+	}
+
+	history={
+		owner = NOM
+		add_core_of = FRA
+		add_claim_by = BGD
+		victory_points = {
+			9434 10
+		}
+		victory_points = {
+			11563 5
+		}
+		victory_points = {
+			485 3
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 2
+			
+		}
+		
+		
+		
+	}
+
+	provinces={
+		9434 485 11563 6569
+	}
+	manpower = 1057400
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+
+	local_supplies=0.0 
+}

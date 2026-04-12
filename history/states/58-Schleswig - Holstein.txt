@@ -8,6 +8,7 @@ state = {
 
 		owner = DEN
 		add_core_of = DEN
+		add_core_of = AUS
 
 		victory_points = {
 			6389 10 # Kiel

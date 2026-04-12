@@ -14,7 +14,7 @@ BUL_FACTION = {
 
 		
 
-		complete_effect = {
+		remove_effect = {
 			create_faction = Balkan_League
 			add_to_faction = BUL
 			add_to_faction = YUG
@@ -37,7 +37,7 @@ BUL_FACTION = {
 
 		
 
-		complete_effect = {
+		remove_effect = {
 			BUL = {
 				declare_war_on = { target = GRE type = take_state_focus }
 			}
@@ -65,7 +65,7 @@ BUL_FACTION = {
 
 		
 
-		complete_effect = {
+		remove_effect = {
 			BUL = {
 				remove_from_faction = BUL
 			}

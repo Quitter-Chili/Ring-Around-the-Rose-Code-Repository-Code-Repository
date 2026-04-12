@@ -12,7 +12,7 @@ state = {
 
 	history = {
 
-		owner = LON
+		owner = GHA
 		add_core_of = GHA
 
 		victory_points = {

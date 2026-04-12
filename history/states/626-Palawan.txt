@@ -8,14 +8,14 @@ state=
 	
 	history=
 	{
-		owner = PHI
+		owner = KTO
+		add_core_of = KTO
 		buildings = {
 			infrastructure = 2
 			4429 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = PHI
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 1

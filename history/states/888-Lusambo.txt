@@ -10,9 +10,8 @@ state = {
 
 	history = {
 
-		owner = SPR
+		owner = COG
 		add_core_of = COG
-		add_core_of = SPR
 
 		IF = {
 			limit = {

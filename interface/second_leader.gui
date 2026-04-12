@@ -8,6 +8,7 @@ guiTypes = {
 			name = "second_leader_button"
 			spriteType = GFX_HOS_button
 			pdx_tooltip = second_leader_name_tt
+			#pdx_tooltip_desc = second_leader_name_tt_desc
 			scale = 1
 		}
 	}

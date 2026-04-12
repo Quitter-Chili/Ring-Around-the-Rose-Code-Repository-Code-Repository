@@ -15,6 +15,7 @@ state = {
 
 		owner = PRE
 		add_core_of = PRE
+		add_core_of = AUS
 
 		victory_points = {
 			9570 10 # Breslau

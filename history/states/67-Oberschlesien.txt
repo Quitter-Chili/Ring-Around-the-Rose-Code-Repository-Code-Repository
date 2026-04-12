@@ -13,6 +13,7 @@ state = {
 	history = {
 
 		owner = POL
+		add_core_of = AUS
 		add_core_of = POL
 		add_core_of = PRE
 		victory_points = {
@@ -29,7 +30,7 @@ state = {
 	}
 
 	provinces = {
-		479 6512 9457 9511 11467 
+		479 6512 9457 9511 11467 6464 506
 	}
 
 	local_supplies = 4.0 

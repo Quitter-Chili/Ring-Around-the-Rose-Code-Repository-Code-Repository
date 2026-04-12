@@ -13,8 +13,8 @@ state = {
 
 	history = {
 
-		owner = SPR
-		add_core_of = SPR
+		owner = HOL
+		add_core_of = HOL
 
 		victory_points = {
 			12299 10 # Singapore

@@ -12,8 +12,8 @@ state = {
 
 	history = {
 
-		owner = PHI
-		add_core_of = PHI
+		owner = KTO
+		add_core_of = KTO
 
 		buildings = {
 

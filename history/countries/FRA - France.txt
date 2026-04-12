@@ -3,7 +3,14 @@
 
 
 starting_train_buffer = 2
-
+set_autonomy = {
+	target = ANG
+	autonomy_state = autonomy_personal_union
+}
+set_autonomy = {
+	target = COG
+	autonomy_state = autonomy_personal_union
+}
 
 
 

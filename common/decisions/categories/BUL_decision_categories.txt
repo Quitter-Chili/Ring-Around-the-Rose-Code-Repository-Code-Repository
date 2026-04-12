@@ -5,6 +5,7 @@ BUL_FACTION = {
 		is_ai = no
 		tag = BUL
 	}
+	priority = 100
 	#scripted_gui = MTG_naval_treaties_gui
 }       
       

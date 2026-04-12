@@ -10,6 +10,7 @@ state = {
 
 		owner = MEK
 		add_core_of = MEK
+		add_core_of = AUS
 
 		victory_points = {
 			321 5 # Rostocj

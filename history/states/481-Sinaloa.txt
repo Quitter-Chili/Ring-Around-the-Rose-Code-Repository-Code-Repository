@@ -11,8 +11,8 @@ state={
 	state_category = rural
 	
 	history={
-		owner = ZZZ
-		add_core_of = ZZZ
+		owner = KTO
+		add_core_of = MEX
 		buildings = {
 			infrastructure = 2
 			dockyard = 1

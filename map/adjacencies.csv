@@ -242,5 +242,21 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5864;5838;;-1;-1;-1;-1;-1;OTRANTO_STRAIT;Otranto Strait
 -1;-1;;-1;-1;-1;-1;-1;-1 
 #Start province ID;End province ID;Adjacency type;Through province ID;Starting X position;Starting Y position;Ending X position;Ending Y position;Adjacency rule;Comment
-
-
+9853;9824;impassable;-1;-1;-1;-1;-1;;jt
+9853;11779;impassable;-1;-1;-1;-1;-1;;jt
+6915;11779;impassable;-1;-1;-1;-1;-1;;jt
+6915;3898;impassable;-1;-1;-1;-1;-1;;jt
+6931;3898;impassable;-1;-1;-1;-1;-1;;jt
+3915;3898;impassable;-1;-1;-1;-1;-1;;jt
+3915;3899;impassable;-1;-1;-1;-1;-1;;jt
+727;9548;impassable;-1;-1;-1;-1;-1;;jt
+727;11689;impassable;-1;-1;-1;-1;-1;;jt
+9685;11689;impassable;-1;-1;-1;-1;-1;;jt
+9685;3728;impassable;-1;-1;-1;-1;-1;;jt
+711;3728;impassable;-1;-1;-1;-1;-1;;jt
+6679;6695;impassable;-1;-1;-1;-1;-1;;jt
+6709;6695;impassable;-1;-1;-1;-1;-1;;jt
+6679;11605;impassable;-1;-1;-1;-1;-1;;jt
+3665;11605;impassable;-1;-1;-1;-1;-1;;jt
+6667;9619;impassable;-1;-1;-1;-1;-1;;jt
+3665;6667;impassable;-1;-1;-1;-1;-1;;jt

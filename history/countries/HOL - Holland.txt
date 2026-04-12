@@ -104,7 +104,10 @@ if = {
 		puppet = INS
 	}
 }
-
+set_autonomy = {
+	target = SAF
+	autonomous_state = autonomy_personal_union
+}
 set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
 
 add_ideas = {

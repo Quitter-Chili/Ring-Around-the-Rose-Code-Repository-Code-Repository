@@ -13,7 +13,7 @@ state=
 		victory_points = { 
 			5068 1
 		}
-		owner = ETH
+		owner = GRE
 		add_core_of = ETH
 		buildings = {
 			infrastructure = 2
