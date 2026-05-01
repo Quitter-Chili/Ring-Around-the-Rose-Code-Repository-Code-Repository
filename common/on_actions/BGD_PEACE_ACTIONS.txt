@@ -1,0 +1,165 @@
+on_actions = {
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = BGD
+					}
+					ROOT = {
+						original_tag = FFR
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					BGD = {
+						annex_country = { target = FFR transfer_troops = yes }
+						IF = {
+							limit = {
+								NOT = { country_exists = BEL } 
+							}
+							annex_country = { target = IDN transfer_troops = yes }
+							FRA = {
+								declare_war_on = { target = BGD type = take_state_focus }
+							}
+							AUS = {
+								declare_war_on = { target = NOM type = take_state_focus }
+								declare_war_on = { target = MEA type = take_state_focus }
+								declare_war_on = { target = PRO type = take_state_focus }
+								declare_war_on = { target = BUR type = take_state_focus }
+							}
+							BGD = {
+								declare_war_on = { target = NOM type = take_state_focus }
+								declare_war_on = { target = MEA type = take_state_focus }
+								declare_war_on = { target = PRO type = take_state_focus }
+								declare_war_on = { target = BUR type = take_state_focus }
+					
+							}
+							LON = {
+								add_to_faction = AUS
+								add_to_faction = BGD
+								add_to_faction = LOM
+								declare_war_on = { target = FRA type = take_state_focus }
+								declare_war_on = { target = NOM type = take_state_focus }
+								declare_war_on = { target = MEA type = take_state_focus }
+								declare_war_on = { target = PRO type = take_state_focus }
+								declare_war_on = { target = BUR type = take_state_focus }
+							}
+						}
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = BGD
+					}
+					ROOT = {
+						original_tag = BEL
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					BGD = {
+						annex_country = { target = ROOT transfer_troops = yes }
+						
+						IF = {
+							limit = {
+								NOT = { country_exists = FFR } 
+							}
+							annex_country = { target = IDN transfer_troops = yes }
+							FRA = {
+								declare_war_on = { target = BGD type = take_state_focus }
+							
+							}
+							BGD = {
+								declare_war_on = { target = NOM type = take_state_focus }
+								declare_war_on = { target = MEA type = take_state_focus }
+								declare_war_on = { target = PRO type = take_state_focus }
+								declare_war_on = { target = BUR type = take_state_focus }
+					
+							}
+							AUS = {
+								declare_war_on = { target = NOM type = take_state_focus }
+								declare_war_on = { target = MEA type = take_state_focus }
+								declare_war_on = { target = PRO type = take_state_focus }
+								declare_war_on = { target = BUR type = take_state_focus }
+							}
+
+							LON = {
+								add_to_faction = AUS
+								add_to_faction = BGD
+								add_to_faction = LOM
+								declare_war_on = { target = FRA type = take_state_focus }
+								declare_war_on = { target = NOM type = take_state_focus }
+								declare_war_on = { target = MEA type = take_state_focus }
+								declare_war_on = { target = PRO type = take_state_focus }
+								declare_war_on = { target = BUR type = take_state_focus }
+							}
+						}
+					}
+					
+
+				}
+				
+			}
+		}
+	}
+	effect =  {
+		if = {
+			limit ={
+				FROM = {
+					OR = {
+						original_tag = BGD
+						original_tag = LON
+						original_tag = AUS
+					}
+					
+				}
+				ROOT = {
+					OR = {
+						original_tag = FRA
+						original_tag = NOM
+						original_tag = MEA
+						original_tag = PRO
+						original_tag = BUR
+					}
+					
+				}
+			}
+		
+			ROOT = {
+				every_country = {
+					white_peace = ROOT
+				}
+			}
+			FROM = {
+				BGD = {
+					transfer_state = 785
+					transfer_state = 1066
+				}
+				
+
+			}
+			
+		}
+	}
+}
+	
+}

@@ -2,6 +2,26 @@ MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
 }
+ENL_LON = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+IRE_LON = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+BRATION_SCO = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+USA_LON = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+ITA_SPM = {
+	color = rgb { 122 240 27 }
+	color_ui = rgb { 80  165  10 }
+}
 TUR_ZZZ = {
     color = rgb { 0 0 0 }
     color_ui = rgb { 0 0 0 }

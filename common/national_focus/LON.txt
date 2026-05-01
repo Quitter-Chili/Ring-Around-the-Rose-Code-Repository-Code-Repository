@@ -1,0 +1,364 @@
+focus_tree = {
+	id = LON_WAR
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = LON
+		}
+	}
+	continuous_focus_position = { x = 20 y = 1600 }
+	default = no
+	focus = {
+		id = Prepare_for_war
+		x = 3
+		y = 1
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			country_event = { random =2 id = LON_RAR.1 }
+		}
+	}
+	focus = {
+		id = make_a_unoin
+		x = 2
+		y = 2
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = Prepare_for_war
+		}
+		completion_reward = {
+			annex_country = { target = KER transfer_troops = yes }
+			annex_country = { target = YEK transfer_troops = yes }
+		}
+	}
+	focus = {
+		id = Charge_towards_breakthroughagain
+		x = 4
+		y = 2
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = Prepare_for_war
+		}
+		completion_reward = {
+			declare_war_on = { target = WLS type = take_state_focus }
+		}
+	}
+	focus = {
+		id = England_reappears
+		x = 3
+		y = 3
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = make_a_unoin
+		}
+		prerequisite = {
+			focus = Charge_towards_breakthroughagain
+		}
+		completion_reward = {
+			set_cosmetic_tag = ENGLAND_LON
+			country_event = { random =2 id = LON_RAR.2 }
+		}
+	}
+	focus = {
+		id = first_meeting_country
+		x = 3
+		y = 4
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = England_reappears
+		}
+		completion_reward = {
+			country_event = { random =3 id = LON_RAR.3 }
+		}
+	}
+	focus = {
+		id = england_dream
+		x = 1
+		y = 5
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = first_meeting_country
+		}
+	}
+	focus = {
+		id = Sword_of_Victory
+		x = 0
+		y = 6
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = england_dream
+		}
+	}
+	focus = {
+		id = Shield_of_Glory
+		x = 2
+		y = 6
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = england_dream
+		}
+		completion_reward = {
+			LON = {
+				country_event = { days = 45 id = LON_RAR.18 }
+				annex_country = { target = GLA transfer_troops = yes }
+				add_state_core =133
+				add_state_core =121
+				add_state_core =120
+				add_state_core =136
+				add_state_core =1049
+			}
+		}
+	}
+	focus = {
+		id = last_hit
+		x = 1
+		y = 7
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = Sword_of_Victory
+		}
+		prerequisite = {
+			focus = Shield_of_Glory
+		}
+		completion_reward = {
+			LON = {
+				declare_war_on = { target = SCO type = take_state_focus }
+				declare_war_on = { target = IRE type = take_state_focus }
+			}
+			
+		}
+	}
+	focus = {
+		id = old_king_promse
+		x = 0
+		y = 8
+		cost = 3
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = last_hit
+		}
+		mutually_exclusive = {
+			focus = freedom_ire
+		}
+	}
+	focus = {
+		id = freedom_ire
+		x = 2
+		y = 8
+		cost = 3
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = last_hit
+		}
+		completion_reward = {
+			IRE = {
+				transfer_state = 113
+				transfer_state = 135
+				transfer_state = 134
+				set_cosmetic_tag = IRE_LON
+			}
+			LON = {
+				set_autonomy = {
+					target = IRE
+					autonomy_state = autonomy_dominion
+				}
+			}
+		}
+	}
+	focus = {
+		id = second_meeting
+		x = 1
+		y = 9
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		prerequisite = {
+			focus = old_king_promse focus = freedom_ire
+		}
+		
+		completion_reward = {
+			LON = {
+				country_event = { random =2 id = LON_RAR.7 }
+			}
+		}
+	}
+	focus = {
+		id = world_is_ours
+		available = {
+			has_country_flag = second_end
+		}
+		x = 5
+		y = 5
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = first_meeting_country
+		}
+	}
+	focus = {
+		id = aus_lon_faction
+		x = 4
+		y = 6
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = world_is_ours
+		}
+		completion_reward = {
+			LON = {
+				country_event = { random =2 id = LON_RAR.14 }
+			}
+			
+		}
+	}
+	focus = {
+		id = annex_northamericanland
+		x = 6
+		y = 6
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = world_is_ours
+		}
+		completion_reward = {
+			ENL = {
+				annex_country = { target = CAN transfer_troops = yes }
+				set_cosmetic_tag = ENL_LON
+				country_event = { days = 15 id = LON_RAR.16 }
+			}
+		}
+	}
+	focus = {
+		id = afican_union
+		x = 8
+		y = 6
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = world_is_ours
+		}
+	}
+	focus = {
+		id = chinese_relation
+		x = 10
+		y = 6
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = world_is_ours
+		}
+	}
+	focus = {
+		id = north_ironwall
+		x = 4
+		y = 8
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = aus_lon_faction
+		}
+		completion_reward = {
+			LON = {
+				add_to_faction = NOR
+				add_to_faction = DEN
+				add_to_faction = ICE
+			}
+			
+		}
+	}
+	focus = {
+		id = west_to_east
+		x = 6
+		y = 8
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = annex_northamericanland
+		}
+		completion_reward = {
+			LON = {
+			#	annex_country = { target = ENL transfer_troops = yes }
+				#annex_country = { target = USA transfer_troops = yes }
+				declare_war_on = { target = USA type = take_state_focus }
+			}
+			
+		}
+	}
+	focus = {
+		id = king_s_king
+		x = 8
+		y = 8
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = afican_union
+		}
+		completion_reward = {
+			LON = {
+				
+				add_to_faction = GHA
+			}
+			
+		}
+	}
+	focus = {
+		id = aisa_trade
+		x = 10
+		y = 8
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = chinese_relation
+		}
+	}
+	focus = {
+		id = rise_france
+		x = 3
+		y = 11
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = second_meeting
+		}
+		prerequisite = {
+			focus = north_ironwall
+		}
+		completion_reward = {
+			LON = {
+				declare_war_on = { target = FRA type = take_state_focus }
+			}
+		}
+		
+	}
+}

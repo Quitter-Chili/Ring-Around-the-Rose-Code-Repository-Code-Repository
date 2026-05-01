@@ -1,6 +1,14 @@
 spriteTypes = {
 	#LON
 	spriteType = {
+		name = "GFX_LON_COMBACK"
+		texturefile = "gfx/event_pictures/comeback.png"
+	}
+	spriteType = {
+		name = "GFX_LONDPN_E"
+		texturefile = "gfx/event_pictures/lon_don_e.png"
+	}
+	spriteType = {
 		name = "GFX_LON_BO_JUE"
 		texturefile = "gfx/leaders/LON/BO_JUE.png"
 	}
@@ -78,4 +86,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/FRA/FRA_Charles_VIII.png"
 	}
 
+
+
+	spriteType = {
+		name = "GFX_frontend_bg"
+		texturefile = "gfx/loadingscreens/load_2"
+	}
 }

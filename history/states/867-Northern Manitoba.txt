@@ -4,13 +4,13 @@ state = {
 	name = "STATE_867"
 
 	provinces = {
-		5239 6728 7185 7782 9615 10585 10605 13182
+		5239 6728 7185 9615 10585 10605 13182
 	}
 
 	history = {
 
-		owner = ZZZ
-		add_core_of = ZZZ
+		owner = CAN
+		add_core_of = CAN
 
 		buildings = {
 			infrastructure = 1

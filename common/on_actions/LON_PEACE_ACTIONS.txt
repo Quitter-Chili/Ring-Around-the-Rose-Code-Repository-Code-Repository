@@ -1,0 +1,131 @@
+on_actions = {
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = LON
+					}
+					ROOT = {
+						original_tag = WLS
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					LON = {
+						
+						annex_country = { target = WLS transfer_troops = yes }
+						
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = LON
+					}
+					ROOT = {
+						original_tag = SCO
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					LON = {
+						country_event = { days = 45 id = LON_RAR.15 }
+						annex_country = { target = SCO transfer_troops = yes }
+						set_cosmetic_tag = BRATION_LON
+						country_event = { days = 8 id = LON_RAR.8 }
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = LON
+					}
+					ROOT = {
+						original_tag = IRE
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					LON = {
+						
+						annex_country = { target = IRE transfer_troops = yes }
+					}	
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = LON
+						has_completed_focus = west_to_east
+					}
+					ROOT = {
+						original_tag = USA
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					LON = {
+						set_autonomy = {
+							target = USA
+							autonomy_state = autonomy_colony
+						}
+						
+					}	
+					ENL = {
+						transfer_state = 1054
+						transfer_state = 1053
+					}
+					USA = {
+						set_cosmetic_tag = USA_LON
+					}
+
+				}
+				
+			}
+		}
+	}
+
+}
+
+	

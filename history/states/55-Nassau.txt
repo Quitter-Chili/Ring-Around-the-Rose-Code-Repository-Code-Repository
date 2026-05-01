@@ -26,7 +26,7 @@ state = {
 		}
 
 		victory_points = {
-			6488 20 # Frankfurt
+			6488 40 # Frankfurt
 		}
 
 		victory_points = {

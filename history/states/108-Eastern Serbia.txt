@@ -8,13 +8,12 @@ state={
 
 	history={
 		
-		owner = YUG
+		owner = GRE
+		add_core_of = GRE
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = YUG
-		add_core_of = SER
 
 	}
 

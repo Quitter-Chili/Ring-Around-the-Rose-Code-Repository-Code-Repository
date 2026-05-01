@@ -1,8 +1,8 @@
 ﻿capital = 48
 
 #TROOPS
-oob = "BUL_1936" #VANILLA & DLC
-set_convoys = 5 #VANILLA & DLC
+oob = BUL_LAND
+set_convoys = 5
 
 
 

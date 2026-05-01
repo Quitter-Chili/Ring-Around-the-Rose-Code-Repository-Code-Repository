@@ -1,0 +1,473 @@
+add_namespace = LON_RAR
+country_event = {
+	id = LON_RAR.1
+    title = LON_RAR.1.t
+    desc =LON_RAR.1.d
+	picture = GFX_LON_COMBACK
+
+    is_triggered_only = yes
+   
+   
+    fire_only_once = yes
+    
+	
+
+	
+	
+    option = { 
+        name = LON_RAR.1.a
+		#country_event = {
+		#	id = FRA_EU.2
+		#	hours = 24
+		#}
+	
+		
+	}
+
+
+}
+country_event = {
+	id = LON_RAR.2
+    title = LON_RAR.2.t
+    desc =LON_RAR.2.d
+	
+
+    is_triggered_only = yes
+   
+   
+    fire_only_once = yes
+    
+	
+
+	
+	
+    option = { 
+        name = LON_RAR.2.a
+		#country_event = {
+		#	id = FRA_EU.2
+		#	hours = 24
+		#}
+	
+		
+	}
+
+
+}
+country_event = {
+	id = LON_RAR.3
+    title = LON_RAR.3.t
+    desc =LON_RAR.3.d
+	
+
+    is_triggered_only = yes
+   
+   
+    fire_only_once = yes
+    
+	
+
+	
+	
+    option = { 
+        name = LON_RAR.3.a
+		country_event = {
+			id = LON_RAR.4
+			hours = 5
+		}
+	
+		
+	}
+
+
+}
+country_event = {
+	id = LON_RAR.4
+    title = LON_RAR.4.t
+    desc =LON_RAR.4.d
+	
+
+    is_triggered_only = yes
+   
+   
+    fire_only_once = yes
+    
+	
+
+	
+	
+    option = { 
+        name = LON_RAR.4.a
+		country_event = {
+			id = LON_RAR.5
+			hours = 5
+		}
+	
+		
+	}
+
+
+}
+country_event = {
+	id = LON_RAR.5
+    title = LON_RAR.5.t
+    desc =LON_RAR.5.d
+	
+
+    is_triggered_only = yes
+   
+   
+    fire_only_once = yes
+    
+	
+
+	
+	
+    option = { 
+        name = LON_RAR.5.a
+		country_event = {
+			id = LON_RAR.6
+			hours = 5
+		}
+	
+		
+	}
+	option = { 
+        name = LON_RAR.5.b
+		country_event = {
+			id = LON_RAR.6
+			hours = 5
+		}
+	
+		
+	}
+
+
+}
+country_event = {
+	id = LON_RAR.6
+    title = LON_RAR.6.t
+    desc =LON_RAR.6.d
+	
+
+    is_triggered_only = yes
+   
+   
+    fire_only_once = yes
+    
+	
+
+	
+	
+    option = { 
+        name = LON_RAR.6.a
+	
+		
+	}
+
+
+}
+country_event = {
+	id = LON_RAR.7
+    title = LON_RAR.7.t
+    desc =LON_RAR.7.d
+	
+
+    is_triggered_only = yes
+   
+   
+    fire_only_once = yes
+    
+	
+
+	
+	
+    option = { 
+        name = LON_RAR.7.a
+	
+		country_event = {
+			id = LON_RAR.8
+			hours = 2
+		}
+	}
+}
+
+	country_event = {
+		id = LON_RAR.8
+		title = LON_RAR.8.t
+		desc =LON_RAR.8.d
+		
+	
+		is_triggered_only = yes
+	   
+	   
+		fire_only_once = yes
+		
+		
+	
+		
+		
+		option = { 
+			name = LON_RAR.8.a
+			SCO = {
+				transfer_state = 121
+				transfer_state = 133
+				transfer_state = 120
+				transfer_state = 136
+				transfer_state = 1049
+				set_cosmetic_tag = BRATION_SCO
+			}
+			LON = {
+				set_autonomy = {
+					target = SCO
+					autonomy_state = autonomy_dominion
+				}
+			}
+			country_event = {
+				id = LON_RAR.9
+				hours = 5
+			}
+		}
+		option = { 
+			name = LON_RAR.8.b
+		
+			country_event = {
+				id = LON_RAR.9
+				hours = 5
+			}
+		}
+	
+	
+	}
+	country_event = {
+		id = LON_RAR.9
+		title = LON_RAR.9.t
+		desc =LON_RAR.9.d
+		
+	
+		is_triggered_only = yes
+	   
+	   
+		fire_only_once = yes
+		
+		
+	
+		
+		
+		option = { 
+			name = LON_RAR.9.a
+		
+			country_event = {
+				id = LON_RAR.10
+				hours = 5
+			}
+		}
+		option = { 
+			name = LON_RAR.9.b
+		
+			country_event = {
+				id = LON_RAR.10
+				hours = 5
+			}
+		}
+	
+	
+	}
+	country_event = {
+		id = LON_RAR.10
+		title = LON_RAR.10.t
+		desc =LON_RAR.10.d
+		
+	
+		is_triggered_only = yes
+	   
+	   
+		fire_only_once = yes
+		
+		
+	
+		
+		
+		option = { 
+			name = LON_RAR.10.a
+		
+			country_event = {
+				id = LON_RAR.11
+				hours = 5
+			}
+		}
+		option = { 
+			name = LON_RAR.10.b
+		
+			country_event = {
+				id = LON_RAR.11
+				hours = 5
+			}
+		}
+	
+	
+	}
+	country_event = {
+		id = LON_RAR.11
+		title = LON_RAR.11.t
+		desc =LON_RAR.11.d
+		
+	
+		is_triggered_only = yes
+	   
+	   
+		fire_only_once = yes
+		
+		
+	
+		
+		
+		option = { 
+			name = LON_RAR.11.a
+			LON = {
+				transfer_state = 319
+				transfer_state = 318
+				transfer_state = 686
+				transfer_state = 308
+				transfer_state = 366
+				set_country_flag = second_end
+			}
+			country_event = {
+				id = LON_RAR.12
+				hours = 5
+			}
+		}
+		
+	
+	
+	}
+	country_event = {
+		id = LON_RAR.12
+		title = LON_RAR.12.t
+		desc =LON_RAR.12.d
+		
+	
+		is_triggered_only = yes
+	   
+	   
+		fire_only_once = yes
+		
+		
+	
+		
+		
+		option = { 
+			name = LON_RAR.12.a
+		
+			country_event = {
+				id = LON_RAR.13
+				hours = 48
+			}
+		}
+	
+	
+	}
+	country_event = {
+		id = LON_RAR.13
+		title = LON_RAR.13.t
+		desc =LON_RAR.13.d
+		picture = GFX_LONDPN_E
+
+	
+		is_triggered_only = yes
+	   
+	   
+		fire_only_once = yes
+		option = { 
+			name = LON_RAR.13.a
+		
+			
+		}
+	
+	
+	}
+	country_event = {
+		id = LON_RAR.14
+		title = LON_RAR.14.t
+		desc =LON_RAR.14.d
+		#picture = GFX_LONDPN_E
+		is_triggered_only = yes
+	    fire_only_once = yes
+		option = { 
+			name = LON_RAR.14.a
+			LON = {
+				add_to_faction = AUS
+			}
+			AUS = {
+				annex_country = { target = HAN transfer_troops = yes }
+			}
+			
+		}
+	
+	
+	}
+	country_event = {
+		id = LON_RAR.15
+		title = LON_RAR.15.t
+		desc =LON_RAR.15.d
+		#picture = GFX_LONDPN_E
+		is_triggered_only = yes
+	    fire_only_once = yes
+		option = { 
+			name = LON_RAR.15.a
+		
+			
+		}
+	
+	
+	}
+	country_event = {
+		id = LON_RAR.16
+		title = LON_RAR.16.t
+		desc =LON_RAR.16.d
+		#picture = GFX_LONDPN_E
+		is_triggered_only = yes
+	    fire_only_once = yes
+		option = { 
+			name = LON_RAR.16.a
+		
+			
+		}
+	
+	
+	}
+
+	country_event = {
+		id = LON_RAR.17
+		title = LON_RAR.17.t
+		desc =LON_RAR.17.d
+		#picture = GFX_LONDPN_E
+		is_triggered_only = yes
+	    fire_only_once = yes
+		option = { 
+			name = LON_RAR.17.a
+		
+			
+		}
+	
+	
+	}
+
+	country_event = {
+		id = LON_RAR.18
+		title = LON_RAR.18.t
+		desc =LON_RAR.18.d
+		#picture = GFX_LONDPN_E
+		is_triggered_only = yes
+	    fire_only_once = yes
+		option = { 
+			name = LON_RAR.18.a
+		
+			
+		}
+	
+	
+	}
+
+
+
+

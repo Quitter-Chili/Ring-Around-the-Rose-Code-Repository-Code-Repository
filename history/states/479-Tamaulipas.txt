@@ -12,9 +12,8 @@ state = {
 	
 	history = {
 
-		owner = MEX
-		add_core_of = MEX
-		add_core_of = RIG
+		owner = SPB
+		add_core_of = SPB
 
 		buildings = {
 			infrastructure = 2

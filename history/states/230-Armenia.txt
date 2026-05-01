@@ -3,7 +3,8 @@ state={
 	name="STATE_230"
 
 	history={
-		owner = ARM
+		owner = GRE
+		add_core_of = GRE
 		victory_points = {
 			12320 3
 		}
@@ -16,7 +17,6 @@ state={
 			air_base = 2
 
 		}
-		add_core_of = ARM
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 3

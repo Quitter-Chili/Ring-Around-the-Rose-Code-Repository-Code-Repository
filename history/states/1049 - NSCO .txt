@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = SHE
+		owner = SCO
 		add_core_of = SCO
 		add_core_of = SHE
 		buildings = {

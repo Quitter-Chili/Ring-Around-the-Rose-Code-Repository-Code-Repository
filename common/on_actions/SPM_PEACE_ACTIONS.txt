@@ -1,0 +1,138 @@
+on_actions = {
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = SPM
+					}
+					ROOT = {
+						original_tag = LBV
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					SPM = {
+						add_state_core =159
+						annex_country = { target = LBV transfer_troops = yes }
+						IF = {
+							limit = {
+								NOT = { country_exists = TOS } 
+							}
+							set_cosmetic_tag = ITA_SPM
+						}
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = SPM
+					}
+					ROOT = {
+						original_tag = TOS
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					SPM = {
+						add_state_core =162
+						add_state_core =157
+						add_state_core =161
+						annex_country = { target = TOS transfer_troops = yes }
+						IF = {
+							limit = {
+								NOT = { country_exists = LBV } 
+							}
+							set_cosmetic_tag = ITA_SPM
+						}
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = SPM
+					}
+					ROOT = {
+						original_tag = PAP
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					SPM = {
+						annex_country = { target = PAP transfer_troops = yes }
+						add_state_core = 2
+						set_capital = 2
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = SPM
+					}
+					ROOT = {
+						original_tag = TTS
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					SPM = {
+						annex_country = { target = TTS transfer_troops = yes }
+						add_state_core = 117
+						add_state_core =849
+						add_state_core =156
+						add_state_core =115
+						add_state_core =1056
+						set_capital = 2
+					}
+					FRA = {
+						add_to_faction = SPM
+					}
+
+				}
+				
+			}
+		}
+	}
+}
+	

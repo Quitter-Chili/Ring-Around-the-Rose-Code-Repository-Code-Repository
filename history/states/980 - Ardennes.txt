@@ -13,6 +13,8 @@ state = {
 
 		owner = BGD
 		add_core_of = BGD
+		add_core_of = BEL
+		add_core_of = IDN
 
 		
 

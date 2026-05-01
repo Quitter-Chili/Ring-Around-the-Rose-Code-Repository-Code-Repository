@@ -1,5 +1,5 @@
-﻿capital = 11
-set_cosmetic_tag = LIT_BOLI
+﻿capital = 784
+set_cosmetic_tag = LIT_BRI
 oob = "LIT_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }

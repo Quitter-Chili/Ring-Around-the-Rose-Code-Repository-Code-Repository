@@ -1,0 +1,17 @@
+# country_gradient.gfx
+
+effectFile = {
+    name = "country_gradient_fx"
+    file = "gfx/FX/country_gradient.fx"
+}
+
+effect = {
+    name = "country_gradient_effect"
+    effectFile = "country_gradient_fx"
+
+    parameters = {
+        GradientPower = 1.8        # 越大中心越“收紧”
+        EdgeSoftness = 0.1        # 边界柔和
+        DarkStrength = 0.6         # 中心变暗程度
+    }
+}

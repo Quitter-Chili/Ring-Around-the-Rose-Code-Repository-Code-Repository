@@ -1,0 +1,11 @@
+
+LON_DEVELOP = {
+	picture = GFX_decision_cat_picture_naval_treaties
+	allowed = {
+		#is_ai = no
+		tag = LON
+	}
+	priority = 100
+	#scripted_gui = MTG_naval_treaties_gui
+}       
+      

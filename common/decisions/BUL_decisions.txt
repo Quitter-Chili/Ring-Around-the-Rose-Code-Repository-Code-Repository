@@ -12,12 +12,19 @@ BUL_FACTION = {
 		days_remove = 5
 		days_re_enable = 5
 
-		
+		ai_will_do = {
+			factor = 100
+			#modifier = {
+			#	factor = X
+
+			#}
+		}
 
 		remove_effect = {
 			create_faction = Balkan_League
 			add_to_faction = BUL
 			add_to_faction = YUG
+			set_country_flag = PREPARE
 			#add_to_faction = BOS
 		}
 
@@ -31,10 +38,18 @@ BUL_FACTION = {
 
 		fire_only_once = yes
 		cost = 0
-		
+		ai_will_do = {
+			factor = 100
+			#modifier = {
+			#	factor = X
+
+			#}
+		}
 		days_remove = 5
 		days_re_enable = 5
-
+		visible = {
+			has_country_flag = PREPARE
+		}
 		
 
 		remove_effect = {
@@ -55,8 +70,15 @@ BUL_FACTION = {
 		}
 		visible = {
 			has_country_flag = first_war
+			NOT = {has_war_with = ROM}
 		}
+		ai_will_do = {
+			factor = 100
+			#modifier = {
+			#	factor = X
 
+			#}
+		}
 		fire_only_once = yes
 		cost = 0
 		

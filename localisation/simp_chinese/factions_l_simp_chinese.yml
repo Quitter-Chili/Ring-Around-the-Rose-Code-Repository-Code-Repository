@@ -1199,3 +1199,5 @@
  faction_divider_dashes: "--------------"
  TRIGGER_HAS_ACTIVE_FACTION_RULE: "$COUNTRY_OR_FACTION|H$启用了规则$RULE|H$"
  TRIGGER_HAS_NOT_ACTIVE_FACTION_RULE: "$COUNTRY_OR_FACTION|H$未启用规则$RULE|H$"
+ FRA_allie: "鸢尾协约"
+ pol_allie: "海间联邦"

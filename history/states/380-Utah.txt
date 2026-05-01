@@ -11,8 +11,8 @@ state= {
 	}
 
 	history={
-		owner = ZZZ
-		add_core_of = ZZZ
+		owner = SPB
+		add_core_of = SPB
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -22,7 +22,7 @@ state= {
 		}
 	}
 	provinces={
-		1663 1740 1756 4668 4742 4865 7764 7818 10582 10651 10662 12573 12699 13153
+		1663 1740 1756 4668 4742 4865 7764 7818 10582 10651 10662 12573 12699 13153 7888
 	}
 
 	local_supplies=0.0 

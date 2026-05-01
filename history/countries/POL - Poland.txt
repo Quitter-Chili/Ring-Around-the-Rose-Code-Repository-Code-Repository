@@ -2,7 +2,10 @@
 set_cosmetic_tag = pol_lit_united
 oob = "POL_1936"
 
-
+create_faction = pol_allie
+add_to_faction = POL
+add_to_faction = LIT
+add_to_faction = UKR
 set_research_slots = 3
 
 # Starting tech

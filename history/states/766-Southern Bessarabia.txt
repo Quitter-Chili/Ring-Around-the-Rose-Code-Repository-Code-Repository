@@ -7,9 +7,7 @@ state=
 	state_category = rural
 	
 	history= {
-		victory_points = {
-			6727 1
-		}
+
 		add_core_of = POL
 		add_core_of = AUS
 		owner = POL

@@ -10,8 +10,8 @@ state={
 		victory_points = {
 			11597 1
 		}
-		owner = ROM
-		add_core_of = BUL
+		owner = GRE
+		add_core_of = GRE
 		add_core_of = ROM
 		buildings = {
 			infrastructure = 3

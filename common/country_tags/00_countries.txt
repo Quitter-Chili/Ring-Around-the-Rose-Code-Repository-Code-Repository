@@ -378,6 +378,7 @@ PRO = "countries/PRO.txt"
 BUR = "countries/BUR.txt"
 NOM = "countries/NOM.txt"
 MEA = "countries/MEA.txt"
+FFR = "countries/FFR.txt"
 #NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")
 
 KTO = "countries/KanTong.txt"

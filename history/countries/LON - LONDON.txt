@@ -3,6 +3,15 @@ set_autonomy = {
 	target = ENL
 	autonomy_state = autonomy_colony
 }
+set_autonomy = {
+	target = GLA
+	autonomy_state = autonomy_colony
+}
+
+set_autonomy = {
+	target = CAN
+	autonomy_state = autonomy_colony
+}
 add_ideas = {
 	LONDON_IDEAS
 	epoch_gear
@@ -80,7 +89,6 @@ set_research_slots = 4
 
 create_faction = lon_allie
 add_to_faction = LON
-add_to_faction = WLS
 add_to_faction = KER
 add_to_faction = YEK
 add_to_faction = GLA
@@ -120,7 +128,9 @@ set_politics = {
 set_popularities = {
 
 
-	Technical_socialism = 100
+	Technical_socialism = 62
+	fascism = 23
+	communism = 15
 
 }
 create_equipment_variant = {

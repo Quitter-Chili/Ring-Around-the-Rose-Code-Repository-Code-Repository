@@ -6,8 +6,8 @@ state={
 	}
 
 	history={
-		owner = YUG
-		add_core_of = YUG
+		owner = GRE
+		add_core_of = GRE
 		add_claim_by = BUL
 		buildings = {
 			infrastructure = 1

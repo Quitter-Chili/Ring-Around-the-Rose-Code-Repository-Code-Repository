@@ -13,6 +13,7 @@ state={
 
 	history={
 		owner = YEK
+		add_core_of = LON
 		victory_points = {
 			9379 10 
 		}

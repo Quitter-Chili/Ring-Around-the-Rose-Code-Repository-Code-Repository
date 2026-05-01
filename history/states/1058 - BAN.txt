@@ -6,8 +6,9 @@ state={
 	}
 
 	history={
-		owner = IDN
+		owner = HAN
 		add_core_of = AUS
+		add_core_of = HAN
 		add_core_of = IDN
 		victory_points = {
 			9347 20 # Hamburg

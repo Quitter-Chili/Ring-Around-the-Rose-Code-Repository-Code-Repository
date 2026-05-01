@@ -1,8 +1,8 @@
 ﻿capital = 24 # Paris/Ile de France
 
+set_oob = FRA_LAND
 
-
-starting_train_buffer = 2
+#starting_train_buffer = 2
 set_autonomy = {
 	target = ANG
 	autonomy_state = autonomy_personal_union
@@ -10,6 +10,22 @@ set_autonomy = {
 set_autonomy = {
 	target = COG
 	autonomy_state = autonomy_personal_union
+}
+set_autonomy = {
+	target = NOM
+	autonomy_state = autonomy_puppet
+}
+set_autonomy = {
+	target = PRO
+	autonomy_state =autonomy_puppet
+}
+set_autonomy = {
+	target = BUR
+	autonomy_state = autonomy_puppet
+}
+set_autonomy = {
+	target = MEA
+	autonomy_state = autonomy_puppet
 }
 
 
@@ -40,10 +56,14 @@ set_technology = {
 }
 
 
-
+create_faction = FRA_allie
+add_to_faction = FRA
 
 set_convoys = 300
-
+country_event = {
+	id = FRA_EU.1
+	hours = 2880
+}
 
 set_politics = {
 	ruling_party = democratic

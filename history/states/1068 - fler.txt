@@ -1,0 +1,32 @@
+state={
+	id=1068
+	name="STATE_1068"
+	resources={
+		coal = 12 #initial distribution
+	}
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		add_core_of = BGD
+	
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 2
+			
+		}
+		
+		
+		
+	}
+
+	provinces={
+		3650 641 9590 6639
+	}
+	manpower = 1057400
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+
+	local_supplies=0.0 
+}

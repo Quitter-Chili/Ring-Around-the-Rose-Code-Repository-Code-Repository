@@ -13,6 +13,7 @@ state = {
 
 		owner = BGD
 		add_core_of = BGD
+		add_core_of = BEL
 
 		victory_points = { 
 			516 30 

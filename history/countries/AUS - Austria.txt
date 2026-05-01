@@ -1,6 +1,6 @@
 ﻿capital = 4 # Vienna
 set_cosmetic_tag = AUS_GERMAN_EMPIRE
-
+set_oob = AUS_LAND
 
 set_autonomy = {
 	target = CMR

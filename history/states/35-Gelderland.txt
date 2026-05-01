@@ -5,6 +5,7 @@ state={
 	history={
 		owner = BGD
 		add_core_of = BGD
+		add_core_of = BEL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 5

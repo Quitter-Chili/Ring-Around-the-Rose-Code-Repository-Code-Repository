@@ -14,7 +14,14 @@ IF = {
 		set_oob = "HUN_1936"
 	}
 }
-
+set_autonomy = {
+	target = CRO
+	autonomy_state = autonomy_personal_union
+}
+set_autonomy = {
+	target = BOS
+	autonomy_state = autonomy_personal_union
+}
 IF = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "HUN_1936_air_bba"

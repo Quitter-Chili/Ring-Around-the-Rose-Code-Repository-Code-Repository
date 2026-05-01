@@ -7,6 +7,7 @@ state= {
 
 	history= {
 		owner = KER
+		add_core_of = LON
 		victory_points = { 540 10 }
 		victory_points = { 6526 1 }
 		buildings = {

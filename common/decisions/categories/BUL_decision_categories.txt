@@ -2,7 +2,7 @@
 BUL_FACTION = {
 	picture = GFX_decision_cat_picture_naval_treaties
 	allowed = {
-		is_ai = no
+		#is_ai = no
 		tag = BUL
 	}
 	priority = 100

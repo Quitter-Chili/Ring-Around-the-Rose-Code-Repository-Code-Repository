@@ -1,5 +1,5 @@
 ﻿capital = 797
-set_cosmetic_tag = BYZ_UNIFIED_neutrality
+#set_cosmetic_tag = BYZ_UNIFIED_neutrality
 oob = "GRE_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }

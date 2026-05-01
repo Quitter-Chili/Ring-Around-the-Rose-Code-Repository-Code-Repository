@@ -14,6 +14,7 @@ state= {
 	history=
 	{
 		owner = WLS
+		add_core_of = LON
 		victory_points = {
 			407 3 #Swansea
 		}

@@ -1,87 +1,8 @@
 ﻿capital = 6 # Brussels
-
-IF = {
-	limit = { 
-		has_dlc = "Gotterdammerung"
-		has_dlc = "La Resistance"
-		has_dlc = "No Compromise, No Surrender"
-	}
-	set_technology = {
-		armored_car1 = 1
-		rangers_tech = 1
-		BEL_chasseurs_ardennais_ncns = 1 
-	}
-	set_oob = "BEL_WW_1936_lar_ncns"	
-	ELSE_IF = {
-		limit = { 
-			has_dlc = "Gotterdammerung"
-			has_dlc = "No Compromise, No Surrender"
-		}
-		set_technology = {
-			rangers_tech = 1
-			BEL_chasseurs_ardennais_ncns = 1 
-		}
-		set_oob = "BEL_WW_1936_ncns"
-	}
-	ELSE_IF = {
-		limit = { 
-			has_dlc = "Gotterdammerung"
-			has_dlc = "La Resistance"
-		}
-		set_technology = {
-			armored_car1 = 1
-			BEL_chasseurs_ardennais = 1 
-		}
-		set_oob = "BEL_WW_1936_lar"
-	}
-	ELSE_IF = {
-		limit = {
-			has_dlc = "Gotterdammerung"
-			NOT = {
-				has_dlc = "La Resistance"
-			}
-		}
-		set_oob = "BEL_WW_1936"
-		set_technology = {
-			BEL_chasseurs_ardennais = 1 
-		}
-	}
-	ELSE_IF = {
-		limit = {
-			NOT = {
-				has_dlc = "Gotterdammerung"
-			}
-		}
-		set_oob = "BEL_1936"
-	}
-}
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = { bicycle_infantry = 1 }
-}
+#set_oob = BEL_LAND
 
 
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "BEL_1936_air_bba"
-	else = {
-		set_technology = {
-			early_fighter = 1
-		}
-		set_air_oob = "BEL_1936_air_legacy"
-	}
-}
 
-if = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	give_guarantee = FRA
-	give_guarantee = ENG
-}
 
 set_research_slots = 3
 set_stability = 0.7
@@ -105,64 +26,10 @@ set_technology = {
 
 set_grand_doctrine = grand_battleplan
 
-IF = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-	}
-	else = {
-		set_technology = {
-			gwtank = 1
-			basic_light_tank = 1
-			basic_light_td = 1
-		}
-	}
-}
 
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_destroyer = 1
-	}
-}
 
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		early_ship_hull_light = 1
-		basic_battery = 1
-	}
-}
 
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "BEL_1936_air_bba"
-		set_technology = {
-			aa_lmg = 1
-			engines_1 = 1
-			early_bombs = 1
-			aircraft_construction = 1
-			iw_small_airframe = 1
-			iw_medium_airframe = 1
-			iw_large_airframe = 1
-			bba_early_transport_plane = 1
-		}
-	else = {
-		set_air_oob = "BEL_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			cv_early_fighter = 1
-			cv_naval_bomber1 = 1
-			naval_bomber1 = 1
-			early_bomber = 1
-			CAS1 = 1
-			early_transport_plane = 1
-		}
-	}
-}
+
 
 ## VARIABLES ##
 

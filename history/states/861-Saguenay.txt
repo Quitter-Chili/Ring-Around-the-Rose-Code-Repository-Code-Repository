@@ -6,8 +6,8 @@ state = {
 	
 	history = {
 
-		owner = QUE
-		add_core_of = QUE
+		owner = CAN
+		add_core_of = CAN
 
 		buildings = {
 			infrastructure = 1

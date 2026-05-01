@@ -12,6 +12,7 @@ state={
 
 	history={
 		owner = WLS
+		add_core_of = LON
 		buildings = {
 			infrastructure = 4 #was: 8
 			arms_factory = 2
