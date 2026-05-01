@@ -6,7 +6,7 @@ state = {
 
 	history = {
 
-		owner = CMR
+		owner = GRE
 		add_core_of = CMR
 
 		buildings = {

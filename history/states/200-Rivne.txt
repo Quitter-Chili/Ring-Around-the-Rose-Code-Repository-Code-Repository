@@ -6,7 +6,7 @@ state = {
 
 	history = {
 
-		owner = SOV
+		owner = GRE
 		add_core_of = SOV
 
 		victory_points = {

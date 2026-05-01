@@ -332,7 +332,7 @@ set_popularities = {
 	communism = 17
 	neutrality = 38
 }
-
+puppet = TUN
 set_stability = 0.72
 set_war_support = 0.23
 set_convoys = 80

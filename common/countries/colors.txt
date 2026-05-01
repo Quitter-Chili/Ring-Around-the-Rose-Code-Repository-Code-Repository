@@ -145,10 +145,7 @@ TUR = {
 	color = rgb { 245 1 1 }
 	color_ui = rgb { 245 1 1 }
 }
-GRE = {
-	color = rgb { 157 30 30 }
-	color_ui = rgb { 157 30 30 }
-}
+
 ALB = {
 	color = rgb { 149 45 102 }
 	color_ui = rgb { 194 59 133 }

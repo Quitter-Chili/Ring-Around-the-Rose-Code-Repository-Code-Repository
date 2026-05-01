@@ -11,7 +11,7 @@ state={
 	state_category = town
 
 	history={
-		owner = EGY
+		owner = GRE
 		add_core_of = EGY
 		victory_points = {
 			9893 15

@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = COG
+		owner = GRE
 		add_core_of = COG
 		add_core_of = SPR
 
