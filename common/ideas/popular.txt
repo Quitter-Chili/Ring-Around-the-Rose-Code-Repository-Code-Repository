@@ -24,5 +24,27 @@ ideas = {
 				production_speed_arms_factory_factor = 0.2
 			}
 		}
+		ita_as_one = {
+
+			allowed = {
+				always = yes
+				tag = AUS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = generic_disjointed_gov
+			modifier = {
+				breakthrough_factor = 0.2
+				mobilization_speed = 0.2
+				army_attack_factor = 0.2
+				army_defence_factor = 0.4
+				planning_speed = 0.3
+				ai_focus_aggressive_factor = 0.8
+			}
+		}
 	}
 }

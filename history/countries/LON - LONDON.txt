@@ -156,7 +156,7 @@ create_country_leader = {
 	desc = "lon_bo_jue_desc"
 	picture = GFX_LON_BO_JUE
 	expire = "1965.1.1"
-	ideology = Technical_socialism
+	ideology = Technical_socialism_ism
 	traits = {
 		hurry_bo_jue
 		Progress_gradually

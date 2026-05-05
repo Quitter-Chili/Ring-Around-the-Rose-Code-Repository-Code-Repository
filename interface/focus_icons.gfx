@@ -1,0 +1,438 @@
+spriteTypes = {
+	spriteType = {
+		name = "afican_union"
+		texturefile = "gfx/interface/national_focus_icons/afican_union.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "aisa_trade"
+		texturefile = "gfx/interface/national_focus_icons/aisa_trade.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "annex_northamericanland"
+		texturefile = "gfx/interface/national_focus_icons/annex_northamericanland.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "aus_lon_faction"
+		texturefile = "gfx/interface/national_focus_icons/aus_lon_faction.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "Charge_towards_breakthroughagain"
+		texturefile = "gfx/interface/national_focus_icons/Charge_towards_breakthroughagain.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "chinese_bo_yi"
+		texturefile = "gfx/interface/national_focus_icons/chinese_bo_yi.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "england_dream"
+		texturefile = "gfx/interface/national_focus_icons/england_dream.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "England_reappears"
+		texturefile = "gfx/interface/national_focus_icons/England_reappears.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "first_meeting_country"
+		texturefile = "gfx/interface/national_focus_icons/first_meeting_country.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "freedom_ire"
+		texturefile = "gfx/interface/national_focus_icons/freedom_ire.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "king_s_king"
+		texturefile = "gfx/interface/national_focus_icons/king_s_king.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "last_hit"
+		texturefile = "gfx/interface/national_focus_icons/last_hit.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "make_a_union"
+		texturefile = "gfx/interface/national_focus_icons/make_a_unoin.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "north_ironwall"
+		texturefile = "gfx/interface/national_focus_icons/north_ironwall.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "old_king_promse"
+		texturefile = "gfx/interface/national_focus_icons/old_king_promse.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "Prepare_for_war"
+		texturefile = "gfx/interface/national_focus_icons/Prepare_for_war.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+	spriteType = {
+		name = "Prepare_for_war_shine"
+		texturefile = "gfx/interface/national_focus_icons/Prepare_for_war.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "rise_france"
+		texturefile = "gfx/interface/national_focus_icons/rise_france.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "second_meeting"
+		texturefile = "gfx/interface/national_focus_icons/second_meeting.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "Shield_of_Glory"
+		texturefile = "gfx/interface/national_focus_icons/Shield_of_Glory.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "Sword_of_Victory"
+		texturefile = "gfx/interface/national_focus_icons/Sword_of_Victory.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "west_to_east"
+		texturefile = "gfx/interface/national_focus_icons/west_to_east.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "world_is_ours"
+		texturefile = "gfx/interface/national_focus_icons/world_is_ours.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	################################
+
+
+
+
+
+
+
+	spriteType = {
+		name = "afican_union_shine"
+		texturefile = "gfx/interface/national_focus_icons/afican_union.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "aisa_trade_shine"
+		texturefile = "gfx/interface/national_focus_icons/aisa_trade.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "annex_northamericanland_shine"
+		texturefile = "gfx/interface/national_focus_icons/annex_northamericanland.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "aus_lon_faction_shine"
+		texturefile = "gfx/interface/national_focus_icons/aus_lon_faction.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "Charge_towards_breakthroughagain_shine"
+		texturefile = "gfx/interface/national_focus_icons/Charge_towards_breakthroughagain.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "chinese_bo_yi_shine"
+		texturefile = "gfx/interface/national_focus_icons/chinese_bo_yi.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "england_dream_shine"
+		texturefile = "gfx/interface/national_focus_icons/england_dream.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "England_reappears_shine"
+		texturefile = "gfx/interface/national_focus_icons/England_reappears.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "first_meeting_country_shine"
+		texturefile = "gfx/interface/national_focus_icons/first_meeting_country.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "freedom_ire_shine"
+		texturefile = "gfx/interface/national_focus_icons/freedom_ire.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "king_s_king_shine"
+		texturefile = "gfx/interface/national_focus_icons/king_s_king.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "last_hit_shine"
+		texturefile = "gfx/interface/national_focus_icons/last_hit.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "make_a_union_shine"
+		texturefile = "gfx/interface/national_focus_icons/make_a_unoin.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "north_ironwall_shine"
+		texturefile = "gfx/interface/national_focus_icons/north_ironwall.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "old_king_promse_shine"
+		texturefile = "gfx/interface/national_focus_icons/old_king_promse.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "Prepare_for_war"
+		texturefile = "gfx/interface/national_focus_icons/Prepare_for_war.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+	spriteType = {
+		name = "Prepare_for_war_shine"
+		texturefile = "gfx/interface/national_focus_icons/Prepare_for_war.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "rise_france_shine"
+		texturefile = "gfx/interface/national_focus_icons/rise_france.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "second_meeting_shine"
+		texturefile = "gfx/interface/national_focus_icons/second_meeting.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "Shield_of_Glory_shine"
+		texturefile = "gfx/interface/national_focus_icons/Shield_of_Glory.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "Sword_of_Victory_shine"
+		texturefile = "gfx/interface/national_focus_icons/Sword_of_Victory.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "west_to_east_shine"
+		texturefile = "gfx/interface/national_focus_icons/west_to_east.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "world_is_ours_shine"
+		texturefile = "gfx/interface/national_focus_icons/world_is_ours.dds"
+		noOfFrames = 1
+		alwaystransparent = no
+		legacy_lazy_load = yes
+		transparencecheck = no
+	}
+
+}

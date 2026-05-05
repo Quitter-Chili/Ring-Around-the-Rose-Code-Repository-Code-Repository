@@ -1201,3 +1201,4 @@
  TRIGGER_HAS_NOT_ACTIVE_FACTION_RULE: "$COUNTRY_OR_FACTION|H$未启用规则$RULE|H$"
  FRA_allie: "鸢尾协约"
  pol_allie: "海间联邦"
+ second_end: "第二次全国代表大会已结束"

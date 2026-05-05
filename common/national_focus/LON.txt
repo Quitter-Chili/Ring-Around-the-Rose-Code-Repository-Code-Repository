@@ -11,6 +11,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = Prepare_for_war
+		icon = Prepare_for_war
 		x = 3
 		y = 1
 		cost = 5
@@ -22,6 +23,7 @@ focus_tree = {
 	}
 	focus = {
 		id = make_a_unoin
+		icon = make_a_union
 		x = 2
 		y = 2
 		cost = 5
@@ -37,6 +39,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Charge_towards_breakthroughagain
+		icon = Charge_towards_breakthroughagain
 		x = 4
 		y = 2
 		cost = 5
@@ -51,6 +54,7 @@ focus_tree = {
 	}
 	focus = {
 		id = England_reappears
+		icon = England_reappears
 		x = 3
 		y = 3
 		cost = 5
@@ -69,6 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = first_meeting_country
+		icon = first_meeting_country
 		x = 3
 		y = 4
 		cost = 5
@@ -83,6 +88,7 @@ focus_tree = {
 	}
 	focus = {
 		id = england_dream
+		icon = england_dream
 		x = 1
 		y = 5
 		cost = 5
@@ -94,6 +100,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Sword_of_Victory
+		icon = Sword_of_Victory
 		x = 0
 		y = 6
 		cost = 5
@@ -105,6 +112,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Shield_of_Glory
+		icon = Shield_of_Glory
 		x = 2
 		y = 6
 		cost = 5
@@ -127,6 +135,7 @@ focus_tree = {
 	}
 	focus = {
 		id = last_hit
+		icon = last_hit
 		x = 1
 		y = 7
 		cost = 5
@@ -148,6 +157,7 @@ focus_tree = {
 	}
 	focus = {
 		id = old_king_promse
+		icon = old_king_promse
 		x = 0
 		y = 8
 		cost = 3
@@ -162,6 +172,7 @@ focus_tree = {
 	}
 	focus = {
 		id = freedom_ire
+		icon = freedom_ire
 		x = 2
 		y = 8
 		cost = 3
@@ -169,6 +180,9 @@ focus_tree = {
 		continue_if_invalid = no
 		prerequisite = {
 			focus = last_hit
+		}
+		mutually_exclusive = {
+			focus = old_king_promse
 		}
 		completion_reward = {
 			IRE = {
@@ -187,6 +201,7 @@ focus_tree = {
 	}
 	focus = {
 		id = second_meeting
+		icon = second_meeting
 		x = 1
 		y = 9
 		cost = 5
@@ -205,6 +220,7 @@ focus_tree = {
 	}
 	focus = {
 		id = world_is_ours
+		icon = world_is_ours
 		available = {
 			has_country_flag = second_end
 		}
@@ -219,6 +235,7 @@ focus_tree = {
 	}
 	focus = {
 		id = aus_lon_faction
+		icon = aus_lon_faction
 		x = 4
 		y = 6
 		cost = 5
@@ -236,6 +253,7 @@ focus_tree = {
 	}
 	focus = {
 		id = annex_northamericanland
+		icon = annex_northamericanland
 		x = 6
 		y = 6
 		cost = 5
@@ -254,6 +272,7 @@ focus_tree = {
 	}
 	focus = {
 		id = afican_union
+		icon =afican_union
 		x = 8
 		y = 6
 		cost = 5
@@ -265,6 +284,7 @@ focus_tree = {
 	}
 	focus = {
 		id = chinese_relation
+		icon =chinese_bo_yi
 		x = 10
 		y = 6
 		cost = 5
@@ -276,6 +296,7 @@ focus_tree = {
 	}
 	focus = {
 		id = north_ironwall
+		icon =north_ironwall
 		x = 4
 		y = 8
 		cost = 5
@@ -295,6 +316,7 @@ focus_tree = {
 	}
 	focus = {
 		id = west_to_east
+		icon = west_to_east
 		x = 6
 		y = 8
 		cost = 5
@@ -314,6 +336,7 @@ focus_tree = {
 	}
 	focus = {
 		id = king_s_king
+		icon =king_s_king
 		x = 8
 		y = 8
 		cost = 5
@@ -332,6 +355,7 @@ focus_tree = {
 	}
 	focus = {
 		id = aisa_trade
+		icon =aisa_trade
 		x = 10
 		y = 8
 		cost = 5
@@ -343,6 +367,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rise_france
+		icon = rise_france
 		x = 3
 		y = 11
 		cost = 5

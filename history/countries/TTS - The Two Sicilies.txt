@@ -7,7 +7,7 @@ set_war_support = 0.5
 add_ideas = {
 
 }
-
+set_oob = "TTS_LAND"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

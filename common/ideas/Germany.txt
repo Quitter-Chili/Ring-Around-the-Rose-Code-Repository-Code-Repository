@@ -1,0 +1,109 @@
+ideas = {
+	country = {
+		
+		GER_Habsburg = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = generic_disjointed_gov
+			modifier = {
+				stability_factor = -0.10
+				political_power_gain = -0.01
+				war_support_factor = 0.05
+				democratic_dirft = -0.02
+			}
+		}
+		GER_With_London = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = generic_disjointed_gov
+			modifier = {
+				war_support_factor = 0.10
+				political_power_gain = 0.03
+				justify_war_goal_time = 1.00
+			}
+		}
+		GER_small_countries = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = generic_disjointed_gov
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.10
+			}
+		}
+		GER_France_sever_diplomatic_relations = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = generic_disjointed_gov
+			modifier = {
+				war_support_factor = 0.20
+				custom_modifier_tooltip = GER_fuck_France_tt
+			}
+		}
+		GER_Prussia_good = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = generic_disjointed_gov
+			modifier = {
+				custom_modifier_tooltip = GER_Prussia_good_tt
+			}
+		}
+		GER_Eastern_threat = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = generic_disjointed_gov
+			modifier = {
+				war_support_factor = 0.10
+				stability_factor = -0.05
+			}
+		}
+	}
+}

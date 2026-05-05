@@ -10,7 +10,7 @@ state = {
 
 	history = {
 
-		owner = GRE
+		owner = CMR
 		add_core_of = CMR
 
 

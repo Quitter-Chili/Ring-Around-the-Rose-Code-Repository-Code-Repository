@@ -10,7 +10,7 @@ state = {
 	
 	history = {
 
-		owner = GRE
+		owner = COG
 		add_core_of = COG
 
 		IF = {

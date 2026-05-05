@@ -23,7 +23,6 @@ country_event = {
 		}
 		980 = { set_demilitarized_zone = yes }
 		1057= { set_demilitarized_zone = yes }
-		8= { set_demilitarized_zone = yes }
 		34= { set_demilitarized_zone = yes }
 		6= { set_demilitarized_zone = yes }
 		977= { set_demilitarized_zone = yes }
@@ -65,7 +64,6 @@ country_event = {
         name = BGD_EU.2.a
 		980 = { set_demilitarized_zone = no }
 		1057= { set_demilitarized_zone = no }
-		8= { set_demilitarized_zone = no }
 		34= { set_demilitarized_zone = no }
 		6= { set_demilitarized_zone = no }
 		977= { set_demilitarized_zone = no }
@@ -79,7 +77,6 @@ country_event = {
 			transfer_state = 35
 		}
 		IDN = {
-			transfer_state = 8
 			transfer_state = 1057
 			transfer_state = 980
 		}

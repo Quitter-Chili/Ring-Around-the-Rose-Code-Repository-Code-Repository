@@ -10,7 +10,7 @@ state = {
 	
 	history = {
 
-		owner = TUN
+		owner = TTS
 		add_core_of = TUN
 
 		

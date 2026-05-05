@@ -6,7 +6,14 @@ set_autonomy = {
 	target = CMR
 	autonomy_state = autonomy_personal_union
 }
-
+add_ideas = {
+	GER_Habsburg
+	GER_With_London
+	GER_small_countries
+	GER_France_sever_diplomatic_relations
+	GER_Prussia_good
+	GER_Eastern_threat
+}
 
 set_research_slots = 3
 
@@ -22,19 +29,21 @@ set_technology = {
 	gw_artillery = 1
 }
 
-
+recruit_character = AUS_Franz_Ferdinand
+#recruit_character = AUS_House_of_Lords
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = Ethnic_conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 48
-	fascism = 50
+	Ethnic_conservatism = 50
+	Conservative_Republicanism = 47
+	fascism = 1
 	democratic = 1
 	communism = 1
 }

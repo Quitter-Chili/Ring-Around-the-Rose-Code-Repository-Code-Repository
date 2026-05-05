@@ -29,6 +29,11 @@ country_event = {
 	
 	
 	}
+	PAP = {
+		give_military_access = {
+			tag = TTS
+		}
+	}
 		
 	}
 

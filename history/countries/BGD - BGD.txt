@@ -7,7 +7,7 @@ starting_train_buffer = 4
 set_oob = BGD_LAND
 country_event = {
 	id = BGD_EU.1
-	hours = 3200
+	days = 700
 }
 
 set_research_slots = 4

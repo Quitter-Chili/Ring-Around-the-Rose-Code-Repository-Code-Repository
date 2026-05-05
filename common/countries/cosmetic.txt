@@ -49,6 +49,10 @@ AUS_GERMAN_EMPIRE = {
 	color = rgb { 130 130 130 }
 	color_ui = rgb { 100 100 100 }
 }
+AUS_GERMAN_REPUBIC = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 100 100 100 }
+}
 AUS_NOT_WHITE = {	
 	color = rgb { 249 126 98 }
 	color_ui = rgb { 255 164 127 }

@@ -1,0 +1,42 @@
+characters = {
+	AUS_Franz_Ferdinand = {
+
+		name = AUS_Franz_Ferdinand
+
+		portraits = {
+			civilian = {
+				large = GFX_AUS_Franz_Ferdinand
+			}
+		}
+
+		country_leader = {
+			ideology = Ethnic_conservatism_ism
+			traits = {  }
+			expire = "1970.1.1.1"
+			id = -2
+		}
+
+	}
+	AUS_House_of_Lords = {
+
+		name = AUS_House_of_Lords
+
+		portraits = {
+			civilian = {
+				large = GFX_FRA_Charles_VIII
+			}
+		}
+
+		country_leader = {
+			ideology = Conservative_Republicanism_ism
+			traits = {  }
+			expire = "1970.1.1.1"
+			id = -3
+		}
+
+	}
+
+
+	
+
+}
