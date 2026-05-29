@@ -9,16 +9,14 @@ state = {
 		owner = GRE
 		add_core_of = SOV
 
-		victory_points = {
-			11405 1 # Zaporozhe
-		}
+		
 
 		buildings = {
 			infrastructure = 3 #was: 5
 			air_base = 3
 
 			# Dnieprostroi Hydroelectric Station
-			11405 = { dam = 1 }
+			
 			
 		}
 		
@@ -30,7 +28,8 @@ state = {
 	}
 
 	provinces = {
-		429 588 3399 3767 6596 9571 9729 11405 11700 
+		429 588  3767 6596 9571 9729  11700 3449 6776 3421 6420 6445
+		 
 	}
 
 	local_supplies = 0.0 

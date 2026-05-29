@@ -1,7 +1,7 @@
 state = {
 	id = 137
 	name = "STATE_137"
-	manpower = 1061607
+	manpower = 561607
 	
 	state_category = city
 
@@ -22,9 +22,7 @@ state = {
 			6704 1 # Yalta
 		}
 
-		victory_points = {
-			705 3 # Simferopol
-		}
+		
 
 		buildings = {
 
@@ -62,7 +60,8 @@ state = {
 	}
 
 	provinces = {
-		705 3686 3722 6704 6724 9677 9680 9718 11649 
+		
+		3686 6704 9680 
 	}
 
 	local_supplies = 10.0 

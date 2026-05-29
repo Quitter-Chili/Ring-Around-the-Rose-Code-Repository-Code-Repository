@@ -333,6 +333,7 @@ set_popularities = {
 	neutrality = 38
 }
 puppet = TUN
+puppet = KUW
 set_stability = 0.72
 set_war_support = 0.23
 set_convoys = 80

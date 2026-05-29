@@ -6,21 +6,23 @@ state = {
 	}
 
 	history = {
-		owner = KUB
+		owner = GRE
 		add_core_of = GRE
 		buildings = {
 			infrastructure = 2
 
 		}
 		victory_points = {
-			9663 1
+			705 3 # Simferopol
 		}
 	}
 
 	provinces = {
-		  3698 6692 6721 9649 9663 9674 11664 
+		   
+		   705 3722  6724 9677  9718 11649
 	}
-	manpower = 387990
+	
+	manpower = 487990
 	buildings_max_level_factor = 1.000
 	state_category = rural
 
