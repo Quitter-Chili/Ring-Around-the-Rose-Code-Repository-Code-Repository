@@ -13,9 +13,8 @@ state={
 	local_supplies=0.000
 	history={
 
+		owner = PAK
 		add_core_of = PAK
-		add_core_of = BLC
-		owner = RAJ
 
 		victory_points = {
 			12774 1 # Gwadar

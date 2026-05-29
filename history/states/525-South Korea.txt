@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = JAP
+		owner = KOR
 		add_core_of = KOR
 
 		buildings = {
@@ -26,7 +26,7 @@ state = {
 	}
 
 	provinces = {
-		1100 7125 7221 10036 
+		7125 9981 4004 11958
 	}
 
 	local_supplies = 0.0 

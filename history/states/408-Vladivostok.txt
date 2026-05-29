@@ -10,10 +10,8 @@ state = {
 	state_category = town
 
 	history={
-		owner = MAN
-		victory_points = {
-			957 15
-		}
+		owner = ZZZ
+		
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
@@ -24,11 +22,11 @@ state = {
 				naval_supply_hub = 1
 			}
 		}
-		add_core_of = MAN
+		add_core_of = ZZZ
 	}
 
 	provinces = {
-		664 681 810 837 957 3695 3723 3739 3753 3787 3811 3815 3843 3977 5427 6684 6686 6715 6833 6838 6961 6989 9639 9641 9762 9895 9926 11624 11626 11629 11643 11745 11750 11765 11777 11879 11904 
+		664 681 837 3695 3723 3739 3753 3811 6684 6686 6715 6833 9639 9641 9762 11624 11626 11629 11643 11745 11750 11765 11777 11904 
 	}
 
 	local_supplies = 0.0 

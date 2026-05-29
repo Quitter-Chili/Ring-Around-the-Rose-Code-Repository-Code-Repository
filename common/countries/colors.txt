@@ -36,8 +36,8 @@ KAZ = {
 	color_ui = rgb { 209 242 407 }
 }
 KKP = {
-	color = rgb { 172 172 172 }
-	color_ui = rgb { 115 116 116 }
+	color = rgb { 128 315 95 }
+	color_ui = rgb { 128 315 95 }
 }
 KYR = {
 	color = rgb { 160 144 31 }
@@ -98,8 +98,8 @@ BEL = { color 	 = rgb { 193 171 8  }
 HOL = {	color = rgb { 203 138 74 }
 		color_ui = rgb { 255 179 96 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
+CZE = {	color = rgb { 155 102 2 }
+		color_ui = rgb { 250 163 3 }
 }
 POL = {
 	color = rgb { 214 102 139 }
@@ -491,8 +491,8 @@ BLR = {
 	color_ui = rgb { 180 220 190 }
 }
 MAN = {
-	color = rgb { 255 120 71 }
-	color_ui = rgb { 255 120 71 }
+	color = rgb { 347 229 53 }
+	color_ui = rgb { 347 229 53 }
 }
 ANG = {
 	color = rgb { 37 140 61 }
@@ -532,8 +532,12 @@ PAK = {
 #    color_ui = rgb { 150 180 120 }
 #}
 KOR = {
-	color = rgb { 255  240  195 }
-	color_ui = rgb { 255 248 229 }	
+	color = rgb { 144 28 182 }
+	color_ui = rgb { 144 28 182 }	
+}
+KOT = {
+	color = rgb { 88 155 355 }
+	color_ui = rgb { 88 155 355 }	
 }
 ISR = {
 	color = rgb { 152  130  191 }
@@ -744,8 +748,8 @@ D50 = {
 	color_ui = rgb { 255 138 61 }
 }
 BAY = {
-	color = rgb { 233  231  246 }
-	color_ui = rgb { 233  231  246 }
+	color = rgb { 112 258 345 }
+	color_ui = rgb { 112 258 345 }
 }
 MEK = {
 	color = rgb { 186 245 86 }
@@ -1312,4 +1316,8 @@ FFR = {
 SPB = {
 	color = rgb { 255 191 53 }
 	color_ui = rgb { 255 191 53 }
+}
+WSD = {
+	color = rgb { 130 130 130 }
+	color_ui = rgb { 100 100 100 }
 }

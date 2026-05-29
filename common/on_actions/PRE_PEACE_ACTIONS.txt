@@ -1,0 +1,361 @@
+on_actions = {
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = PRE
+					}
+					ROOT = {
+						original_tag = SIL
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					64 = {set_demilitarized_zone = yes}
+					PRE = {
+						annex_country = { target = SIL transfer_troops = yes }
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = BAY
+					}
+					ROOT = {
+						original_tag = WUR
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					BAY = {
+						annex_country = { target = WUR transfer_troops = yes }
+						50 = { add_core_of = BAY }
+						978 = { add_core_of = BAY }
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = BAY
+					}
+					ROOT = {
+						original_tag = THU
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					BAY = {
+						annex_country = { target = THU transfer_troops = yes }
+						60 = { add_core_of = BAY }
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = BAY
+					}
+					ROOT = {
+						original_tag = HES
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					BAY = {
+						annex_country = { target = HES transfer_troops = yes }
+						55 = { add_core_of = BAY }
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = BAY
+					}
+					ROOT = {
+						original_tag = LOM
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					BAY = {
+						annex_country = { target = LOM transfer_troops = yes }
+						28 = { add_core_of = BAY }
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = BAY
+					}
+					ROOT = {
+						original_tag = RHI
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					BAY = {
+						annex_country = { target = RHI transfer_troops = yes }
+						42 = { add_core_of = BAY }
+						9 = { add_core_of = BAY }
+						1048 = { add_core_of = BAY }
+						51 = { add_core_of = BAY }
+						8 = { add_core_of = BAY }
+						set_cosmetic_tag = BAY_RED_IN
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = AUS
+					}
+					ROOT = {
+						original_tag = PRE
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					AUS = {
+						annex_country = { target = PRE transfer_troops = yes }
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = AUS
+					}
+					ROOT = {
+						original_tag = MEK
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					AUS = {
+						annex_country = { target = MEK transfer_troops = yes }
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = AUS
+					}
+					ROOT = {
+						original_tag = SAX
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					AUS = {
+						annex_country = { target = SAX transfer_troops = yes }
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = AUS
+					}
+					ROOT = {
+						original_tag = DEN
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					AUS = {
+						set_autonomy = {
+							target = DEN
+							autonomy_state = autonomy_colony
+						}
+						transfer_state = 58
+						transfer_state = 912
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = AUS
+					}
+					ROOT = {
+						original_tag = BGD
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+				
+					AUS = {
+						set_autonomy = {
+							target = BEL
+							autonomy_state = autonomy_colony
+						}
+						set_autonomy = {
+							target = FRA
+							autonomy_state = autonomy_colony
+						}
+					
+					}
+					BEL = {
+						transfer_state = 1057
+						transfer_state = 980
+						transfer_state = 34
+						transfer_state = 6
+						transfer_state = 977
+						set_cosmetic_tag = BEL_AUS
+					}
+					HOL = {
+						transfer_state = 35
+					}
+					FRA = {
+						transfer_state = 806
+						transfer_state = 31
+						transfer_state = 22
+						transfer_state = 32
+						transfer_state = 20
+						transfer_state = 19
+						transfer_state = 25
+						transfer_state = 26
+						transfer_state = 27
+						transfer_state = 1068
+						transfer_state = 30
+						transfer_state = 23
+						transfer_state = 33
+						transfer_state = 24
+						transfer_state = 27
+						transfer_state = 1069
+						transfer_state = 17
+						transfer_state = 18
+						transfer_state = 1070
+						transfer_state = 16
+						transfer_state = 15
+						transfer_state = 1066
+						transfer_state = 785
+						transfer_state = 29
+					}
+				}
+				
+			}
+		}
+	}
+}

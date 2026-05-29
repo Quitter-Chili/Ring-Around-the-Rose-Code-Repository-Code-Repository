@@ -2,9 +2,21 @@ MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
 }
+BAY_RED = {
+	color = rgb { 322 44 44 }
+	color_ui = rgb { 200  10  10 }
+}
+BAY_RED_IN = {
+	color = rgb { 322 44 44 }
+	color_ui = rgb { 200  10  10 }
+}
 ENL_LON = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
+}
+EST_LAT = {
+	color = rgb { 152 152 152 }
+	color_ui = rgb { 255 255 255 }
 }
 IRE_LON = {
     color = rgb { 201 56 93 }
@@ -13,6 +25,10 @@ IRE_LON = {
 BRATION_SCO = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
+}
+pol_lat = {
+	color = rgb { 113 47 9 }
+    color_ui = rgb { 124 16 193 }
 }
 USA_LON = {
     color = rgb { 201 56 93 }
@@ -49,6 +65,10 @@ AUS_GERMAN_EMPIRE = {
 	color = rgb { 130 130 130 }
 	color_ui = rgb { 100 100 100 }
 }
+BEL_AUS = {
+	color = rgb { 130 130 130 }
+	color_ui = rgb { 100 100 100 }
+}
 AUS_GERMAN_REPUBIC = {
 	color = rgb { 150 150 150 }
 	color_ui = rgb { 100 100 100 }
@@ -60,6 +80,10 @@ AUS_NOT_WHITE = {
 
 SCA_UNIFIED = {
 	color = rgb { 0 102 204 }
+	color_ui = rgb { 0 102 204 }
+}
+BGD_NEWFRANCE = {
+	color = rgb { 113 219 328 }
 	color_ui = rgb { 0 102 204 }
 }
 

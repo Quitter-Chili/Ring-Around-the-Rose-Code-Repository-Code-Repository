@@ -10,6 +10,7 @@ state={
 			406 1
 		}
 		owner = LIT
+		add_core_of = BLR
 		add_core_of = LIT
 		buildings = {
 			infrastructure = 2
@@ -17,7 +18,7 @@ state={
 	}
 
 	provinces={
-		233 277 358 406 6340 9341 11391 
+		233 277 358 406 6340 9341 11341 9304 9236
 	}
 
 	local_supplies=0.0 

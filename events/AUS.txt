@@ -28,12 +28,173 @@ country_event = {
     fire_only_once = yes
   	option = { 
         name = AUS_RAR.2.a
-		#country_event = {
-		#	id = FRA_EU.2
-		#	hours = 24
-		#}
+		country_event = {
+			id = AUS_RAR.3
+			hours = 24
+		}
 		AUS = {
 			set_cosmetic_tag = AUS_GERMAN_REPUBIC
 		}
+	}
+}
+country_event = {
+	id = AUS_RAR.3
+    title = AUS_RAR.3.t
+    desc = AUS_RAR.3.d
+	#picture = GFX_LON_COMBACK
+    is_triggered_only = yes
+    fire_only_once = yes
+  	option = { 
+        name = AUS_RAR.3.a
+		country_event = {
+			id = AUS_RAR.4
+			hours = 24
+		}
+		50 = {set_demilitarized_zone = yes}
+		978 = {set_demilitarized_zone = yes}
+		60 = {set_demilitarized_zone = yes}
+		55 = {set_demilitarized_zone = yes}
+		42 = {set_demilitarized_zone = yes}
+		8 = {set_demilitarized_zone = yes}
+		1048 = {set_demilitarized_zone = yes}
+		28 = {set_demilitarized_zone = yes}
+		1047 = {set_demilitarized_zone = yes}
+		51 = {set_demilitarized_zone = yes}
+		57 = {set_demilitarized_zone = yes}
+		1065 = {set_demilitarized_zone = yes}
+		909 = {set_demilitarized_zone = yes}
+		66 = {set_demilitarized_zone = yes}
+		9 = {set_demilitarized_zone = yes}
+		75 = {set_demilitarized_zone = yes}
+		74 = {set_demilitarized_zone = yes}
+		69 = {set_demilitarized_zone = yes}
+		972 = {set_demilitarized_zone = yes}
+		AUS = {
+			set_cosmetic_tag = AUS_GERMAN_REPUBIC
+			
+		}
+		BAY = {
+			transfer_state = 52
+			transfer_state = 53
+			transfer_state = 54
+			set_cosmetic_tag = BAY_RED
+			
+		}
+	}
+}
+country_event = {
+	id = AUS_RAR.4
+    title = AUS_RAR.4.t
+    desc = AUS_RAR.4.d
+	#picture = GFX_LON_COMBACK
+    is_triggered_only = yes
+    fire_only_once = yes
+  	option = { 
+        name = AUS_RAR.4.a
+		country_event = {
+			id = AUS_RAR.5
+			hours = 24
+		}
+		50 = {set_demilitarized_zone = no}
+		978 = {set_demilitarized_zone = no}
+		60 = {set_demilitarized_zone = no}
+		55 = {set_demilitarized_zone = no}
+		42 = {set_demilitarized_zone = no}
+		8 = {set_demilitarized_zone = no}
+		1048 = {set_demilitarized_zone = no}
+		28 = {set_demilitarized_zone = no}
+		1047 = {set_demilitarized_zone = no}
+		51 = {set_demilitarized_zone = no}
+		57 = {set_demilitarized_zone = no}
+		1065 = {set_demilitarized_zone = no}
+		909 = {set_demilitarized_zone = no}
+		66 = {set_demilitarized_zone = no
+		add_core_of = PRE}
+		9 = {set_demilitarized_zone = no}
+		75 = {set_demilitarized_zone = no}
+		#64 = {set_demilitarized_zone = yes}
+		72 = {set_demilitarized_zone = yes}
+		160 = {set_demilitarized_zone = yes}
+		804 = {set_demilitarized_zone = yes}
+		850 = {set_demilitarized_zone = yes}
+		#74 = {set_demilitarized_zone = no}
+		#69 = {set_demilitarized_zone = no}
+		#972 = {set_demilitarized_zone = no}
+		AUS = {
+			set_cosmetic_tag = AUS_GERMAN_REPUBIC_DANGER
+			
+		}
+		BAY = {
+			transfer_state = 52
+			transfer_state = 53
+			transfer_state = 54
+			load_oob = "BAY_LAND"
+		}
+		WUR = {
+			transfer_state = 50
+			transfer_state = 978
+
+		}
+		LOM = {
+			transfer_state = 28
+		}
+		RHI = {
+			transfer_state = 8
+			transfer_state = 42
+			transfer_state = 51
+			transfer_state = 1047
+			transfer_state = 1048
+
+		}
+		THU = {
+			transfer_state = 60
+			
+		}
+		HES = {
+			transfer_state = 55
+		}
+		SIL = {
+			transfer_state = 66
+		}
+		CZE = {
+			transfer_state = 9
+			transfer_state = 75
+		}
+		WSD = {
+			transfer_state = 1065
+			transfer_state = 57
+			transfer_state = 909
+			transfer_state = 1058
+			57 = {add_core_of = WSD}
+			1065 = {add_core_of = WSD}
+			1058 = {add_core_of = WSD}
+			909 = {add_core_of = WSD}
+		}
+	}
+}
+country_event = {
+	id = AUS_RAR.5
+    title = AUS_RAR.5.t
+    desc = AUS_RAR.5.d
+	#picture = GFX_LON_COMBACK
+    is_triggered_only = yes
+    fire_only_once = yes
+  	option = { 
+        name = AUS_RAR.5.a
+		country_event = {
+			id = AUS_RAR.6
+			hours = 24
+		}
+		PRE = {
+			declare_war_on = { target = SIL type = take_state_focus }
+		}
+		BAY = {
+			declare_war_on = { target = WUR type = take_state_focus }
+			declare_war_on = { target = THU type = take_state_focus }
+			declare_war_on = { target = LOM type = take_state_focus }
+			declare_war_on = { target = HES type = take_state_focus }
+			declare_war_on = { target = RHI type = take_state_focus }
+		}
+		
 	}
 }

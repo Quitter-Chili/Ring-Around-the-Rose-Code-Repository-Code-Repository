@@ -1,0 +1,39 @@
+state={
+	id=1074
+	name="STATE_1074"
+	resources={
+		coal = 12 #initial distribution
+	}
+
+	history={
+		owner = MAN
+		add_core_of = MAN
+	
+		
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 2
+			898 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			957 25
+		}
+		victory_points = {
+			898 1 # Seishin
+		}	
+	
+	
+	}
+
+	provinces={
+		6944 898
+	}
+	manpower = 1057400
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+
+	local_supplies=0.0 
+}

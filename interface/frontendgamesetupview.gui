@@ -7,39 +7,7 @@ guiTypes = {
 	}
 
 	### bookmark entry
-	containerWindowType = {
-		name = "bookmark_entry"
-		position = { x= 0 y = 0 }
-		size = { width=232 height=211}
-		clipping = no
-		fade_time = 500
-		fade_type = linear
-
-		background = {
-			name = "background"
-			quadTextureSprite = "GFX_bookmark_entry_bg"
-			clicksound = click_checkbox
-		}
-
-		iconType = {
-			name = "icon"
-			spriteType = "GFX_select_date_1936"
-			position = { x = 27 y = 28 }
-			alwaystransparent = yes
-		}
-
-		instantTextBoxType = {
-			name = "date"
-			position = { x = 22 y = 147 }
-			font = "hoi_20b"
-			borderSize = {x = 0 y = 0}
-			text = "FE_BOOKMARK_DATE"
-			maxWidth = 185
-			maxHeight = 20
-			fixedsize = yes
-			format = centre
-		}
-	}
+	
 
 	containerWindowType = {
 		name = "spirit_idea_entry"
@@ -127,18 +95,18 @@ guiTypes = {
 	containerWindowType = {
 		name = "country_entry"
 
-		buttonType = {
-			name = "country_leader"
-			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 17 y = 22 }
-			scale=0.75
-			clicksound = click_checkbox
-		}
+		#buttonType = {
+		#	name = "country_leader"
+		#	quadTextureSprite ="GFX_leader_unknown"
+		#	position = { x = 17 y = 22 }
+		#	scale=0.75
+		#	clicksound = click_checkbox
+	#	}
 
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 34 y = 188 }
+			position = { x = 34 y = 15 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -159,7 +127,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "country_name"
-			position = { x = 8 y = 247 }
+			position = { x = 8 y = 77 }
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 131
@@ -670,16 +638,17 @@ guiTypes = {
 
 		containerWindowType = {
 			name ="countries"
-			position = { x = 15 y = 45 }
-			size = { width = -15 height = 120}
+			position = { x = 385 y = 75 }
+			#size = { width = -15 height = 120}
 
 			gridboxType = {
 				name ="countries_grid"
 				position = { x = 0 y = 0 }
 				size = { width = 100% height = 100% }
-				slotsize = { width = 150 height = 0 }
+				slotsize = { width = 150 height = 120 }
 				add_horizontal = yes
-				max_slots_vertical = 1
+				max_slots_horizontal = 3
+				max_slots_vertical = 2
 				format = "UPPER_LEFT"
 			}
 
@@ -711,10 +680,10 @@ guiTypes = {
 				name ="countries_grid"
 				position = { x = 0 y = 0 }
 				size = { width = 100% height = 100% }
-				slotsize = { width = 52 height = 38 }
+				slotsize = { width = 104 height = 38 } #before width=52
 				add_horizontal = yes
-				max_slots_horizontal = 23
-				max_slots_vertical = 2
+				max_slots_horizontal = 3
+				max_slots_vertical = 4
 				format = "UPPER_LEFT"
 			}
 		}

@@ -11,7 +11,7 @@ state = {
 	}
 	
 	history = {
-		owner = BRM
+		owner = YUN
 		add_core_of = BRM
 
 		buildings = {

@@ -1,0 +1,196 @@
+music_station = "Kards_BGM"
+music = {
+    song = "Sendo-Kawai-Ya"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Bond Street Dance"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Blutrote Rosen"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Wenn Ich Die Blonde Inge"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "In the Mood"
+    chance = {
+      modifier = { factor = 100 }
+    }
+}
+
+music = {
+    song = "Londonderry Air"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Moonlight Serenade"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Song of the Volga Boatman"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Ich liebe die Sonne, den Mond und die Sterne"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "It's a Long Way to Tipperary"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Kalinka"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Oiwake"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Dreaming of Home and Mother"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Kojo-no-Tsuki"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Ouryokkou-Bushi"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Tairyo-Bushi"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "O Sole Mio"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Blutrote Rosen"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Lili Marleen"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Moj_Karabin"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Blue Theme"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "On the Hills of Manchuria"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Santa_Lucia"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Star Dust"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Tribute to Miller"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Tesoro Mio"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "We'll Meet Again"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}
+
+music = {
+    song = "Volaga Boatmen"
+    chance = {
+      modifier = { factor = 1 }
+    }
+}

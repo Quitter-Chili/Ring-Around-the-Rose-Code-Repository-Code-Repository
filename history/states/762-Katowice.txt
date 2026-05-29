@@ -15,12 +15,17 @@ state = {
 	history = {
 		
 		owner = LIT
+		victory_points = {
+			3392 1
+		}
 		add_core_of = POL
 		add_core_of = LIT
 		victory_points = {
 			3254 1
 		}
-		
+		victory_points = {
+			11301 3
+		}
 
 		buildings = {
 			infrastructure = 3 #was: 6
@@ -30,7 +35,7 @@ state = {
 	}
 
 	provinces = {
-		3254 400 347 11247
+		3254 400 347 11247 11357 11301 290 3392
 	}
 
 	local_supplies = 0.0 

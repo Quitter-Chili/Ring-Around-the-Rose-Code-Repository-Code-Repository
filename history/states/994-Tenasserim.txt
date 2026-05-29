@@ -7,7 +7,7 @@ state = {
 	
 	history = {
 	
-		owner = BRM
+		owner = SIA
 		add_core_of = BRM
 
 		victory_points = {

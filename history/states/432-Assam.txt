@@ -14,7 +14,8 @@ state={
 	local_supplies=0.000
 	history={
 
-		owner = RAJ
+		owner = MPU
+		add_core_of = MPU
 		buildings = {
 			infrastructure = 1
 		}

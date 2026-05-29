@@ -1,5 +1,9 @@
 ﻿l_simp_chinese:
 #伦敦尼姆
+ pol_PRE_united: "普鲁士-波兰联邦"
+ pol_lat: "库尔兰"
+ BGD_NEWFRANCE: "新法兰西"
+ BEL_AUS: "弗兰德斯-瓦隆"
  BRATION_LON: "不列颠帝国"
  AUS_PUP_F: "法国占领区"
  BRATION_SCO: "苏格兰边区"
@@ -236,5 +240,28 @@ GER_Prussia_good_desc: "普鲁士在19世纪以前一直被当作“蛮子”来
 GER_Prussia_good_tt: "§R与普鲁士的关系修正+20！§!"
 GER_Eastern_threat: "东方威胁"
 GER_Eastern_threat_desc: "波兰这个国家犹如星星之火，一瞬间就可以燃烧整个欧陆，在波兰扩张的过程中，我们无疑成为了第二批受害者。我们屈辱的割让了加利西亚和洛多梅里亚，匈牙利也在波兰的支持下独立，我们在巴尔干的影响力进一步缩小，也许，我们帝国会在波兰人民和军队的波浪声中分崩离析...."
+Cooperative_combat: "协同作战"
 
 
+amary_reuse: "军队改革"
+bigger_factory: "调整军工生产线"
+army_comapy: "工业联合体"
+boom_boom_boom: "大炮阵学说"
+tank_theoy: "新型机动作战学说"
+make_money_more_boom: "加大资金投入"
+train_release_boom: "预备炮兵生产"
+more_boom_boom: "扩大火炮产线"
+boom_rase_large: "炮火连击"
+boom_as_traffic: "机动火炮"
+
+factory_tank_money: "资助坦克技术"
+plent_of_tanks: "产线技术改进"
+more_faster_tank: "快速推进"
+Armoured_attack_tank: "机动装甲"
+
+Expand_support_equipment_production: "扩大支援装备生产"
+Competitive_strategy: "竞争战法"
+Form_a_task_force: "组建预备队"
+Expand_factory_production: "步枪兵团"
+
+Military_Glory: "军队荣光"

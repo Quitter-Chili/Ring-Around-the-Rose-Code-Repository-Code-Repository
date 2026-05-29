@@ -1,0 +1,168 @@
+music = {
+    name = "Bond Street Dance"
+    file = "Bond Street Dance.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Sendo-Kawai-Ya"
+    file = "Bob Kojima _ Aiko Bingo _ Harold Sasahara _ Henry Tamanaha - Sendo-Kawai-Ya_L.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Blutrote Rosen"
+    file = "Blutrote Rosen.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Wenn Ich Die Blonde Inge"
+    file = "Wenn Ich Die Blonde Inge.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "In the Mood"
+    file = "In the Mood.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Londonderry Air"
+    file = "Londonderry Air.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Moonlight Serenade"
+    file = "Moonlight Serenade.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Song of the Volga Boatman"
+    file = "Song of the Volga Boatman.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Ich liebe die Sonne, den Mond und die Sterne"
+    file = "Ich liebe die Sonne, den Mond und die Sterne.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "It's a Long Way to Tipperary"
+    file = "It's a Long Way to Tipperary.ogg"
+    volume = 0.65
+}
+
+
+music = {
+    name = "Kalinka"
+    file = "Kalinka.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Oiwake"
+    file = "Oiwake.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Dreaming of Home and Mother"
+    file = "Dreaming of Home and Mother.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Kojo-no-Tsuki"
+    file = "Kojo-no-Tsuki.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Ouryokkou-Bushi"
+    file = "Ouryokkou-Bushi.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Tairyo-Bushi"
+    file = "Tairyo-Bushi.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "O Sole Mio"
+    file = "O Sole Mio.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Blutrote Rosen"
+    file = "Blutrote Rosen.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Lili Marleen"
+    file = "Lili Marleen.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Moj_Karabin"
+    file = "Moj_Karabin.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Blue Theme"
+    file = "Blue Theme.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "On the Hills of Manchuria"
+    file = "On the Hills of Manchuria.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Santa_Lucia"
+    file = "Santa_Lucia.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Star Dust"
+    file = "Tommy Dorsey - Star Dust_L.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Tribute to Miller"
+    file = "Tribute to Miller.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Tesoro Mio"
+    file = "Tesoro Mio.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "We'll Meet Again"
+    file = "We'll Meet Again.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Volaga Boatmen"
+    file = "Volaga Boatmen.ogg"
+    volume = 0.65
+}

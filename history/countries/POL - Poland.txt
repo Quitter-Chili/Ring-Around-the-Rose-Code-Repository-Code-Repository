@@ -1,11 +1,12 @@
 ﻿capital = 10
-set_cosmetic_tag = pol_lit_united
+#set_cosmetic_tag = pol_lit_united
 oob = "POL_1936"
 
 create_faction = pol_allie
 add_to_faction = POL
 add_to_faction = LIT
 add_to_faction = UKR
+add_to_faction = LAT
 set_research_slots = 3
 
 # Starting tech
@@ -23,31 +24,29 @@ set_technology = {
 	synth_oil_experiments = 1
 	basic_train = 1
 }
-
-
-
-
-
-
-
-
-
-
-
-set_convoys = 10
-
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1935.9.8"
-	election_frequency = 36
-	elections_allowed = no
+	ruling_party = Moderate_monarchism
+	last_election = "1935.3.31"
+	election_frequency = 48
+	elections_allowed = yes
 }
+
+
 set_popularities = {
-	democratic = 32
-	fascism = 11
-	communism = 19
-	neutrality = 38
+	democratic = 10
+	fascism = 0
+	communism = 26
+	neutrality = 22
+	Moderate_monarchism = 42
 }
+
+
+
+
+
+
+
+
 
 recruit_character = POL_ignacy_moscicki
 recruit_character = POL_wladyslaw_sikorski
@@ -106,7 +105,16 @@ recruit_character = POL_vladislav_korchits
 recruit_character = POL_wojtek
 
 
-
+create_country_leader = {
+	name = "Józef_Klemens_Piłsudski"
+#	desc = "POLITICS_THEMISTOKLIS_SOFOULIS_DESC"
+	picture = GFX_Józef_Klemens_Piłsudski
+	expire = "1965.1.1"
+	ideology = Moderate_monarchism_ism
+	traits = {
+	#	professional_crisis_solver
+	}
+}
 
 
 

@@ -1,0 +1,37 @@
+state={
+	id=1071
+	name="STATE_1071"
+	resources={
+		coal = 12 #initial distribution
+	}
+
+	history={
+		owner = KTO
+		add_core_of = KTO
+		add_core_of = SPB
+		victory_points = {
+			7315 10
+		}
+		victory_points = {
+			3513 1 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 2
+			
+		}
+		
+		
+		
+	}
+
+	provinces={
+		10157 7315 7386 10271 10242 4296 4398 7442 7255 7398 3513 4274 10151 3471 11733 528 4328 10183 12211 4380 12281 11495 505
+	}
+	manpower = 1057400
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+
+	local_supplies=0.0 
+}

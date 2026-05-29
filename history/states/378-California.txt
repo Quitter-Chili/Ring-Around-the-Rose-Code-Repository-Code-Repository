@@ -12,7 +12,8 @@ state={
 	}
 
 	history={
-		owner = SPB
+		owner = KTO
+		add_core_of = KTO
 		add_core_of = SPB
 		buildings = {
 			infrastructure = 3 #was: 6

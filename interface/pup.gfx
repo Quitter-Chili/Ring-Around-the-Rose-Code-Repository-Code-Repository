@@ -97,4 +97,9 @@ spriteTypes = {
 		name = "GFX_AUS_Franz_Ferdinand"
 		texturefile = "gfx/leaders/AUS/AUS_Franz_Ferdinand.png"
 	}
+	spriteType = {
+		name = "GFX_Józef_Klemens_Piłsudski"
+		texturefile = "gfx/leaders/POL/Józef_Klemens_Piłsudski.png"
+	}
+
 }

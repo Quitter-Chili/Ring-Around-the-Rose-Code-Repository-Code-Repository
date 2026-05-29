@@ -1,5 +1,5 @@
 ﻿capital = 808
-
+set_cosmetic_tag = pol_lat
 oob = "LAT_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }

@@ -105,5 +105,33 @@ ideas = {
 				stability_factor = -0.05
 			}
 		}
+		Cooperative_combat = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = generic_disjointed_gov
+			modifier = {
+				industrial_capacity_factory = 0.2
+				production_factory_efficiency_gain_factor = 0.2
+				production_factory_max_efficiency_factor = 0.2
+				line_change_production_efficiency_factor = 0.2
+				army_attack_factor = 0.25
+				army_defence_factor = 0.25
+				army_speed_factor = 0.3
+				planning_speed = 0.2
+				breakthrough_factor = 0.15
+				army_org_factor = 0.2
+				stability_weekly = 0.01
+				production_speed_buildings_factor = 0.35
+
+			}
+		}
 	}
 }

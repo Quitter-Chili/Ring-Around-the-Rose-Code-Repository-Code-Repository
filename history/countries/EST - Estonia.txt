@@ -1,5 +1,5 @@
-﻿capital = 812
-
+﻿capital = 808
+set_cosmetic_tag = EST_LAT
 oob = "EST_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }

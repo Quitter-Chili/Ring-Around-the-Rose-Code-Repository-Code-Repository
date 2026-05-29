@@ -12,8 +12,8 @@ state = {
 
 	history = {
 
-		owner = HOL
-		add_core_of = CHI
+		owner = KTO
+		add_core_of = KTO
 		add_core_of = PRC
 		add_core_of = FOR
 

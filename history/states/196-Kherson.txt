@@ -12,7 +12,7 @@ state = {
 	history = {
 
 		owner = GRE
-		add_core_of = GRE
+		add_core_of = SOV
 
 		victory_points = {
 			721 1 # Kherson

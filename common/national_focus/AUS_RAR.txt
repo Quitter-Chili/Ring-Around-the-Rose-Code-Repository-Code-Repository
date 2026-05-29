@@ -1,0 +1,307 @@
+focus_tree = {
+	id = AUS
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = AUS
+		}
+	}
+	continuous_focus_position = { x = 20 y = 1600 }
+	default = no
+	focus = {
+		id = amary_reuse
+		x = 4
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+	}
+	focus = {
+		id = bigger_factory
+		x = 3
+		y = 2
+		cost = 4
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = amary_reuse
+		}
+	}
+	focus = {
+		id = army_comapy
+		x = 5
+		y = 2
+		cost = 4
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = amary_reuse
+		}
+	}
+	focus = {
+		id = boom_boom_boom
+		x = 1
+		y = 3
+		cost = 2
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		mutually_exclusive = {
+			focus = tank_theoy
+		}
+		prerequisite = {
+			focus = bigger_factory
+		}
+		prerequisite = {
+			focus = army_comapy
+		}
+	}
+	focus = {
+		id = tank_theoy
+		x = 7
+		y = 3
+		cost = 2
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		mutually_exclusive = {
+			focus = boom_boom_boom
+		}
+		prerequisite = {
+			focus = bigger_factory
+		}
+		prerequisite = {
+			focus = army_comapy
+		}
+	}
+	focus = {
+		id = make_money_more_boom
+		x = 0
+		y = 4
+		cost = 2
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = boom_boom_boom
+		}
+	}
+	focus = {
+		id = train_release_boom
+		x = 2
+		y = 4
+		cost = 2
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = boom_boom_boom
+		}
+	}
+	focus = {
+		id = more_boom_boom
+		x = 0
+		y = 5
+		cost = 2
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = make_money_more_boom
+		}
+	}
+	focus = {
+		id = boom_rase_large
+		x = 2
+		y = 5
+		cost = 2
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = train_release_boom
+		}
+	}
+	focus = {
+		id = boom_as_traffic
+		x = 1
+		y = 6
+		cost = 3
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = more_boom_boom
+		}
+		prerequisite = {
+			focus = boom_rase_large
+		}
+	}
+	focus = {
+		id = factory_tank_money
+		x = 6
+		y = 4
+		cost = 2
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = tank_theoy
+		}
+	}
+	focus = {
+		id = plent_of_tanks
+		x = 6
+		y = 5
+		cost = 2
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = factory_tank_money
+		}
+	}
+	focus = {
+		id = more_faster_tank
+		x = 8
+		y = 5
+		cost = 2
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = Competitive_strategy
+		}
+	}
+	focus = {
+		id = Armoured_attack_tank
+		x = 7
+		y = 6
+		cost = 3
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = plent_of_tanks
+		}
+		prerequisite = {
+			focus = more_faster_tank
+		}
+	}
+	focus = {
+		id = Expand_support_equipment_production
+		x = 4
+		y = 5
+		cost = 2
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = Form_a_task_force
+		}
+	}
+	focus = {
+		id = Competitive_strategy
+		x = 8
+		y = 4
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = tank_theoy
+		}
+	}
+	focus = {
+		id = Form_a_task_force
+		x = 4
+		y = 4
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = boom_boom_boom
+			focus = tank_theoy
+		}
+		
+	}
+	focus = {
+		id = Expand_factory_production
+		x = 4
+		y = 6
+		cost = 3
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = Expand_support_equipment_production
+		}
+	}
+	focus = {
+		id = Military_Glory
+		x = 4
+		y = 7
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = boom_as_traffic
+			focus = Armoured_attack_tank
+		}
+		prerequisite = {
+			focus = Expand_factory_production
+		}
+		
+	}
+	focus = {
+		id = war_PLAN
+		x = 13
+		y = 1
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			AUS = {
+				add_ideas = {
+					Cooperative_combat
+				}
+			}
+		}
+		
+	}
+	focus = {
+		id = MAKE_GER_UNION
+		x = 13
+		y = 2
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = war_PLAN
+		}
+		
+	}
+	focus = {
+		id = POL_SIL_AUS
+		x = 13
+		y = 3
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = MAKE_GER_UNION
+		}
+		
+	}
+	focus = {
+		id = DEN_WAR_PLAN
+		x = 13
+		y = 4
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = POL_SIL_AUS
+		}
+		
+	}
+	focus = {
+		id = north_eu_war
+		x = 13
+		y = 5
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		prerequisite = {
+			focus = DEN_WAR_PLAN
+		}
+		
+	}
+}

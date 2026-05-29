@@ -11,16 +11,14 @@ state = {
 
 	history = {
 
-		owner = JAP
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = ZZZ
+		add_core_of = ZZZ
 
 		1936.1.1 = {
 			IF = {
 				limit = {
 					has_dlc = "No Compromise, No Surrender"
 				}
-				add_core_of = HBC
 			}
 		}
 

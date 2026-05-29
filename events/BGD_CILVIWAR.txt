@@ -38,7 +38,9 @@ country_event = {
 		18 = {
 			add_core_of = FFR
 		}
-		
+		PRE = {
+			set_cosmetic_tag = pol_PRE_united
+		}
 		
 	}
 
@@ -87,6 +89,39 @@ country_event = {
 		BGD = {
 			declare_war_on = { target = FFR type = take_state_focus }
 			declare_war_on = { target = BEL type = take_state_focus }
+		}
+		
+		
+	}
+
+
+}
+country_event = {
+	id = BGD_EU.3
+    #picture = 1
+    title = BGD_EU.3.t
+    desc = BGD_EU.3.d
+	
+
+    is_triggered_only = yes
+   
+   
+    fire_only_once = yes
+    
+	
+
+	
+	
+    option = { 
+        name = BGD_EU.3.a
+	
+		BGD = {
+			set_cosmetic_tag = BGD_NEWFRANCE
+			annex_country = { target = FRA transfer_troops = yes }
+			transfer_state = 15
+		}
+		LON = {
+			remove_from_faction = BGD
 		}
 		
 		
