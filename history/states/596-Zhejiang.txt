@@ -6,13 +6,10 @@ state = {
 
 	history = {
 
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = MLN
+		add_core_of = MLN
 		
-		victory_points = { 
-			9974 1 # Ningbo
-		}
+		
 
 		victory_points = { 
 			7191 1 # Hangzhou

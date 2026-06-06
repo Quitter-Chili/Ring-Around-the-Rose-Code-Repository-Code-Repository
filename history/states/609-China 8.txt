@@ -11,16 +11,10 @@ state = {
 
 	history = {
 
-		owner = ZZZ
-		add_core_of = ZZZ
+		owner = BLH
+		add_core_of = BLH
 
-		1936.1.1 = {
-			IF = {
-				limit = {
-					has_dlc = "No Compromise, No Surrender"
-				}
-			}
-		}
+	
 
 		buildings = {
 			infrastructure = 3 # was: 5

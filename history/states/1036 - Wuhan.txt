@@ -4,9 +4,8 @@ state = {
 
 	history = {
 
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = SAK
+		add_core_of =SAK
 
 		buildings = {
 			infrastructure = 2 #was 2

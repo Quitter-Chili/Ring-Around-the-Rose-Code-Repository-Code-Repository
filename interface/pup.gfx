@@ -102,4 +102,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/POL/Józef_Klemens_Piłsudski.png"
 	}
 
+
+
+	spriteType = {
+		name = "GFX_no_gaverment"
+		texturefile = "gfx/no_goverment.png"
+	}
 }

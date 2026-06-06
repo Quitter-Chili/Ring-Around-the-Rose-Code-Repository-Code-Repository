@@ -1,1 +1,4 @@
+CHK = "countries/CHK.txt"
+BLH = "countries/BLH.txt"
+PEK = "countries/PEK.txt"
 SPB = "countries/SPB.txt"

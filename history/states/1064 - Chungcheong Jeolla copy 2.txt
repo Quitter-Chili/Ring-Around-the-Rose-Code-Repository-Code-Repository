@@ -12,7 +12,9 @@ state = {
 	history = {
 
 		owner = KTO
-
+		victory_points = { 
+			9974 1 # Ningbo
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1 

@@ -3,6 +3,11 @@ has_second_leader = {
 		has_country_flag = France_Poincare
 	}
 }
+no_goverment = {
+	OR = {
+		has_country_flag = no_goverment_place
+	}
+}
 defined_text = {
 	name = second_leader_gettext
 	text = {

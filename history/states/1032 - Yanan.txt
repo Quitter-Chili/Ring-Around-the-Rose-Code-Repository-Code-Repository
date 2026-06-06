@@ -7,9 +7,8 @@ state = {
 
 	history = {
 
-		owner = PRC
-		add_core_of = PRC
-		add_core_of = CHI
+		owner = NXM
+		add_core_of = NXM
 
 		1936.1.1 = {
 			IF = {

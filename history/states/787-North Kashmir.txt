@@ -9,7 +9,7 @@ state={
 		victory_points = {
 			1910 1
 		}
-		owner = KAS
+		owner = TIB
 		add_core_of = KAS
 		buildings = {
 			infrastructure = 1

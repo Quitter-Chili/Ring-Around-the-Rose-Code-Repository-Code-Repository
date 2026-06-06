@@ -7,9 +7,8 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = TIB
+		add_core_of = QIY
 
 		victory_points = {
 			4999 1 # Kangding 

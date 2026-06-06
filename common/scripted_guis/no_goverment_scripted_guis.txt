@@ -1,0 +1,13 @@
+scripted_gui = {
+	political_attached_window = {
+		context_type = selected_country_context
+		window_name = "no_goverment_gui"
+		parent_window_token = selected_country_view_diplomacy
+
+		visible = {
+			THIS = {
+				has_country_flag = no_goverment_place
+			}
+		}
+	}
+}

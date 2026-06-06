@@ -11,19 +11,10 @@ state = {
 	
 	history = {
 
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = SND
+		add_core_of = SND
 
-		1936.1.1 = {
-			IF = {
-				limit = {
-					has_dlc = "No Compromise, No Surrender"
-				}
-				transfer_state_to = SND
-				add_core_of = SND
-			}
-		}
+	
 
 		victory_points = {
 			1104 2 # Yantai

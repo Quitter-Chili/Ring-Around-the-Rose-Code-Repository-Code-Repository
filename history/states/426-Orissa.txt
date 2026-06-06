@@ -13,8 +13,8 @@ state={
 	}
 
 	history={
-		owner = PAK
-		add_core_of = PAK
+		owner = HYD
+		add_core_of = HYD
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

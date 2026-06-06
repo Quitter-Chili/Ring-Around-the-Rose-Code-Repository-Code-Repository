@@ -8,12 +8,8 @@ state={
 	
 	
 	history = {
-
-		owner = SHX
-		add_core_of = SHX
-		add_core_of = CHI
-		add_core_of = PRC
-		add_core_of = MEN
+		owner = XSM
+		add_core_of = XSM
 
 		victory_points = {
 			3427 1 # Ordos

@@ -266,6 +266,13 @@ focus_tree = {
 		prerequisite = {
 			focus = war_PLAN
 		}
+		completion_reward = {
+			AUS = {
+				declare_war_on = { target = SAX type = take_state_focus }
+				declare_war_on = { target = PRE type = take_state_focus }
+				declare_war_on = { target = MEK type = take_state_focus }
+			}
+		}
 		
 	}
 	focus = {
@@ -277,6 +284,11 @@ focus_tree = {
 		continue_if_invalid = no
 		prerequisite = {
 			focus = MAKE_GER_UNION
+		}
+		completion_reward = {
+			AUS = {
+				transfer_state = 67
+			}
 		}
 		
 	}
@@ -290,6 +302,11 @@ focus_tree = {
 		prerequisite = {
 			focus = POL_SIL_AUS
 		}
+		completion_reward = {
+			AUS = {
+				declare_war_on = { target = DEN type = take_state_focus }
+			}
+		}
 		
 	}
 	focus = {
@@ -301,6 +318,11 @@ focus_tree = {
 		continue_if_invalid = no
 		prerequisite = {
 			focus = DEN_WAR_PLAN
+		}
+		completion_reward = {
+			AUS = {
+				declare_war_on = { target = NOR type = take_state_focus }
+			}
 		}
 		
 	}

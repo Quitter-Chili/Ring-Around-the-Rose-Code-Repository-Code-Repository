@@ -179,6 +179,9 @@ on_actions = {
 				limit ={
 					FROM = {
 						original_tag = AUS
+						NOT = {
+							has_completed_focus = DEN_WAR_PLAN
+						}
 					}
 					ROOT = {
 						original_tag = PRE
@@ -193,6 +196,11 @@ on_actions = {
 				FROM = {
 					AUS = {
 						annex_country = { target = PRE transfer_troops = yes }
+					}
+					PRE = {
+						transfer_state = 5
+						transfer_state = 763
+						transfer_state = 188
 					}
 
 				}
@@ -279,6 +287,36 @@ on_actions = {
 						}
 						transfer_state = 58
 						transfer_state = 912
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = AUS
+					}
+					ROOT = {
+						original_tag = NOR
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					AUS = {
+						set_autonomy = {
+							target = NOR
+							autonomy_state = autonomy_colony
+						}
 					}
 
 				}
