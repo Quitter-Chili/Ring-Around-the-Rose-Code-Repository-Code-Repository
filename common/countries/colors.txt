@@ -56,12 +56,12 @@ PRE = {
 	color_ui = rgb { 2 24 137 }
 }
 KAZ = {
-	color = rgb { 52 307 425 }
-	color_ui = rgb { 209 242 407 }
+	color = rgb { 115 133 144 }
+	color_ui = rgb { 115 133 144 }
 }
 KKP = {
-	color = rgb { 128 315 95 }
-	color_ui = rgb { 128 315 95 }
+	color = rgb { 63 130 34 }
+	color_ui = rgb { 34 74 18 }
 }
 KYR = {
 	color = rgb { 160 144 31 }
@@ -101,8 +101,8 @@ ENG = {
 	color_ui = rgb { 255 73 121 }
 }
 SOV = {
-	color = rgb { 38 127 0 }
-	color_ui = rgb { 38 127 0 }
+	color = rgb { 34 74 18 }
+	color_ui = rgb { 34 74 18 }
 }
 SWE = {
 	color = rgb { 36 132 247 }
@@ -202,8 +202,8 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 58 193 0 }
-	color_ui = rgb { 58 193 0 }
+	color = rgb { 147 200 3 }
+	color_ui = rgb { 139 206 46 }
 }
 AFG = {
 	color = rgb { 64 160 167 }
@@ -395,10 +395,7 @@ RAJ = {
 	color_ui = rgb { 226  135  40 }
 }
 
-CRO = {
-	color = rgb { 230  70  180 }
-	color_ui = rgb { 230 255 122 }
-}
+
 
 PRC = {
 	color = rgb { 245 12 55 }
@@ -793,7 +790,7 @@ WUR = {
 	color_ui = rgb { 255 204 153 }
 }
 CRO = {
-	color = rgb { 0 114 255 }
+	color = rgb { 162 298 5 }
 	color_ui = rgb { 0 114 255 }
 }
 BOS = {
@@ -829,8 +826,8 @@ CIN = {
 	color_ui = rgb { 0 153 0 }
 }
 DAG = {
-	color = rgb { 0 204 255 }
-	color_ui = rgb { 0 163 204 }
+	color = rgb { 134 11 131 }
+	color_ui = rgb { 134 11 13 }
 }
 BYA = {
 	color = rgb { 0 64 255 }

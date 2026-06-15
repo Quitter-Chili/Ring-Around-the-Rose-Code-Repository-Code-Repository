@@ -184,6 +184,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = old_king_promse
 		}
+		ai_will_do = {
+			factor = 100 
+		}
 		completion_reward = {
 			IRE = {
 				transfer_state = 113
@@ -380,9 +383,9 @@ focus_tree = {
 			focus = north_ironwall
 		}
 		completion_reward = {
-			LON = {
-				declare_war_on = { target = FRA type = take_state_focus }
-			}
+		#	LON = {
+			#	declare_war_on = { target = FRA type = take_state_focus }
+		#	}
 		}
 		
 	}

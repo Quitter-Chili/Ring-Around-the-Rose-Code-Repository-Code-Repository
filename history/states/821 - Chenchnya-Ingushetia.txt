@@ -11,7 +11,7 @@ state = {
 	}
 
 	history = {
-		owner = CIN
+		owner = DAG
 		buildings = {
 			infrastructure = 2
 		}

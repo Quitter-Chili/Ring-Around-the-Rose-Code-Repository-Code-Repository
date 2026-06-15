@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = KBK
+		owner = DAG
 		buildings = {
 			infrastructure = 2
 

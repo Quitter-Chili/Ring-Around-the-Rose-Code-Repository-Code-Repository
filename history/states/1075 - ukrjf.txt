@@ -1,0 +1,34 @@
+state={
+	id=1075
+	name="STATE_1075"
+	resources={
+		coal = 12 #initial distribution
+	}
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+		add_core_of = SOV
+		victory_points = {
+			3568 3
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 2
+		
+			
+		}
+	
+	
+	}
+
+	provinces={
+		11557 489 3568 6532
+	}
+	manpower = 105740
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+
+	local_supplies=0.0 
+}

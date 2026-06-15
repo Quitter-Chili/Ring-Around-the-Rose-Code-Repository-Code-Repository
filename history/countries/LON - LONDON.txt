@@ -75,11 +75,8 @@ set_technology = {
 	basic_machine_tools = 1 
 	concentrated_industry = 1 
 	basic_ship_hull_light
-	basic_ship_hull_heavy
 	early_ship_hull_carrier
 	basic_ship_hull_heavy
-	basic_ship_hull_heavy
-	cat_torpedoes
 }
 
 set_research_slots = 4

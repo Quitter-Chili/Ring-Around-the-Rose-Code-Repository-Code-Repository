@@ -1,0 +1,17 @@
+﻿focus_tree = {
+	id = hungarian_focus1
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 100
+			tag = HUN
+			always = YES
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1600 }
+}

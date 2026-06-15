@@ -229,7 +229,9 @@ country_event = {
 		}
 		option = { 
 			name = LON_RAR.8.b
-		
+			ai_will_do = {
+				factor = 100
+			}
 			country_event = {
 				id = LON_RAR.9
 				hours = 5

@@ -1,0 +1,27 @@
+# Default Army HQ templates, gated on TAOG DLC.
+# To add a country-specific HQ template, add a new `if` block below and add the tag to the generic fallback's NOT list.
+every_possible_country = {
+	limit = { has_dlc = "Thunder at Our Gates" }
+	division_template = {
+			name = "Field Army Headquarters"
+			template_counter = 121
+			is_army_hq = yes
+
+			regiments = {
+				hq_motorized = { x = 0 y = 0 }
+				hq_motorized = { x = 0 y = 1 }
+				hq_motorized = { x = 0 y = 2 }
+			}
+
+			support = {
+				hq_support_company = { x = 0 y = 0 }
+				hq_naval_liaison = { x = 0 y = 1 }
+				hq_air_liaison = { x = 0 y = 2 }
+				# hq_logistics added via on_research_complete on tech_logistics_company
+			}
+		}
+
+
+
+	
+}

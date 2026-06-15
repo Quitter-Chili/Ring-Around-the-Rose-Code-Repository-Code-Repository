@@ -34,6 +34,10 @@ on_actions = {
 						transfer_state = 1070
 						transfer_state = 1069
 						transfer_state = 1068
+						country_event = {
+							id = BGD_EU.2
+							days = 30
+						}
 					}
 					LON = {
 						transfer_state = 15
