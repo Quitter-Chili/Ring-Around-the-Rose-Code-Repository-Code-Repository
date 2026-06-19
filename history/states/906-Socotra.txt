@@ -5,8 +5,8 @@ state={
 	state_category = small_island
 
 	history={
-		owner = ETH
-		add_core_of = ETH
+		owner = GRE
+		add_core_of = GRE
 		buildings = {
 			infrastructure = 1
 			
