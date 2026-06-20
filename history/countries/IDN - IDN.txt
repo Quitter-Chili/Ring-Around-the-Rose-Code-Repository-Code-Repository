@@ -1,16 +1,14 @@
-capital = 8 #lux
+capital = 8
 
 
-#set_oob = "LON_LONDON"
-starting_train_buffer = 4
-set_naval_oob = "LON_sea"
+
 
 add_ideas = {
 	Industrial_land
 }
 set_research_slots = 4
 
-# Starting tech
+
 
 set_party_name = { ideology = Technical_socialism long_name = IDN_Technical_socialism_party name = IDN_Technical_socialism_party }
 
@@ -32,13 +30,4 @@ set_popularities = {
 }
 
 
-create_country_leader = {
-	name = "LAO_BAN"
-	desc = "no"
-	#picture = GFX_portrait_Konrad_Adenauer
-	expire = "1965.1.1"
-	ideology = Technical_socialism
-	traits = {
-	}
-}
 

@@ -1,0 +1,6 @@
+NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP = "玫瑰花环"
+NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP_NAME = "玫瑰花环"
+NDefines.NGame.HANDS_OFF_START_TAG = "ZZZ"
+NDefines.NGame.START_DATE = "1920.1.1.12"
+NDefines.NGame.END_DATE = "1936.1.1.12"
+NDefines.NDiplomacy.TENSION_TIME_SCALE_START_DATE = "1920.1.1.12"

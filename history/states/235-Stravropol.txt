@@ -10,8 +10,8 @@ state={
 	}
 
 	history={
-		owner = SOV
-		add_core_of = SOV
+		owner = DAG
+		add_core_of = DAG
 		buildings = {
 			infrastructure = 2
 			air_base = 2

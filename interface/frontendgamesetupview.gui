@@ -7,7 +7,40 @@ guiTypes = {
 	}
 
 	### bookmark entry
-	
+	containerWindowType = {
+		name = "bookmark_entry"
+		position = { x= 130 y = 0 }
+		size = { width=232 height=211}
+		clipping = no
+		fade_time = 500
+		fade_type = linear
+
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_bookmark_entry_bg"
+			clicksound = click_checkbox
+		}
+
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_select_date_1936"
+			position = { x = 27 y = 28 }
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "date"
+			position = { x = 22 y = 147 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "FE_BOOKMARK_DATE"
+			maxWidth = 185
+			maxHeight = 20
+			fixedsize = yes
+			format = centre
+		}
+	}
+
 
 	containerWindowType = {
 		name = "spirit_idea_entry"
@@ -95,13 +128,13 @@ guiTypes = {
 	containerWindowType = {
 		name = "country_entry"
 
-		#buttonType = {
-		#	name = "country_leader"
-		#	quadTextureSprite ="GFX_leader_unknown"
-		#	position = { x = 17 y = 22 }
-		#	scale=0.75
-		#	clicksound = click_checkbox
-	#	}
+		buttonType = {
+			name = "country_leader"
+			quadTextureSprite ="GFX_leader_unknown"
+			position = { x = 17 y = 22 }
+			scale=0
+			clicksound = click_checkbox
+		}
 
 		iconType = {
 			name = "country_flag"
@@ -117,12 +150,12 @@ guiTypes = {
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
 		}
-		
-		buttonType = {
-			name = "country_shine"
-			quadTextureSprite = "GFX_country_selection_entry_shine"
-			position = { x=0 y =0 }
-			clicksound = click_checkbox
+
+		iconType = {
+			name = "new_content"
+			position = { x = 110 y = 180 }
+			spriteType = "GFX_unplayed_content_notification"
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
@@ -158,11 +191,11 @@ guiTypes = {
 			clicksound = click_checkbox
 		}
 
-		buttonType = {
-			name = "country_shine"
-			quadTextureSprite = "GFX_minor_country_selector_shine"
-			position = { x=0 y =0 }
-			clicksound = click_checkbox
+		iconType = {
+			name = "new_content"
+			position = { x = 100 y = 15 }
+			spriteType = "GFX_unplayed_content_notification"
+			alwaystransparent = yes
 		}
 	}
 
@@ -184,15 +217,30 @@ guiTypes = {
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
 		}
-		
-		buttonType = {
-			name = "country_shine"
-			quadTextureSprite = "GFX_mini_country_selector_shine"
-			position = { x=0 y =0 }
-			clicksound = click_checkbox
+
+		iconType = {
+			name = "new_content"
+			position = { x = 42 y = 0 }
+			spriteType = "GFX_unplayed_content_notification"
+			alwaystransparent = yes
 		}
 	}
 
+	### country filter
+	containerWindowType = {
+		name = "country_filter"
+		size = { width = 149 height = 33 }
+
+		buttonType = {
+			name = "button"
+			quadTextureSprite = "GFX_country_filter_entry"
+			buttonText = "FILTER"
+			buttonFont = "hoi_16mbs"
+			clicksound = click_default
+			oversound = ui_menu_over
+			frame = 2
+		}
+	}
 
 	### LOAD GAME
 	containerWindowType = {
@@ -524,7 +572,7 @@ guiTypes = {
 				name ="bookmarks_grid"
 				position = { x = 0 y = 0 }
 				size = { width = 100%% height = 100%% }
-				slotsize = { width = 260 height = 0 }
+				slotsize = { width = 9999 height = 0 }
 				add_horizontal = yes
 				max_slots_vertical = 1
 				format = "UPPER_LEFT"
@@ -674,7 +722,7 @@ guiTypes = {
 			name ="countries_mini"
 			position = { x = 11 y = 338 }
 			size = { width = -15 height = 120}
-			
+
 
 			gridboxType = {
 				name ="countries_grid"
@@ -802,7 +850,7 @@ guiTypes = {
 				format = left
 			}
 		}
-		
+
 		iconType = {
 			name = "minor_country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
@@ -816,7 +864,7 @@ guiTypes = {
 				spriteType = "GFX_minor_portrait_overlay"
 				position = { x= 280 y = 430 }
 		}
-		
+
 		instantTextBoxType = {
 			name = "nation_title"
 			position = { x = 442 y = 421 }
@@ -891,6 +939,46 @@ guiTypes = {
 			maxWidth = 380
 			maxHeight = 30
 			format = left
+		}
+		dropDownBoxType = {
+			name = "more_countries"
+			position = { x = 10 y = 412 }
+
+			expandButton = {
+				name = "expand_button"
+				position = { x = 1168 y = -4 }
+				quadTextureSprite = "GFX_peace_drop_down_button"
+				clicksound = click_default
+			}
+
+			expandedWindow = {
+				name = "expanded_window"
+				position = { x=0 y= -300 }
+				show_position = { x = 0 y = 25 }
+				show_animation_type = decelerated
+				hide_animation_type = accelerated
+				animation_time = 300
+				size = { width=1205 height=58 }	# dynamically resized in code using countries_mini_expanded's slot size
+				verticalScrollbar = "right_vertical_slider"
+				scroll_wheel_factor = 50
+				smooth_scrolling = yes
+				margin = { top = 7 bottom = 7 right = 6 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_1b_thin_border"
+				}
+
+				gridBoxType = {
+					name = "countries_mini_expanded"
+					position = { x = 8 y = 0 }
+					size = { width = 199 height = 100%% }
+					slotsize = { width = 52 height = 38 }
+					add_horizontal = yes
+					max_slots_horizontal = 22
+					format = "UPPER_LEFT"
+				}
+			}
 		}
 	}
 

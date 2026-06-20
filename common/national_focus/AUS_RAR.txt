@@ -1,5 +1,5 @@
 focus_tree = {
-	id = AUS
+	id = AUS_focus_rar
 	country = {
 		factor = 0
 		modifier = {
@@ -245,6 +245,14 @@ focus_tree = {
 		x = 13
 		y = 1
 		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				has_war = yes  
+				factor = 50   	
+			}
+		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
@@ -252,6 +260,7 @@ focus_tree = {
 				add_ideas = {
 					Cooperative_combat
 				}
+				load_focus = AUS_focus_rar
 			}
 		}
 		
