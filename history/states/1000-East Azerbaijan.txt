@@ -9,7 +9,7 @@ state={
 	
 	state_category = town
 	history={
-		owner = PER
+		owner = AZR
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
@@ -17,13 +17,16 @@ state={
 		victory_points = {
 			1896 5 
 		}
+		victory_points = {
+			4901 3
+		}
 		add_core_of = PER
 		add_core_of = KUR
 		add_core_of = AZR
 	}
 
 	provinces={
-		1896 2071 4755 4825 12793
+		1896 2071 4755 4825 12793 8125 10454 4901 4553 10523
 	}
 
 	local_supplies=4.0 

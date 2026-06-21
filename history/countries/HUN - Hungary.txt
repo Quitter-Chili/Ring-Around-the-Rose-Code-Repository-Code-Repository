@@ -4,10 +4,7 @@ set_autonomy = {
 	target = CRO
 	autonomy_state = autonomy_personal_union
 }
-set_autonomy = {
-	target = BOS
-	autonomy_state = autonomy_personal_union
-}
+
 
 
 

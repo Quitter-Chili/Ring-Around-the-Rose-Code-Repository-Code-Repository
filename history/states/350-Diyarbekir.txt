@@ -4,8 +4,8 @@ state={
 	name="STATE_350"
 
 	history={
-		owner = GRE
-		add_core_of = GRE
+		owner = KUR
+		add_core_of = KUR
 		victory_points = {
 			4512 5 
 		}
@@ -16,27 +16,22 @@ state={
 			12387 1 
 		}
 		victory_points = {
-			7620 10
+			6883 1
+		}
+		victory_points = {
+			1549 1
 		}
 		buildings = {
 			infrastructure = 2
 			air_base = 2
 
 		}
-		if = {
-			limit = {
-				has_dlc = "Battle for the Bosporus"
-			}
-		}
-		if = {
-			limit = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-			}
-		}
+		
 	}
 
 	provinces={
-		4512 9823 11759 11871 12387 12416 7620 9912
+		4512 9823 11759 11871 12387 12416  6883 1578 1549 10804
+		 
 	}
 	manpower=571935
 	state_category=town

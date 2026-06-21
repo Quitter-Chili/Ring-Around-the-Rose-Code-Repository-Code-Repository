@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner =AUS
+		owner =POR
 		add_core_of = TML
 
 		victory_points = {

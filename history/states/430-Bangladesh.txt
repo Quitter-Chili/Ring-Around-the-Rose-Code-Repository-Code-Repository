@@ -3,10 +3,13 @@ state={
 	name="STATE_430"
 
 	history={
-		owner = BAN
+		owner = GRE
 		add_core_of = BAN
 		victory_points = {
 			11929 1 
+		}
+		victory_points = {
+			12366 1
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -21,7 +24,7 @@ state={
 	}
 
 	provinces={
-		2843 4162 4616 7078 7124 7179 7662 9935 9991 9993 10035 10389 10416 10443 11911 11929 11968 12010 12423 
+		2843 4162 4616 7078 7124  7662 9935  9993 10035 10389 10416 10443 11911 11929 11968  12423 1497 12366
 	}
 	manpower=31973300
 	buildings_max_level_factor=1.000

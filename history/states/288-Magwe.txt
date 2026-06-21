@@ -13,7 +13,7 @@ state = {
 	
 	history = {
 
-		owner = MPU
+		owner = BRM
 		add_core_of = BRM
 
 		victory_points = {

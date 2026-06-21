@@ -400,3 +400,4 @@ set_popularities = {
 		retire_character = IRQ_ghazi_i
 	}
 }
+set_cosmetic_tag = IRQ_RAR

@@ -1,9 +1,9 @@
 state = {
 	id = 320
 	name = "STATE_320"
-	manpower = 286410
+	manpower = 15791700
 
-	state_category = enclave
+	state_category = town
 
 	history = {
 
@@ -23,7 +23,7 @@ state = {
 
 	}
 
-	provinces = { 10149 }
+	provinces = { 10149 12180 10152 1430 4365 4321 7340 1228 7297 4237 10255 10001 11978 12462 }
 
 	local_supplies = 0.0 
 }

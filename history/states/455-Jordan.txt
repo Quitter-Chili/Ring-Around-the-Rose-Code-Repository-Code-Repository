@@ -1,7 +1,7 @@
 state = {
 	id = 455
 	name = "STATE_455"
-	manpower = 932000
+	manpower = 4000
 	
 	state_category = rural
 
@@ -13,9 +13,7 @@ state = {
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			4115 = {
-				naval_base = 1
-			}
+			
 		}
 
 		
@@ -23,7 +21,7 @@ state = {
 	}
 
 	provinces = {
-		1544 4440 4562 4603
+		8101
 	}
 
 	local_supplies = 0.0 

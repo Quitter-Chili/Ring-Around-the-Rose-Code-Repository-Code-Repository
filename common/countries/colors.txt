@@ -270,7 +270,7 @@ HON = {
 	color_ui = rgb { 128 145 65 }
 }
 IRQ = {
-	color = rgb { 178 114 99 }
+	color = rgb { 103 20 41 }
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
@@ -443,7 +443,7 @@ JOR = {
 }
 
 SYR = {
-	color = rgb { 100  100  150 }
+	color = rgb { 140 36 72 }
 	color_ui = rgb { 100  100  150 }
 }
 
@@ -463,17 +463,17 @@ UKR = {
 }
 
 AZR = {
-	color = rgb { 69  151  49 }
+	color = rgb { 158 25 32 }
 	color_ui = rgb { 69  151  49 }
 }
 
 GEO = {
-	color = rgb { 255  150  150 }
+	color = rgb { 200 80 80 }
 	color_ui = rgb { 255  204  204 }
 }
 
 ARM = {
-	color = rgb { 176  102  180 }
+	color = rgb { 182 45 1 }
 	color_ui = rgb { 176  102  180 }
 }
 
@@ -483,7 +483,7 @@ LAO = {
 }
 
 INS = {
-	color = rgb { 40  50  120 }
+	color = rgb { 212 137 63 }
 	color_ui = rgb { 40  50  120 }
 }
 
@@ -794,7 +794,7 @@ CRO = {
 	color_ui = rgb { 0 114 255 }
 }
 BOS = {
-	color = rgb { 364 407 4 }
+	color = rgb { 78 11 55 }
 	color_ui = rgb { 364 407 4 }
 }
 SHL = {
@@ -826,7 +826,7 @@ CIN = {
 	color_ui = rgb { 0 153 0 }
 }
 DAG = {
-	color = rgb { 134 11 131 }
+	color = rgb { 105 101 192 }
 	color_ui = rgb { 134 11 13 }
 }
 BYA = {
@@ -1203,7 +1203,7 @@ BLC = {
 	color_ui = rgb { 38 77 0 }	
 }
 KUR = {
-	color = rgb { 234 179 30 }
+	color = rgb { 182 93 1 }
 	color_ui = rgb { 255 153 0 }	
 }
 

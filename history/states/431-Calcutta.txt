@@ -8,8 +8,8 @@ state={
 
 	history = {
 
-		owner = PAK
-		add_core_of = PAK
+		owner = GRE
+		add_core_of = BAN
 
 		buildings = {
 			infrastructure = 3 # was: 5

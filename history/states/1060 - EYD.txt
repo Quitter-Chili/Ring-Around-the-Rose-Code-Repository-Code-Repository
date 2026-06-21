@@ -13,6 +13,9 @@ state={
 			infrastructure = 5
 			arms_factory = 3
 			industrial_complex = 6
+			4115 = {
+				naval_base = 1
+			}
 		}
 		victory_points = {
 			7151 2 # Amman
@@ -24,7 +27,7 @@ state={
 	}
 
 	provinces={
-		7170 7001 7151 4574 10089 4591 4017 11976 4115
+		7170 7001 7151 4574 10089 4591 4017 11976 4115 1544 4440 4562 4603 12101 12455
 	}
 	manpower = 1057400
 	buildings_max_level_factor = 1.000

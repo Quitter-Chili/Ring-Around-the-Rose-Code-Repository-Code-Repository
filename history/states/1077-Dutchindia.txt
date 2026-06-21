@@ -1,0 +1,27 @@
+state = {
+	id = 1077
+	name = "STATE_1077"
+	manpower = 15791700
+
+	state_category = enclave
+
+	history = {
+
+		owner = INS
+		add_core_of = RAJ
+
+		victory_points = {
+			1321 3 
+		}
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			
+		}
+
+	}
+
+	provinces = { 7391 1321 4327 1381 12164 4420 10897 }
+
+	local_supplies = 0.0 
+}

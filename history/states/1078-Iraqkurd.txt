@@ -1,0 +1,31 @@
+state={
+	id=1078
+	name="STATE_1078"
+	manpower = 582741
+	
+	state_category = rural
+	
+	resources={
+		oil=5 # was: 10
+		grain=11
+	}
+	history={
+		owner = KUR
+		add_core_of = KUR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			3916 3 
+		}
+		victory_points = {
+			6826 1
+		}
+	}
+	
+	provinces={
+       10811 5014 3916 6826 10793
+	}
+
+	local_supplies=0.0 
+}

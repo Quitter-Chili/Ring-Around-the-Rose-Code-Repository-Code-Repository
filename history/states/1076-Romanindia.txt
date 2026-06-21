@@ -1,0 +1,31 @@
+state = {
+	id = 1076
+	name = "STATE_1076"
+	manpower = 15791700
+
+	state_category = town
+
+	history = {
+
+		owner = GRE
+		add_core_of = RAJ
+
+		victory_points = {
+			7119 25
+		}
+		victory_points = {
+			10278 5 # Madras
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			7119 = {
+				naval_base = 6
+			}
+		}
+
+	}
+
+	provinces = { 10019 7119 12208 10278 }
+
+	local_supplies = 0.0 
+}

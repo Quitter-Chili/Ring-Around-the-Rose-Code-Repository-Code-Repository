@@ -18,9 +18,7 @@ state={
 		victory_points = { #Zara/Zadar
 			3943 5 
 		}
-		victory_points = {
-			9821 1
-		}
+		
 		buildings = {
 			infrastructure = 3
 			dockyard = 1
@@ -31,16 +29,14 @@ state={
 			6889 = {
 				naval_base = 1
 			}
-			9821 = {
-				naval_base = 1
-			}
+			
 		}
 		#add_claim_by = ITA #added by focus
 		add_core_of = BOS
 	}
 
 	provinces={
-		 984  3868 3924 3974  6889 11816 11901  3943 9821
+		 984  3868 3924 3974  6889 11816 11901  3943
 		   
 	}
 
