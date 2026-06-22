@@ -4,7 +4,7 @@ set_oob = AUS_LAND
 
 set_autonomy = {
 	target = CMR
-	autonomy_state = autonomy_personal_union
+	autonomy_state = autonomy_dominion
 }
 add_ideas = {
 	GER_Habsburg

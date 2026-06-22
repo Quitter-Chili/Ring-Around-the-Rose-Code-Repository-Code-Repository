@@ -1,4 +1,4 @@
-﻿capital = 1035 # Nanjing
+﻿capital = 607
 
 IF = {
 	limit = {

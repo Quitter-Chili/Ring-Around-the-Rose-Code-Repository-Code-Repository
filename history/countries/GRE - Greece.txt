@@ -335,37 +335,42 @@ set_popularities = {
 create_faction = Republican_Alliance
 set_autonomy = {
 	target = BOS
-	autonomy_state = autonomy_personal_union
+	autonomy_state = autonomy_satellite
 }
 set_autonomy = {
 	target = GEO
-	autonomy_state = autonomy_personal_union
+	autonomy_state = autonomy_satellite
 }
 set_autonomy = {
 	target = ARM
-	autonomy_state = autonomy_personal_union
+	autonomy_state = autonomy_satellite
 }
 set_autonomy = {
 	target = AZR
-	autonomy_state = autonomy_personal_union
+	autonomy_state = autonomy_satellite
 }
 set_autonomy = {
 	target = ASY
-	autonomy_state = autonomy_personal_union
+	autonomy_state = autonomy_satellite
 }
 set_autonomy = {
 	target = KUR
-	autonomy_state = autonomy_personal_union
+	autonomy_state = autonomy_satellite
 }
 set_autonomy = {
 	target = SYR
-	autonomy_state = autonomy_personal_union
+	autonomy_state = autonomy_satellite
 }
 set_autonomy = {
 	target = IRQ
-	autonomy_state = autonomy_personal_union
+	autonomy_state = autonomy_satellite
+}
+set_autonomy = {
+	target = ROM
+	autonomy_state = autonomy_satellite
 }
 IRQ = {set_cosmetic_tag = IRQ_RAR}
+IRQ = {set_cosmetic_tag = ROM_RAR}
 set_stability = 0.72
 set_war_support = 0.23
 set_convoys = 80

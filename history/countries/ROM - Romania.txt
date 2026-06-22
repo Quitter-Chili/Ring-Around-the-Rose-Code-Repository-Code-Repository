@@ -88,29 +88,7 @@ if = {
 }
 
 #Ideas
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		ROM_king_carol_ii_hedonist
-	}
-	give_guarantee = CZE
-	give_guarantee = GRE
-	give_guarantee = TUR
-	give_guarantee = YUG
-}
-if = {
-	limit = {
-		AND = {  
-			NOT = { has_dlc = "Death or Dishonor" }
-			has_dlc = "Battle for the Bosporus"
-		}
-	}
-	give_guarantee = GRE
-	give_guarantee = TUR
-	give_guarantee = YUG
-}
+
 add_ideas = neutrality_idea
 
 #Kick off kings crazy life
@@ -427,3 +405,4 @@ if = {
 		limit = { has_dlc = "Man the Guns" }
 	}
 }
+set_cosmetic_tag = ROM_RAR

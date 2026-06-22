@@ -89,24 +89,13 @@ if = {
 }
 
 # DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
+set_autonomy = {
 		target = INS
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_dominion
 	}
-	else = {
-		puppet = INS
-	}
-}
 set_autonomy = {
 	target = SAF
-	autonomous_state = autonomy_personal_union
+	autonomous_state = autonomy_dominion
 }
 set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
 

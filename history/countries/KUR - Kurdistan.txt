@@ -45,7 +45,7 @@ if = {
 		basic_ship_hull_submarine = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
-		basic_battery = 11
+		#basic_battery = 11
 		basic_torpedo = 1
 		coastal_defense_ships = 1
 		mtg_transport = 1
@@ -91,9 +91,9 @@ if = {
 		dispersed_industry2 = 1
 	}
 
-set_grand_doctrine = grand_battleplan
-set_grand_doctrine = new_fleet_in_being
-set_grand_doctrine = new_strategic_destruction
+#set_grand_doctrine = grand_battleplan
+#set_grand_doctrine = new_fleet_in_being
+#set_grand_doctrine = new_strategic_destruction
 
 	complete_special_project = {
 		project = sp:sp_air_radar
@@ -114,11 +114,7 @@ set_grand_doctrine = new_strategic_destruction
 			basic_submarine = 1
 		}
 	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		set_technology = {
-		}
-	}
+	
 }
 
 # There were many Kurdish uprisings in Iraq, Iran, and Turkey in the 20th century, it's difficult to define a "ruling party". Democratic has been chosen since the Dersim Rebellion is the closest uprising to HoI's start date.

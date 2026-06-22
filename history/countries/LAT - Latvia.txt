@@ -1,4 +1,4 @@
-﻿capital = 808
+﻿capital = 190
 set_cosmetic_tag = pol_lat
 oob = "LAT_1936"
 if = {

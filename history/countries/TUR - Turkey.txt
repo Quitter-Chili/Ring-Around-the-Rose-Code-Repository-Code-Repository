@@ -1,5 +1,5 @@
 ﻿capital = 49
-set_cosmetic_tag = TUR_ZZZ
+
 if = {
 	limit = {
 		NOT = {
@@ -47,7 +47,7 @@ if = {
 #TUR_democratic
 #TUR_fascism
 #TUR_neutrality
-set_cosmetic_tag = TUR_neutrality
+
 
 set_research_slots = 3
 
