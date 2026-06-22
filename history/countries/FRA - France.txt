@@ -27,9 +27,22 @@ set_autonomy = {
 	target = MEA
 	autonomy_state = autonomy_puppet
 }
-
-
-
+set_autonomy = {
+	target = OMA
+	autonomy_state = autonomy_supervised_state
+}
+set_autonomy = {
+	target = UAE
+	autonomy_state = autonomy_supervised_state
+}
+set_autonomy = {
+	target = QAT
+	autonomy_state = autonomy_supervised_state
+}
+set_autonomy = {
+	target = BHR
+	autonomy_state = autonomy_supervised_state
+}
 
 
 set_research_slots = 4
@@ -88,3 +101,6 @@ add_ideas = {
 	FRA_ManPoor
 	FRA_Industry
 }
+give_guarantee = YEM
+give_guarantee = PER
+give_guarantee = SAU

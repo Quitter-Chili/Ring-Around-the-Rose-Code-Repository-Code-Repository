@@ -626,3 +626,5 @@ if = {
 		}
 	}
 }
+give_guarantee = SOV
+give_guarantee = PER
