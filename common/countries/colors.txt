@@ -154,7 +154,11 @@ ITA = {
 	color_ui = rgb { 87 165 82 }
 }
 ROM = {
-	color = rgb { 215 196 72 }
+	color = rgb { 193 115 9 }
+	color_ui = rgb { 255 255 120 }
+}
+ROM_RAR = {
+	color = rgb { 193 115 9 }
 	color_ui = rgb { 255 255 120 }
 }
 YUG = {
@@ -270,7 +274,11 @@ HON = {
 	color_ui = rgb { 128 145 65 }
 }
 IRQ = {
-	color = rgb { 103 20 41 }
+	color = rgb { 124 33 18 }
+	color_ui = rgb { 231 148 129 }
+}
+IRQ_RAR = {
+	color = rgb { 124 33 18 }
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
@@ -794,7 +802,7 @@ CRO = {
 	color_ui = rgb { 0 114 255 }
 }
 BOS = {
-	color = rgb { 78 11 55 }
+	color = rgb { 158 56 1 }
 	color_ui = rgb { 364 407 4 }
 }
 SHL = {
