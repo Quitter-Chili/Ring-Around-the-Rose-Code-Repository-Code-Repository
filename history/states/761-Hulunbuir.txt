@@ -10,8 +10,8 @@ state={
 
 	history = {
 
-		owner = ZZZ
-		add_core_of = ZZZ
+		owner = MON
+		add_core_of = MON
 
 		victory_points = {
 			10612 1 # Manzhouli

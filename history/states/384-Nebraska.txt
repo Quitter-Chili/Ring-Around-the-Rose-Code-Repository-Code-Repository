@@ -7,7 +7,7 @@ state={
 	state_category = large_town
 
 	history={
-		owner = FRA
+		owner = CAN
 		add_core_of = USA
 		buildings = {
 			infrastructure = 2

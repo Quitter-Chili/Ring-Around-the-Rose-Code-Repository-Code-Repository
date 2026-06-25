@@ -8,8 +8,8 @@ LON = {
 	color_ui = rgb { 170 25 0 }
 }
 ENL = {
-	color = rgb { 47 86 0 }
-	color_ui = rgb { 47 86 0 }
+	color = rgb { 346 5 5 }
+	color_ui = rgb { 510 145 145 }
 }
 OCC = {
 	color = rgb { 245 187 1 }
@@ -231,7 +231,7 @@ BRA = {
 	color_ui = rgb { 99 189 82 }
 }
 CAN = {
-	color = rgb { 233  59  59 }
+	color = rgb { 140 36 36 }
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
@@ -348,7 +348,7 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 20 133 237 }
+	color = rgb { 3 126 190 }
 	color_ui = rgb { 87 160 255 }
 }
 MON = {
@@ -836,8 +836,8 @@ BYA = {
 	color_ui = rgb { 0 45 179 }
 }
 FER = {
-	color = rgb { 179 45 0 }
-	color_ui = rgb { 128 32 0 }
+	color = rgb { 2 319 362 }
+	color_ui = rgb { 2 319 362 }
 }
 CKK = {
 	color = rgb { 179 179 0 }
@@ -1024,9 +1024,13 @@ RIG = {
 	color = rgb { 0 0 128 }
 	color_ui = rgb { 0 0 51 }
 }
+SPA = {
+	color = rgb { 15 180 4 }
+	color_ui = rgb { 20 252 4 }
+}
 QUE = {
-	color = rgb { 0 102 255 }
-	color_ui = rgb { 0 31 77 }
+	color = rgb { 41 140 1 }
+	color_ui = rgb { 11 166 73 }
 }
 KAT = {
 	color = rgb { 204 41 0 }
