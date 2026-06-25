@@ -16,7 +16,7 @@
  Four_Cities_Council_less: "四城理事会：毫不协调"
  Oxford_Treaty_Organisation_less: "牛津条约组织：架构混乱"
  Self_sufficiency_issue: "自给问题"
- AUS_Franz_Ferdinand: "弗朗茨.斐迪南"
+ AUS_Franz_Ferdinand: "弗朗茨·斐迪南"
  AUS_House_of_Lords: "上议院"
  Ethnic_conservatism: "民族保守主义"
  Ethnic_conservatism_ism: "德意志民族保守主义"
@@ -265,3 +265,136 @@ Form_a_task_force: "组建预备队"
 Expand_factory_production: "步枪兵团"
 
 Military_Glory: "军队荣光"
+
+##罗马共和国##
+GRE_mustafa_efendi: "穆斯塔法·埃芬迪"
+
+TUR_mustafa_efendi: "穆斯塔法·埃芬迪"
+
+TUR_Ismail_Enver: "伊斯玛仪·恩维尔"
+
+TUR_Loannis_Metaxas: "约安尼斯·梅塔克萨斯"
+
+GRE_panagiotis_danglis: "帕拉约蒂斯·赞格利斯"
+
+ GRE_pavlos_kountouriotis: "帕夫洛斯·孔图里奥蒂斯"
+
+ GRE_constantin_moschopoulos: "君士坦丁·莫绍普洛斯"
+
+ GRE_dimitrios_rallis: "季米特里奥斯·拉利斯"
+
+ GRE_alexandros_zaimis: "亚历山德罗斯·扎伊米斯"
+
+ GRE_dimitrios_gounaris: "季米特里奥斯·古纳里斯"
+
+ GRE_spiridon_lambros: "斯皮里冬·兰布罗斯"
+
+ GRE_nikolaos_stratos: "尼科劳斯·斯特拉托斯"
+
+ GRE_petros_protopapadakis: "佩特罗斯·普罗托帕帕扎基斯"
+
+ GRE_emmanouil_repoulis: "埃曼努埃尔·雷普利斯"
+
+ GRE_nikolaos_trikoupis: "尼科劳斯·特里库皮斯"
+
+ GRE_emmanouil_zymvrakakis: "埃曼努埃尔·辛布拉卡基斯"
+
+ GRE_konstantinos_nider: "君士坦提努斯·奈德"
+
+ GRE_anastasios_papoulas: "阿纳斯塔修斯·帕普拉斯"
+
+ GRE_leonidas_paraskevopoulos: "莱昂尼达斯·帕拉斯基沃普洛斯"
+
+ GRE_georgios_hatzianestis: "乔尔乔斯·哈齐亚内斯提斯"
+
+ GRE_konstantinos_sapountzakis: "君士坦提努斯·萨蓬察基斯"
+
+ GRE_georgios_kondylis: "乔尔乔斯·康迪利斯"
+
+ GRE_victor_dousmanis: "维克多·杜斯马尼斯"
+
+ GRE_platon_drakoulis: "普拉东·兹拉库利斯"
+
+ GRE_stefanos_dragoumis: "斯特凡努斯·兹拉古米斯"
+
+ GRE_georgios_christakis_zografos: "乔尔乔斯·赫里斯塔基·佐格拉福斯"
+
+ GRE_andreas_michalakopoulos: "安德烈亚斯·米哈拉科普洛斯"
+
+ GRE_alexandros_papanastasiou: "亚历山德罗斯·帕帕纳斯塔西乌"
+
+ GRE_leonidas_empeirikos: "莱昂尼达斯·恩比里科斯"
+
+ GRE_paulos_gyparis: "帕夫洛斯·吉帕里斯"
+
+ GRE_ionas_dragoumis: "扬·兹拉古米斯"
+
+ GRE_germanos_karavaggelis: "耶尔马诺斯·卡拉万杰利斯"
+
+ GRE_konstantinos_koumoundouros: "君士坦提努斯·库蒙多罗斯"
+
+ GRE_dimitrios_kamperos: "季米特里奥斯·坎伯罗斯"
+
+ GRE_michail_moutousis: "米海尔·穆图西斯"
+
+ GRE_nikolaos_zorbas: "尼科劳斯·佐尔帕斯"
+
+ GRE_nikolaos_votsis: "尼科劳斯·沃特西斯"
+
+ GRE_sofoklis_dousmanis: "索福克利斯·祖斯马尼斯"
+
+ GRE_georgios_kakoulidis: "乔尔乔斯·卡库利季斯"
+
+ GRE_alexandros_hatzikyriakos: "亚历山德罗斯·哈齐基里亚科斯"
+
+ GRE_konstantinos_kallaris: "君士坦提努斯·卡拉里斯"
+
+ GRE_nikolaos_theotokis: "尼科劳斯·塞奥托基斯"
+
+ GRE_georgios_mpaltantzis: "乔尔乔斯·巴尔塔齐斯"
+
+ GRE_nikos_dimitratos: "尼科斯·迪米特拉托斯"
+
+ GRE_nikolaos_yannios: "尼科劳斯·雅尼奥斯"
+
+ GRE_konstantinos_moschopoulos: "君士坦提努斯·莫斯霍普洛斯"
+
+ GRE_dimitris_ioannou: "迪米特里斯·约安努"
+
+ GRE_anastasios_charalambis: "阿纳斯塔修斯·哈拉兰比斯"
+
+ GRE_georgios_polymenakos: "乔尔乔斯·波利梅纳科斯"
+
+ GRE_metropolitan_chrysostom: "赫里索斯托莫斯"
+
+ GRE_aristeidis_stergiadis: "阿里斯蒂季斯·斯特伊亚季斯"
+
+ GRE_dimosthenis_ligdopoulos: "狄摩西尼·利格多普洛斯"
+
+ GRE_epameinondas_zymvrakakis: "伊巴密浓达·辛弗拉卡基斯"
+
+ GRE_ioannis_ipitis: "约安尼斯·伊庇蒂斯"
+
+ GRE_emmanouil_manousogiannakis: "埃马努伊尔·马努索扬纳基斯"
+
+ GRE_andreas_kopasis: "安德烈亚斯·科帕西斯"
+
+ GRE_grigorios_vegleris: "格里戈里奥斯·韦格莱里斯"
+
+ GRE_themistoklis_sofoulis: "塞米斯托克利斯·索富利斯"
+
+ GRE_ioannis_malachias: "约安尼斯·马拉希亚斯"
+
+ GRE_petros_soumilas: "佩特罗斯·苏米拉斯"
+
+ GRE_ioannis_metaxas:  "约安尼斯·梅塔克萨斯"
+
+ GRE_eleftherios_venizelos:  "埃莱夫塞里奥斯·韦尼泽洛斯"
+
+ GRE_theodoros_pangalos:  "塞奥佐罗斯·潘加洛斯"
+
+ GRE_nikolaos_plastiras:  "尼科劳斯·普拉斯蒂拉斯"
+
+ GRE_stylianos_gonatas:  "斯蒂利亚诺斯·戈纳塔斯"
+
+ LOU_Jared_Sanders:  "贾里德·Y·桑德斯"

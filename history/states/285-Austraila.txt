@@ -10,7 +10,7 @@ state = {
 
 	history = {
 
-		owner = HOL
+		owner = INS
 		add_core_of = AST
 
 		buildings = {

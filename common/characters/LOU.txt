@@ -1,0 +1,19 @@
+characters={
+LOU_Jared_Sanders = {
+
+		name = LOU_Jared_Sanders
+
+		portraits = {
+			
+		}
+
+		country_leader = {
+			ideology = Paternalistic_conservatism_ism
+			traits = {  }
+			expire = "1970.1.1.1"
+			id = -2
+		}
+
+	}
+	
+}

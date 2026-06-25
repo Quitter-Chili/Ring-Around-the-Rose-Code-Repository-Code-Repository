@@ -485,7 +485,7 @@ LAO = {
 }
 
 INS = {
-	color = rgb { 212 137 63 }
+	color = rgb { 225 150 98 }
 	color_ui = rgb { 40  50  120 }
 }
 
@@ -1342,5 +1342,9 @@ SPB = {
 }
 WSD = {
 	color = rgb { 130 130 130 }
+	color_ui = rgb { 100 100 100 }
+}
+LOU = {
+	color = rgb { 0 68 123 }
 	color_ui = rgb { 100 100 100 }
 }
