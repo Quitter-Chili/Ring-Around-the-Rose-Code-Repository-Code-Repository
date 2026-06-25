@@ -94,21 +94,14 @@
  SOV: "俄罗斯"
  SOV_DEF: "俄罗斯"
  SOV_ADJ: "俄国"
- USA_fascism: "美利坚自由帝国"
- USA_fascism_DEF: "美利坚自由帝国"
- USA_democratic: "美利坚自由邦"
- USA_democratic_DEF: "美利坚自由邦"
- USA_neutrality: "美利坚国"
- USA_neutrality_DEF: "美利坚国"
- USA_communism: "美利坚共产联邦"
- USA_communism_DEF: "美利坚共产联邦"
- USA_fascism_ADJ: "美国"
- USA_democratic_ADJ: "美国"
- USA_neutrality_ADJ: "美国"
- USA_communism_ADJ: "美国"
- USA: "美利坚"
- USA_DEF: "美利坚"
- USA_ADJ: "美国"
+ USA: "万帕诺亚格"
+ USA_DEF: "万帕诺亚格"
+ USA_ADJ: "万帕诺亚格"
+ USA_nationalism: "万帕诺亚格合众国"
+ USA_nationalism_ADJ: "万帕诺亚格合众国"
+ 
+ 
+ 
  
  USA_communism_subject: "北美社会主义共和国"
  USA_communism_subject_DEF: "北美社会主义共和国"
@@ -312,6 +305,7 @@
  SPR_democratic_ADJ: "西班牙"
  SPR_neutrality_ADJ: "西班牙"
  SPR_communism_ADJ: "西班牙"
+ SPR_Paternalistic_conservatism: "西班牙王国"
  SPR: "西班牙"
  SPR_DEF: "西班牙"
  SPR_ADJ: "西班牙"
@@ -5319,6 +5313,9 @@
  BGD_ADJ: "勃艮第公国"
  BGD_DEF: "勃艮第公国"
  ENL: "新索尔兹伯里"
+ ENL_Totalitarianism: "阿尔比恩委员会"
+ ENL_Totalitarianism_ADJ: "阿尔比恩委员会"
+ ENL_Totalitarianism_DEF: "阿尔比恩委员会"
  ENL_ADJ: "新索尔兹伯里"
  ENL_DEF: "新索尔兹伯里"
  IDN: "工业联合体"
@@ -5372,10 +5369,10 @@
  PEK_DEF: "北平"
  HBC_DEF: "赵北"
  BLH_DEF: "博洛和屯"
-
-
-
-
+ SPA: "西班牙"
+ SPA_ADJ: "西班牙"
+ SPA_DEF: "西班牙"
+ SPA_Technical_socialism: "西班牙共和国"
 
 
 
