@@ -43,7 +43,10 @@ set_autonomy = {
 	target = BHR
 	autonomy_state = autonomy_supervised_state
 }
-
+set_autonomy = {
+	target = LOU
+	autonomy_state = autonomy_supervised_state
+}
 
 set_research_slots = 4
 

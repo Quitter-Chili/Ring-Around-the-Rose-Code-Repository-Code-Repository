@@ -1,5 +1,5 @@
 ﻿capital = 37
-
+set_cosmetic_tag =DEN_NOR
 if = {
 	limit = { has_dlc = "Arms Against Tyranny" }
 	set_country_flag = DEN_danish_election_flag

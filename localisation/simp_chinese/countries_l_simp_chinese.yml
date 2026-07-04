@@ -99,8 +99,10 @@
  USA_ADJ: "万帕诺亚格"
  USA_nationalism: "万帕诺亚格合众国"
  USA_nationalism_ADJ: "万帕诺亚格合众国"
- 
- 
+ LOU: "路易斯安那"
+ LOU_ADJ: "路易斯安那"
+ LOU_DEF: "路易斯安那"
+ LOU_FRA: "法属路易斯安那"
  
  
  USA_communism_subject: "北美社会主义共和国"
@@ -5374,13 +5376,13 @@
  SPA_DEF: "西班牙"
  SPA_Technical_socialism: "西班牙共和国"
 
-
-
+ RHI_FRA: "莱茵联邦"
+ DEN_NOR: "丹麦-挪威王国"
  AUS_GERMAN_EMPIRE: "德意志帝国"
  AUS_GERMAN_REPUBIC: "德意志联邦共和国"
- pol_lit_united: "波兰王国"
- pol_lit_united_ADJ: "波兰王国"
- pol_lit_united_DEF: "波兰王国"
+ pol_lit_united: "波兰共和国"
+ pol_lit_united_ADJ: "波兰共和国"
+ pol_lit_united_DEF: "波兰共和国"
  LBV_ONLY: "伦巴第"
  ITA_NORTH: "北意大利联邦"
  KAZ_MID: "中亚突厥斯坦联邦共和国"

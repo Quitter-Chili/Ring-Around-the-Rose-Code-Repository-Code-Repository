@@ -10,6 +10,7 @@ state={
 	history={
 		owner = GRE
 		add_core_of = GRE
+		add_core_of = BUL
 		victory_points = { #Varna
 			9783 5
 		}

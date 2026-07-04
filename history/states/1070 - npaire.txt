@@ -10,7 +10,7 @@ state={
 		add_core_of = FRA
 		add_core_of = BGD
 		victory_points = {
-			11506 20 # Paris
+			11506 25 # Paris
 		}
 		buildings = {
 			infrastructure = 1

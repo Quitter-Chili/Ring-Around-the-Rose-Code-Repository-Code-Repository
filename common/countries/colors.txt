@@ -332,7 +332,7 @@ SIK = {
 	color_ui = rgb { 222 247 198 }
 }
 TIB = {
-	color = rgb { 80 100 45}
+	color = rgb { 210 210 210 }
 	color_ui = rgb { 222 247 198 }
 }
 URG = {
@@ -450,7 +450,7 @@ SYR = {
 }
 
 SER = {
-	color = rgb { 160 110 110 }
+	color = rgb { -17 69 330 }
 	color_ui = rgb { 160 110 110 }
 }
 
@@ -531,8 +531,8 @@ MZB = {
 	color_ui = rgb { 112 62 90 }
 }
 KEN = {
-	color = rgb { 145 103 14 }
-	color_ui = rgb { 145 103 14 }
+	color = rgb { 15 218 154 }
+	color_ui = rgb { 21 290 237 }
 }
 ZIM = {
 	color = rgb { 7 7 239 }
@@ -836,8 +836,8 @@ BYA = {
 	color_ui = rgb { 0 45 179 }
 }
 FER = {
-	color = rgb { 2 319 362 }
-	color_ui = rgb { 2 319 362 }
+	color = rgb { 510 510 510 }
+	color_ui = rgb { 255 255 255 }
 }
 CKK = {
 	color = rgb { 179 179 0 }

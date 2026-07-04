@@ -14,6 +14,7 @@ state = {
 		victory_points = {
 			719 3
 		}
+		add_core_of = KUB
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

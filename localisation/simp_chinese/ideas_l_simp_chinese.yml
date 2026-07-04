@@ -1,5 +1,7 @@
 ﻿l_simp_chinese:
+ mainmenu_desc: "§4Ring Around the Rose §O玫瑰花环\n§T更新内容§R(预计)§T:\n    §g德意志帝国可玩内容\n    §t伦敦尼姆可玩内容\n    §3法兰西王国可玩内容\n    §0波兰共和国内容\n    §G俄罗斯共和国可玩内容\n    §5东亚大区可玩内容\n    §9阿尔比恩委员会可玩内容"
 #伦敦尼姆
+ KEN_FREEDOM: "肯尼亚自由邦"
  pol_PRE_united: "普鲁士-波兰联邦"
  pol_lat: "库尔兰"
  BGD_NEWFRANCE: "新法兰西"

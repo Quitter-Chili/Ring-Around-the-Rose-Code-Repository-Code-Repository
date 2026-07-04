@@ -38,9 +38,6 @@ country_event = {
 		18 = {
 			add_core_of = FFR
 		}
-		PRE = {
-			set_cosmetic_tag = pol_PRE_united
-		}
 		
 	}
 

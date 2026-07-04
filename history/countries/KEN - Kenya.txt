@@ -1,5 +1,5 @@
 ﻿capital = 547
-
+set_cosmetic_tag = KEN_FREEDOM
 oob = "KEN_1936"
 
 # Starting tech

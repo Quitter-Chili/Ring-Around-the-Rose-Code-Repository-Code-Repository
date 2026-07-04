@@ -30,8 +30,19 @@ state = {
 		}
 
 		victory_points = {
-			564 3 # Kassel
+			564 5 # Kassel
 		}
+		victory_points = {
+			3397 5
+		}
+		victory_points = {
+			589 5
+		}
+		victory_points = {
+			3524 3
+		}
+		
+		
 
 		victory_points = {
 			6444 2 # Wiesbaden

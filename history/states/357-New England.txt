@@ -17,14 +17,6 @@ state={
 			industrial_complex = 5
 			dockyard = 4
 			air_base = 10
-			6732 = {
-				naval_base = 8
-
-			}
-			9832 = {
-				naval_base = 3
-
-			}
 
 		}
 		

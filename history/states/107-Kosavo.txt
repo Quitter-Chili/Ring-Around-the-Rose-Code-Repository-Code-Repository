@@ -6,6 +6,7 @@ state={
 	history={
 		owner = GRE
 		add_core_of = GRE
+		add_core_of = SER
 		buildings = {
 			infrastructure = 3
 			arms_factory = 3
