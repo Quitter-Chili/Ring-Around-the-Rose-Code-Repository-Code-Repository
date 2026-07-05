@@ -14,7 +14,7 @@ state={
 	history={
 		owner = GRE
 		add_core_of = GRE
-		add_core_of = BUL
+		add_claim_by = BUL
 		victory_points = { #Plovdiv
 			6923 10
 		}

@@ -8,8 +8,8 @@ LON = {
 	color_ui = rgb { 170 25 0 }
 }
 ENL = {
-	color = rgb { 47 86 0 }
-	color_ui = rgb { 47 86 0 }
+	color = rgb { 346 5 5 }
+	color_ui = rgb { 510 145 145 }
 }
 OCC = {
 	color = rgb { 245 187 1 }
@@ -48,8 +48,8 @@ CHK = {
 	color_ui = rgb { 4 131 240 }
 }
 BGD = {
-	color = rgb { 160 88 0 }
-	color_ui = rgb { 160 88 0 }
+	color = rgb { 150 185 190 }
+	color_ui = rgb { 109 184 192 }
 }
 PRE = {
 	color = rgb { 2 24 137 }
@@ -231,7 +231,7 @@ BRA = {
 	color_ui = rgb { 99 189 82 }
 }
 CAN = {
-	color = rgb { 233  59  59 }
+	color = rgb { 140 36 36 }
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
@@ -332,7 +332,7 @@ SIK = {
 	color_ui = rgb { 222 247 198 }
 }
 TIB = {
-	color = rgb { 80 100 45}
+	color = rgb { 210 210 210 }
 	color_ui = rgb { 222 247 198 }
 }
 URG = {
@@ -348,7 +348,7 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 20 133 237 }
+	color = rgb { 3 126 190 }
 	color_ui = rgb { 87 160 255 }
 }
 MON = {
@@ -450,7 +450,7 @@ SYR = {
 }
 
 SER = {
-	color = rgb { 160 110 110 }
+	color = rgb { -17 69 330 }
 	color_ui = rgb { 160 110 110 }
 }
 
@@ -485,7 +485,7 @@ LAO = {
 }
 
 INS = {
-	color = rgb { 212 137 63 }
+	color = rgb { 225 150 98 }
 	color_ui = rgb { 40  50  120 }
 }
 
@@ -531,8 +531,8 @@ MZB = {
 	color_ui = rgb { 112 62 90 }
 }
 KEN = {
-	color = rgb { 145 103 14 }
-	color_ui = rgb { 145 103 14 }
+	color = rgb { 15 218 154 }
+	color_ui = rgb { 21 290 237 }
 }
 ZIM = {
 	color = rgb { 7 7 239 }
@@ -836,8 +836,8 @@ BYA = {
 	color_ui = rgb { 0 45 179 }
 }
 FER = {
-	color = rgb { 179 45 0 }
-	color_ui = rgb { 128 32 0 }
+	color = rgb { 510 510 510 }
+	color_ui = rgb { 255 255 255 }
 }
 CKK = {
 	color = rgb { 179 179 0 }
@@ -1024,9 +1024,13 @@ RIG = {
 	color = rgb { 0 0 128 }
 	color_ui = rgb { 0 0 51 }
 }
+SPA = {
+	color = rgb { 15 180 4 }
+	color_ui = rgb { 20 252 4 }
+}
 QUE = {
-	color = rgb { 0 102 255 }
-	color_ui = rgb { 0 31 77 }
+	color = rgb { 41 140 1 }
+	color_ui = rgb { 11 166 73 }
 }
 KAT = {
 	color = rgb { 204 41 0 }
@@ -1342,5 +1346,9 @@ SPB = {
 }
 WSD = {
 	color = rgb { 130 130 130 }
+	color_ui = rgb { 100 100 100 }
+}
+LOU = {
+	color = rgb { 0 68 123 }
 	color_ui = rgb { 100 100 100 }
 }

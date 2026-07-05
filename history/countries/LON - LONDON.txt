@@ -1,6 +1,15 @@
 
+
+LON = {
+	create_faction = lon_allie
+	add_to_faction = LON
+	add_to_faction = KER
+	add_to_faction = YEK
+	add_to_faction = GLA
+	add_to_faction = BRI
+}
 set_autonomy = {
-	target = ENL
+	target = QUE
 	autonomy_state = autonomy_colony
 }
 set_autonomy = {
@@ -84,34 +93,9 @@ set_research_slots = 4
 # Starting tech
 
 
-create_faction = lon_allie
-add_to_faction = LON
-add_to_faction = KER
-add_to_faction = YEK
-add_to_faction = GLA
-add_to_faction = BRI
 set_party_name = { ideology = Technical_socialism long_name = LON_Technical_socialism_party name = LON_Technical_socialism_party }
 
-add_opinion_modifier = {
-	target = KER
-	modifier = lon_allie
-}
-add_opinion_modifier = {
-	target = WLS
-	modifier = lon_allie
-}
-add_opinion_modifier = {
-	target = YEK
-	modifier = lon_allie
-}
-add_opinion_modifier = {
-	target = GLA
-	modifier = lon_allie
-}
-add_opinion_modifier = {
-	target = BRI
-	modifier = lon_allie
-}
+
 
 set_convoys = 1000
 

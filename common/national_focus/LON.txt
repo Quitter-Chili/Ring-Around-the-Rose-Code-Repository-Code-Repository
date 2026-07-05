@@ -266,7 +266,7 @@ focus_tree = {
 			focus = world_is_ours
 		}
 		completion_reward = {
-			ENL = {
+			QUE = {
 				annex_country = { target = CAN transfer_troops = yes }
 				set_cosmetic_tag = ENL_LON
 				country_event = { days = 15 id = LON_RAR.16 }
@@ -312,6 +312,7 @@ focus_tree = {
 			LON = {
 				add_to_faction = NOR
 				add_to_faction = DEN
+				add_to_faction = HOL
 				add_to_faction = ICE
 			}
 			

@@ -5,11 +5,11 @@ set_oob = FRA_LAND
 #starting_train_buffer = 2
 set_autonomy = {
 	target = ANG
-	autonomy_state = autonomy_dominion
+	autonomy_state = autonomy_colony
 }
 set_autonomy = {
 	target = COG
-	autonomy_state = autonomy_dominion
+	autonomy_state = autonomy_colony
 }
 set_autonomy = {
 	target = NOM
@@ -43,7 +43,10 @@ set_autonomy = {
 	target = BHR
 	autonomy_state = autonomy_supervised_state
 }
-
+set_autonomy = {
+	target = LOU
+	autonomy_state = autonomy_supervised_state
+}
 
 set_research_slots = 4
 
@@ -101,6 +104,7 @@ add_ideas = {
 	FRA_ManPoor
 	FRA_Industry
 }
+set_cosmetic_tag = FRA_RAR
 give_guarantee = YEM
 give_guarantee = PER
 give_guarantee = SAU

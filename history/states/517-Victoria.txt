@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = HOL
+		owner = INS
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2

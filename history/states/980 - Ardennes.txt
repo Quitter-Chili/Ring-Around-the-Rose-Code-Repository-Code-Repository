@@ -14,6 +14,7 @@ state = {
 		owner = BGD
 		add_core_of = BGD
 		add_core_of = IDN
+		add_core_of = FRA
 
 		
 
@@ -21,7 +22,6 @@ state = {
 			infrastructure = 1
 
 			# Gileppe Dam
-			3488 = { dam = 1 }
 		}
 		
 	}

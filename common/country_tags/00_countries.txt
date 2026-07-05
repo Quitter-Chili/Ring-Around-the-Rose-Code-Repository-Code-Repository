@@ -13,6 +13,7 @@ LIT	= "countries/Lithuania.txt"
 EST	= "countries/Estonia.txt"
 LAT	= "countries/Latvia.txt"
 SPR = "countries/Spain.txt"
+SPA = "countries/Spain.txt"
 ITA = "countries/Italy.txt"
 ROM = "countries/Romania.txt"
 YUG = "countries/Yugoslavia.txt"
@@ -384,3 +385,4 @@ KOT = "countries/KOT.txt"
 #NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")
 
 KTO = "countries/KanTong.txt"
+LOU = "countries/LOU.txt"

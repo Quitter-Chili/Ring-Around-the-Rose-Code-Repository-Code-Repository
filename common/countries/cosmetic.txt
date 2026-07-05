@@ -2,6 +2,10 @@ MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
 }
+RHI_FRA = {
+	color = rgb { 62 105 294 }
+	color_ui = rgb { 62 105 294 }
+}
 BAY_RED = {
 	color = rgb { 322 44 44 }
 	color_ui = rgb { 200  10  10 }

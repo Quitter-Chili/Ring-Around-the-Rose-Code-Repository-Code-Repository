@@ -11,7 +11,7 @@ state={
 	state_category = megalopolis
 
 	history={
-		owner = USA
+		owner = LOU
 		buildings = {
 			infrastructure = 4 #was: 7
 			arms_factory = 1

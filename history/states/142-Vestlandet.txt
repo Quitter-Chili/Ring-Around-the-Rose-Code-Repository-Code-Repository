@@ -12,7 +12,8 @@ state={
 	}
 
 	history={
-		owner = NOR
+		owner = DEN
+		add_core_of = DEN
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2

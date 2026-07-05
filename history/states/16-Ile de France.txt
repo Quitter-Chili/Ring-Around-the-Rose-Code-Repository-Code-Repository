@@ -10,7 +10,9 @@ state = {
 
 		owner = FRA
 		add_core_of = FRA
-
+		victory_points = {
+			9523 15 # Paris
+		}
 		
 
 		buildings = {

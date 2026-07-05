@@ -18,6 +18,7 @@ state={
 		victory_points = {
 			9833 50
 		}
+		add_claim_by = BUL
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2

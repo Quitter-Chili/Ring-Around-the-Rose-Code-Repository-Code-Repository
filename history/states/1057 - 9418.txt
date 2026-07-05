@@ -8,6 +8,7 @@ state={
 	history={
 		owner = BGD
 		add_core_of = IDN
+		add_core_of = FRA
 		add_core_of = BGD
 		victory_points = {
 			9418 1 # Arlons

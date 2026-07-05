@@ -9,6 +9,7 @@ state={
 		owner = GRE
 		add_core_of = GRE
 		add_claim_by = BUL
+		add_core_of = SER
 		buildings = {
 			infrastructure = 1
 			arms_factory = 2

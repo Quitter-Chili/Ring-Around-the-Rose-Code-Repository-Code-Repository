@@ -88,11 +88,11 @@ spriteTypes = {
 
 
 
-	spriteType = {
-		name = "GFX_frontend_bg"
-		texturefile = "gfx/loadingscreens/load_2"
-	}
 	#AUS
+	spriteType = {
+		name = "GFX_AUS_mainmenu"
+		texturefile = "gfx/interface/mainpicture.dds"
+	}
 	spriteType = {
 		name = "GFX_AUS_Franz_Ferdinand"
 		texturefile = "gfx/leaders/AUS/AUS_Franz_Ferdinand.png"

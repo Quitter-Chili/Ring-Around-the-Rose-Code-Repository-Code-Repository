@@ -1,0 +1,229 @@
+on_actions = {
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						has_war_with = AUS
+						original_tag = FRA
+						
+					}
+					ROOT = {
+						original_tag = BRI
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+					FRA = {
+						white_peace = BRI
+					}
+				}
+				FROM = {
+					FRA = {
+						transfer_state = 14
+
+						
+					}
+				
+
+				}
+				
+			
+			}
+		}
+	
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						has_war_with = AUS
+						original_tag = FRA
+						
+					}
+					ROOT = {
+						original_tag = BGD
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+					FRA = {
+						white_peace = BGD
+					}
+				}
+				FROM = {
+					FRA = {
+						transfer_state = 785
+						transfer_state = 29
+						transfer_state = 18
+						transfer_state = 17
+						transfer_state = 1057
+						transfer_state = 980
+						transfer_state = 34
+						
+					}
+					HOL = {
+						transfer_state = 35
+						transfer_state = 6
+						transfer_state = 977
+					}
+
+				}
+				
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						has_war_with = AUS
+						original_tag = FRA
+						
+					}
+					ROOT = {
+						original_tag = HOL
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+					FRA = {
+						white_peace = HOL
+					}
+				}
+				FROM = {
+					set_autonomy = {
+						target = HOL
+						autonomy_state = autonomy_colony
+					}
+				HOL = {
+					transfer_state = 35
+					transfer_state = 6
+					transfer_state = 977
+				}
+
+				}
+				
+			
+			}
+		}
+	
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						has_war_with = LON
+						original_tag = FRA
+						
+					}
+					ROOT = {
+						original_tag = AUS
+					}
+				}
+			
+				ROOT = {
+					every_country = {
+						white_peace = ROOT
+					}
+					GER = {
+						white_peace = AUS
+					}
+				}
+				FROM = {
+					AUS = {
+						set_autonomy = {
+							target = DEN
+							autonomy_state = autonomy_free
+						}
+					}
+					LON = {
+						remove_from_faction = AUS
+					}
+					transfer_state = 28
+					transfer_state = 8
+					set_autonomy = {
+						target = RHI
+						autonomy_state = autonomy_colony
+					}
+				RHI = {
+					set_cosmetic_tag = RHI_FRA
+					transfer_state = 1048
+					transfer_state = 51
+					transfer_state = 42
+					transfer_state = 1047
+					transfer_state = 57
+					transfer_state = 55
+					transfer_state = 56
+					transfer_state = 1065
+					transfer_state = 59
+					transfer_state = 978
+					transfer_state = 50
+					transfer_state = 54
+					transfer_state = 60
+					transfer_state = 65
+					transfer_state = 61
+					transfer_state = 62
+					transfer_state = 52
+					transfer_state = 53
+					transfer_state = 153
+					transfer_state = 976
+					transfer_state = 152
+					transfer_state = 4
+					transfer_state = 102
+					transfer_state = 972
+				}
+				CZE = {
+					transfer_state = 9
+					transfer_state = 75
+					transfer_state = 74
+					transfer_state = 72
+					transfer_state = 766
+					transfer_state = 69
+				}
+				PRE = {
+					transfer_state = 64
+					transfer_state = 68
+					transfer_state = 66
+					transfer_state = 67
+					transfer_state = 63
+					transfer_state = 5
+					transfer_state = 763
+					transfer_state = 188
+				}
+				DEN = {
+					transfer_state = 58
+					transfer_state = 909
+				}
+				SPM = {
+					transfer_state = 160
+					transfer_state = 804
+					transfer_state = 850
+					transfer_state = 736
+					transfer_state = 852
+					transfer_state = 853
+				}
+				}
+				
+			
+			}
+		}
+	
+	}
+	
+}
+
+
+	

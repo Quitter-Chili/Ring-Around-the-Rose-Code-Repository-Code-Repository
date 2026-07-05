@@ -1,6 +1,6 @@
 capital = 17
 
-give_guarantee = AUS
+
 
 starting_train_buffer = 4
 
@@ -45,7 +45,7 @@ set_convoys = 1000
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = Parental_authoritarianism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -53,7 +53,7 @@ set_politics = {
 set_popularities = {
 	democratic = 64
 	fascism = 1
-	neutrality = 15
+	Parental_authoritarianism = 15
 	communism = 20
 }
 

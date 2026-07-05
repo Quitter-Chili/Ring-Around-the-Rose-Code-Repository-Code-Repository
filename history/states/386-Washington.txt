@@ -14,12 +14,9 @@ state = {
 			infrastructure = 3 #was: 6
 			arms_factory = 1
 			industrial_complex = 1
-			dockyard = 1
 			air_base = 5
 
-			7315 = {
-				naval_base = 3
-			}
+		
 
 			# Grand Coulee Dam
 			#10327 = { dam = 1 }

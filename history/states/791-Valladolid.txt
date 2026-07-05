@@ -6,7 +6,8 @@ state={
 		coal = 2 #initial distribution
 	}
 	history={
-		owner = SPR
+		owner = SPA
+		add_core_of = SPA
 		victory_points = {
 			11825 3 
 		}
