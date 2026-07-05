@@ -70,10 +70,9 @@ on_actions = {
 						
 					}
 					HOL = {
-						set_state_controller = 35
-						set_state_controller = 6
-						set_state_controller = 977
-
+						transfer_state = 35
+						transfer_state = 6
+						transfer_state = 977
 					}
 
 				}

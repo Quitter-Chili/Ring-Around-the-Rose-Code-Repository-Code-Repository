@@ -1,0 +1,27 @@
+state={
+	id=1079
+	name="STATE_1078"
+	manpower = 582741
+	
+	state_category = rural
+	
+	resources={
+		oil=5 # was: 10
+	}
+	history={
+		owner = BGD
+		add_core_of = FRA
+		add_core_of = BGD
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	
+	}
+	
+	provinces={
+       11549 3402 3447
+	}
+
+	local_supplies=0.0 
+}
