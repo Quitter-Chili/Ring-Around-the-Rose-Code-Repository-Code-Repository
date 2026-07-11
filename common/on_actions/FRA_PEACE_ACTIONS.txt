@@ -148,6 +148,11 @@ on_actions = {
 							target = DEN
 							autonomy_state = autonomy_free
 						}
+						set_autonomy = {
+							target = HUN
+							autonomy_state = autonomy_free
+						}
+						
 					}
 					LON = {
 						remove_from_faction = AUS

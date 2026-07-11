@@ -6,6 +6,10 @@ set_autonomy = {
 	target = CMR
 	autonomy_state = autonomy_dominion
 }
+set_autonomy = {
+	target = HUN
+	autonomy_state = autonomy_personal_union
+}
 add_ideas = {
 	GER_Habsburg
 	GER_With_London

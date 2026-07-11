@@ -1,0 +1,32 @@
+state={
+	id=1083
+	name="STATE_1083"
+	manpower = 582741
+	
+	state_category = rural
+	
+	resources={
+		oil=5 # was: 10
+	}
+	history={
+		owner = DON
+		add_core_of = DON
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 1 #was: 7
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		victory_points = {
+			9753 3 
+		}
+	}
+	
+	provinces={
+		9753 757
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,27 @@
+state={
+	id=1080
+	name="STATE_1080"
+	manpower = 582741
+	
+	state_category = rural
+	
+	resources={
+		oil=5 # was: 10
+	}
+	history={
+		owner = GRE
+		add_core_of = GRE
+		add_core_of = SER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	
+	}
+	
+	provinces={
+		6998 6970
+	}
+
+	local_supplies=0.0 
+}
