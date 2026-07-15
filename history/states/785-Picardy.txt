@@ -10,13 +10,11 @@ state={
 	}
 	
 	history={
-		victory_points = {
-			11420 5
-		}
+		
 		victory_points = {
 			485 3
 		}
-		owner = BGD
+		owner = NOM
 		add_core_of = NOM
 		add_core_of = FRA
 		add_core_of = BGD
@@ -30,7 +28,7 @@ state={
 	}
 
 	provinces={
-		454 9561 11420 6585 485
+		6585 485
 	}
 
 	local_supplies=0.0 

@@ -9,18 +9,20 @@ state={
 		oil=5 # was: 10
 	}
 	history={
-		owner = BGD
+		owner = FRA
 		add_core_of = FRA
 		add_core_of = BGD
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 		}
-	
+		victory_points = {
+			13011 5
+		}
 	}
 	
 	provinces={
-       11549 3402 3447
+       11549 13011 454 9561
 	}
 
 	local_supplies=0.0 
