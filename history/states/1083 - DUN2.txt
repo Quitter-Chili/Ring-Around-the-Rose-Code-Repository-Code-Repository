@@ -9,7 +9,7 @@ state={
 		oil=5 # was: 10
 	}
 	history={
-		owner = DON
+		owner = SOV
 		add_core_of = DON
 		add_core_of = SOV
 		buildings = {

@@ -9,7 +9,7 @@ state={
 		steel = 10
 	}
 	history={
-		owner = DON
+		owner = SOV
 		add_core_of = DON
 		buildings = {
 			infrastructure = 2
