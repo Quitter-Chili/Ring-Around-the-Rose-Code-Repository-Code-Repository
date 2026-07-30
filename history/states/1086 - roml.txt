@@ -1,0 +1,30 @@
+state={
+	id=1086
+	name="STATE_1086"
+	manpower = 58274
+	
+	state_category = city
+	
+	resources={
+		oil=5 # was: 10
+	}
+	history={
+		owner = TTS
+		add_core_of = TTS
+		add_core_of = ROM
+		buildings = {
+			infrastructure = 1 #was: 7
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		
+	}
+	
+	provinces={
+		11882 923
+	}
+
+	local_supplies=0.0 
+}

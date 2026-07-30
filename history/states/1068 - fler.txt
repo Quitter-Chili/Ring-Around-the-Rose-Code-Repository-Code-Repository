@@ -9,7 +9,7 @@ state={
 		owner = FRA
 		add_core_of = FRA
 		add_core_of = BGD
-	
+		set_demilitarized_zone = no
 		buildings = {
 			infrastructure = 1
 			arms_factory = 2
