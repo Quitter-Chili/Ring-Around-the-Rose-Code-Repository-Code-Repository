@@ -215,7 +215,7 @@ ARG = {
 	color_ui = rgb { 189 204 255 }
 }
 AST = {
-	color = rgb { 57 143 97 }
+	color = rgb { 222 149 33 }
 	color_ui = rgb { 74 186 126 }
 }
 BHU = {

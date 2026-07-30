@@ -144,3 +144,15 @@ create_country_leader = {
 	}
 }
 
+set_autonomy = {
+	target = GHA
+	autonomy_state = autonomy_colony
+}
+set_autonomy = {
+	target = KEN
+	autonomy_state = autonomy_colony
+}
+set_autonomy = {
+	target = NZL
+	autonomy_state = autonomy_dominion
+}

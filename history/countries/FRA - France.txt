@@ -66,10 +66,13 @@ give_guarantee = YEM
 give_guarantee = PER
 give_guarantee = SAU
 set_autonomy = {
-	target = ANG
+	target = SEN
 	autonomy_state = autonomy_colony
 }
-
+set_autonomy = {
+	target = CMR
+	autonomy_state = autonomy_colony
+}
 set_autonomy = {
 	target = NOM
 	autonomy_state = autonomy_puppet

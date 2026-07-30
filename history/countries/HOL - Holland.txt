@@ -89,14 +89,7 @@ if = {
 }
 
 # DIPLOMACY
-set_autonomy = {
-		target = INS
-		autonomous_state = autonomy_dominion
-	}
-set_autonomy = {
-	target = SAF
-	autonomous_state = autonomy_dominion
-}
+
 set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
 
 add_ideas = {
@@ -586,3 +579,15 @@ if = {
 		}
 	}
 }
+set_autonomy = {
+		target = INS
+		autonomous_state = autonomy_dominion
+	}
+set_autonomy = {
+	target = SAF
+	autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+		target = AST
+		autonomous_state = autonomy_dominion
+	}

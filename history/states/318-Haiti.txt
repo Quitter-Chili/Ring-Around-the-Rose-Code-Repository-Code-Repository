@@ -11,8 +11,8 @@ state=
 	}
 	history=
 	{
-		owner = SPR
-		add_core_of = SPR
+		owner = FRA
+		add_core_of = HAI
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

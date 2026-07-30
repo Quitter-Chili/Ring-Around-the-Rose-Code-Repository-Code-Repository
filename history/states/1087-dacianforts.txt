@@ -1,0 +1,29 @@
+state = {
+	id = 1087
+	name = "STATE_1087" # Muntenia
+	manpower = 12000 # was 4461400
+	resources = {
+		oil = 44 # was: 70
+	}
+
+	state_category = rural
+
+	history = {
+
+		owner = GRE
+		add_core_of = ROM
+
+		
+
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+
+	provinces = {
+		11657 818 6658 11636
+	}
+
+	local_supplies = 0.0 
+}

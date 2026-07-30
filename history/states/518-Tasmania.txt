@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = INS
+		owner = AST
 		add_core_of = AST
 
 		victory_points = {
