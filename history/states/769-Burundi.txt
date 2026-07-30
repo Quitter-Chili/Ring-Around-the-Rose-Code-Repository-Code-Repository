@@ -7,8 +7,8 @@ state = {
 
 	history = {
 
-		owner = FRA
-		add_core_of = FRA
+		owner = COG
+		add_core_of = TAN
 
 		IF = {
 			limit = {

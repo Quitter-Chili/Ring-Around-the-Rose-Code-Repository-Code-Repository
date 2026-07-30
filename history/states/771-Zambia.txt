@@ -12,8 +12,8 @@ state = {
 
 	history = {
 
-		owner = AUS
-		add_core_of = AUS
+		owner = SAF
+	
 
 		victory_points = {
 			5199 2 #Lusaka

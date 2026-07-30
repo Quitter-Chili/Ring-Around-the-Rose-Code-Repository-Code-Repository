@@ -10,7 +10,7 @@ state = {
 	
 	history = {
 
-		owner = FRA
+		owner = TUN
 		add_core_of = TUN
 
 		

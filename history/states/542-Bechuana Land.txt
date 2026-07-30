@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = AUS
+		owner = SAF
 		add_core_of = SAF
 		buildings = {
 			infrastructure = 1

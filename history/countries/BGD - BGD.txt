@@ -59,3 +59,7 @@ set_popularities = {
 
 
 
+set_autonomy = {
+	target = COG
+	autonomy_state = autonomy_colony
+}

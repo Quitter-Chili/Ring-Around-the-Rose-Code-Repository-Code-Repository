@@ -48,7 +48,7 @@ CHK = {
 	color_ui = rgb { 4 131 240 }
 }
 BGD = {
-	color = rgb { 150 185 190 }
+	color = rgb { 128 0 32 }
 	color_ui = rgb { 109 184 192 }
 }
 PRE = {
@@ -316,7 +316,7 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 SAF = {
-	color = rgb { 195 107 160 }
+	color = rgb { 255 126 0 }
 	color_ui = rgb { 198 169 248 }
 }
 SAU = {
@@ -448,6 +448,10 @@ SYR = {
 	color = rgb { 140 36 72 }
 	color_ui = rgb { 100  100  150 }
 }
+SEN = {
+	color = rgb { 35 52 176 }
+	color_ui = rgb { 100  100  150 }
+}
 
 SER = {
 	color = rgb { 8 45 184 }
@@ -521,9 +525,13 @@ ANG = {
 	color = rgb { 37 140 61 }
 	color_ui = rgb { 37 140 61 }
 }
+GHA = {
+	color = rgb { 147 76 88}
+	color_ui = rgb { 37 140 61 }
+}
 
 COG = {
-	color = rgb { 152 159 209 }
+	color = rgb { 67 48 46 }
 	color_ui = rgb { 152 159 209 }
 }
 MZB = {
@@ -531,7 +539,7 @@ MZB = {
 	color_ui = rgb { 112 62 90 }
 }
 KEN = {
-	color = rgb { 15 218 154 }
+	color = rgb { 169 54 54 }
 	color_ui = rgb { 21 290 237 }
 }
 ZIM = {
@@ -1333,7 +1341,7 @@ TOS = {
 	color_ui = rgb { 163 255 173 }
 }
 CMR = {
-	color = rgb { 0 94 10 }
+	color = rgb { 48 95 190 }
 	color_ui = rgb { 0 94 10 }
 }
 FFR = {
